@@ -616,7 +616,7 @@ const Fe = [
     featured: !0,
     category: "Výživa",
     title: "Prečo je horčík kľúčovým minerálom modernej doby",
-    excerpt: "Až 70 % Slovákov trpí nedostatkom horčíka a ani o tom nevedia. Zistite, ako tento minerál ovplyvňuje váš spánok, náladu aj energiu — a čo s tým môžete urobiť ešte dnes.",
+    excerpt: "Až 70 % Slovákov trpí nedostatkom horčíka a ani o tom nevedia. Zistite, ako tento minerál ovplyvňuje váš spánok, náladu aj energiu – a čo s tým môžete urobiť ešte dnes.",
     author: "Mgr. Jana Horáková",
     readTime: "7 min čítania",
     date: "12. júla 2025",
@@ -655,6 +655,25 @@ const Fe = [
 ];
 function Oe() {
   const [s, r] = v(!1), [o, p] = v(!1), [f, c] = v(""), [_, k] = v(!1);
+  const [ambOpen, setAmbOpen] = v(() => {
+    try {
+      return sessionStorage.getItem("zm_amb") === "1";
+    } catch {
+      return !1;
+    }
+  }), [ambPw, setAmbPw] = v(""), [ambErr, setAmbErr] = v(!1);
+  const ambSubmit = (t) => {
+    t.preventDefault();
+    if (ambPw === "ChronosVitae") {
+      setAmbOpen(!0);
+      setAmbErr(!1);
+      try {
+        sessionStorage.setItem("zm_amb", "1");
+      } catch {}
+    } else {
+      setAmbErr(!0);
+    }
+  };
   $(() => {
     const t = () => p(window.scrollY > 60);
     return window.addEventListener("scroll", t, { passive: !0 }), () => window.removeEventListener("scroll", t);
@@ -693,7 +712,7 @@ function Oe() {
                 }
               )
             ] }),
-            /* @__PURE__ */ a(e, { _fgT: "nav", _fgS: "d3bl11", _fgB: 1784204816503, className: "hidden xl:flex items-center gap-7", "data-fg-d3bl11": ":0:/src/app/App.tsx:198:11:7869:440:e:nav:x", children: N.map((t) => /* @__PURE__ */ a(
+            /* @__PURE__ */ a(e, { _fgT: "nav", _fgS: "d3bl11", _fgB: 1784204816503, className: "zm-nav hidden xl:flex items-center gap-7", "data-fg-d3bl11": ":0:/src/app/App.tsx:198:11:7869:440:e:nav:x", children: N.map((t) => /* @__PURE__ */ a(
               e,
               {
                 _fgT: "a",
@@ -730,7 +749,7 @@ function Oe() {
                   _fgS: "d3bl19",
                   _fgB: 1784204816503,
                   onClick: () => r(!s),
-                  className: "xl:hidden p-2 rounded-lg transition-colors",
+                  className: "zm-burger xl:hidden p-2 rounded-lg transition-colors",
                   style: { color: x },
                   "aria-label": "Menu",
                   "data-fg-d3bl19": ":0:/src/app/App.tsx:224:13:8919:333:e:button:x",
@@ -745,7 +764,7 @@ function Oe() {
               _fgT: "div",
               _fgS: "d3bl24",
               _fgB: 1784204816503,
-              className: "xl:hidden overflow-hidden transition-all duration-300",
+              className: "zm-mobilemenu xl:hidden overflow-hidden transition-all duration-300",
               style: {
                 maxHeight: s ? "500px" : "0px",
                 background: "#F8F5F0",
@@ -896,12 +915,12 @@ function Oe() {
                 children: [
                   "Nájdite svoju cestu ",
                   /* @__PURE__ */ a(e, { _fgT: "br", _fgS: "d3bl73", _fgB: 1784204816503, className: "hidden lg:block", "data-fg-d3bl73": ":0:/src/app/App.tsx:348:39:14589:34:e:br" }),
-                  "k pohode"
+                  "k svojmu šťastiu"
                 ]
               }
             )
           ] }),
-          /* @__PURE__ */ a(e, { _fgT: "p", _fgS: "d3bl75", _fgB: 1784204816503, className: "text-base leading-relaxed max-w-sm", style: { color: "#8A8478" }, "data-fg-d3bl75": ":0:/src/app/App.tsx:351:15:14689:200:e:p:t", children: "Od fyzickej kondície po duševný rozvoj — pozeráme sa na kvalitný život ako na jeden prepojený celok." })
+          /* @__PURE__ */ a(e, { _fgT: "p", _fgS: "d3bl75", _fgB: 1784204816503, className: "text-base leading-relaxed max-w-sm", style: { color: "#8A8478" }, "data-fg-d3bl75": ":0:/src/app/App.tsx:351:15:14689:200:e:p:t", children: "Od fyzickej kondície po duševný rozvoj – pozeráme sa na kvalitný život ako na jeden prepojený celok." })
         ] }),
         /* @__PURE__ */ a(e, { _fgT: "div", _fgS: "d3bl77", _fgB: 1784204816503, className: "grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-7 gap-3", "data-fg-d3bl77": ":0:/src/app/App.tsx:356:13:14922:1651:e:div:x", children: De.map(({ icon: t, label: d, bg: n, color: L }) => /* @__PURE__ */ l(
           e,
@@ -1164,135 +1183,7 @@ function Oe() {
             ] })
           ] }),
           /* @__PURE__ */ a(e, { _fgT: "div", _fgS: "d3bl155", _fgB: 1784204816503, className: "flex justify-center lg:justify-end", "data-fg-d3bl155": ":0:/src/app/App.tsx:551:15:25085:5297:e:div:e", children: /* @__PURE__ */ l(e, { _fgT: "div", _fgS: "d3bl156", _fgB: 1784204816503, className: "relative", "data-fg-d3bl156": ":0:/src/app/App.tsx:552:17:25154:5207:e:div:etxte", children: [
-            /* @__PURE__ */ l(
-              e,
-              {
-                _fgT: "div",
-                _fgS: "d3bl157",
-                _fgB: 1784204816503,
-                className: "w-[260px] h-[520px] rounded-[44px] relative overflow-hidden",
-                style: {
-                  background: "#F8F5F0",
-                  boxShadow: "0 40px 80px rgba(0,0,0,0.5), 0 0 0 1px rgba(255,255,255,0.08)"
-                },
-                "data-fg-d3bl157": ":0:/src/app/App.tsx:553:19:25199:4855:e:div:xtete",
-                children: [
-                  /* @__PURE__ */ a(
-                    e,
-                    {
-                      _fgT: "div",
-                      _fgS: "d3bl159",
-                      _fgB: 1784204816503,
-                      className: "absolute top-4 left-1/2 -translate-x-1/2 w-24 h-5 rounded-full z-20",
-                      style: { background: "#1C1C1A" },
-                      "data-fg-d3bl159": ":0:/src/app/App.tsx:561:21:25565:185:e:div"
-                    }
-                  ),
-                  /* @__PURE__ */ l(e, { _fgT: "div", _fgS: "d3bl160", _fgB: 1784204816503, className: "w-full h-full pt-12 pb-6 px-5 flex flex-col", "data-fg-d3bl160": ":0:/src/app/App.tsx:565:21:25771:4258:e:div:xtetxtetxte", children: [
-                    /* @__PURE__ */ l(e, { _fgT: "div", _fgS: "d3bl162", _fgB: 1784204816503, className: "flex items-center justify-between mb-5", "data-fg-d3bl162": ":0:/src/app/App.tsx:567:23:25896:777:e:div:ete", children: [
-                      /* @__PURE__ */ l(e, { _fgT: "div", _fgS: "d3bl163", _fgB: 1784204816503, "data-fg-d3bl163": ":0:/src/app/App.tsx:568:25:25977:331:e:div:ete", children: [
-                        /* @__PURE__ */ a(e, { _fgT: "p", _fgS: "d3bl164", _fgB: 1784204816503, className: "text-xs", style: { color: "#8A8478" }, "data-fg-d3bl164": ":0:/src/app/App.tsx:569:27:26009:66:e:p:t", children: "Dobrý deň," }),
-                        /* @__PURE__ */ a(e, { _fgT: "p", _fgS: "d3bl166", _fgB: 1784204816503, className: "text-sm font-semibold", style: { fontFamily: "'Playfair Display', serif", color: "#1C1C1A" }, "data-fg-d3bl166": ":0:/src/app/App.tsx:570:27:26102:175:e:p:t", children: "Martin ✦" })
-                      ] }),
-                      /* @__PURE__ */ a(
-                        e,
-                        {
-                          _fgT: "div",
-                          _fgS: "d3bl168",
-                          _fgB: 1784204816503,
-                          className: "w-8 h-8 rounded-full flex items-center justify-center",
-                          style: { background: "rgba(78,139,104,0.15)" },
-                          "data-fg-d3bl168": ":0:/src/app/App.tsx:574:25:26333:311:e:div:e",
-                          children: /* @__PURE__ */ a(e, { _fgT: A, _fgS: "d3bl169", _fgB: 1784204816503, className: "w-4 h-4", style: { color: "#4E8B68" }, "data-fg-d3bl169": ":0:node_modules/lucide-react:578:27:26556:57:e:Leaf::::::Dxgq" })
-                        }
-                      )
-                    ] }),
-                    /* @__PURE__ */ l(e, { _fgT: "div", _fgS: "d3bl171", _fgB: 1784204816503, className: "flex flex-col items-center mb-5", "data-fg-d3bl171": ":0:/src/app/App.tsx:582:23:26740:1211:e:div:ete", children: [
-                      /* @__PURE__ */ a(
-                        e,
-                        {
-                          _fgT: "div",
-                          _fgS: "d3bl172",
-                          _fgB: 1784204816503,
-                          className: "w-[88px] h-[88px] rounded-full relative flex items-center justify-center mb-2",
-                          style: {
-                            background: "conic-gradient(#4E8B68 72%, #EDE7DC 72%)",
-                            padding: "4px"
-                          },
-                          "data-fg-d3bl172": ":0:/src/app/App.tsx:583:25:26814:1009:e:div:e",
-                          children: /* @__PURE__ */ a(
-                            e,
-                            {
-                              _fgT: "div",
-                              _fgS: "d3bl173",
-                              _fgB: 1784204816503,
-                              className: "w-full h-full rounded-full flex items-center justify-center",
-                              style: { background: "#F8F5F0" },
-                              "data-fg-d3bl173": ":0:/src/app/App.tsx:589:27:27153:639:e:div:e",
-                              children: /* @__PURE__ */ l(e, { _fgT: "div", _fgS: "d3bl174", _fgB: 1784204816503, className: "text-center", "data-fg-d3bl174": ":0:/src/app/App.tsx:593:29:27376:383:e:div:ete", children: [
-                                /* @__PURE__ */ a(e, { _fgT: "p", _fgS: "d3bl175", _fgB: 1784204816503, className: "text-lg font-bold leading-none mb-0.5", style: { fontFamily: "'Playfair Display', serif", color: "#1C1C1A" }, "data-fg-d3bl175": ":0:/src/app/App.tsx:594:31:27436:194:e:p:t", children: "72%" }),
-                                /* @__PURE__ */ a(e, { _fgT: "p", _fgS: "d3bl177", _fgB: 1784204816503, className: "text-[9px]", style: { color: "#8A8478" }, "data-fg-d3bl177": ":0:/src/app/App.tsx:597:31:27661:63:e:p:t", children: "dnes" })
-                              ] })
-                            }
-                          )
-                        }
-                      ),
-                      /* @__PURE__ */ a(e, { _fgT: "p", _fgS: "d3bl179", _fgB: 1784204816503, className: "text-[10px]", style: { color: "#8A8478" }, "data-fg-d3bl179": ":0:/src/app/App.tsx:601:25:27848:74:e:p:t", children: "Váš denný cieľ" })
-                    ] }),
-                    /* @__PURE__ */ a(e, { _fgT: "div", _fgS: "d3bl182", _fgB: 1784204816503, className: "space-y-2 flex-1", "data-fg-d3bl182": ":0:/src/app/App.tsx:604:23:28015:1987:e:div:x", children: [
-                      { label: "Ranná meditácia", done: !0, time: "06:30" },
-                      { label: "Pohyb 30 min", done: !0, time: "07:15" },
-                      { label: "Doplnky výživy", done: !1, time: "08:00" },
-                      { label: "Teplá voda + citrón", done: !0, time: "06:10" },
-                      { label: "Denník vďačnosti", done: !1, time: "21:00" }
-                    ].map((t) => /* @__PURE__ */ l(
-                      e,
-                      {
-                        _fgT: "div",
-                        _fgS: "d3bl184",
-                        _fgB: 1784204816503,
-                        className: "flex items-center gap-2.5 p-2.5 rounded-xl",
-                        style: { background: t.done ? "rgba(78,139,104,0.1)" : "#F0EBE3" },
-                        "data-fg-d3bl184": ":0:/src/app/App.tsx:612:27:28564:1381:e:div:etete",
-                        children: [
-                          /* @__PURE__ */ a(
-                            e,
-                            {
-                              _fgT: "div",
-                              _fgS: "d3bl185",
-                              _fgB: 1784204816503,
-                              className: "w-4.5 h-4.5 rounded-full flex-shrink-0 flex items-center justify-center",
-                              style: {
-                                width: "18px",
-                                height: "18px",
-                                background: t.done ? "#4E8B68" : "transparent",
-                                border: t.done ? "none" : "1.5px solid rgba(138,132,120,0.35)"
-                              },
-                              "data-fg-d3bl185": ":0:/src/app/App.tsx:617:29:28854:634:e:div:x",
-                              children: t.done && /* @__PURE__ */ a(e, { _fgT: "div", _fgS: "d3bl187", _fgB: 1784204816503, className: "w-1.5 h-1.5 rounded-full bg-white", "data-fg-d3bl187": ":0:/src/app/App.tsx:626:46:29399:53:e:div" })
-                            }
-                          ),
-                          /* @__PURE__ */ a(
-                            e,
-                            {
-                              _fgT: "p",
-                              _fgS: "d3bl188",
-                              _fgB: 1784204816503,
-                              className: "flex-1 text-[10px] font-medium truncate",
-                              style: { color: t.done ? "#4E8B68" : "#8A8478" },
-                              "data-fg-d3bl188": ":0:/src/app/App.tsx:628:29:29517:275:e:p:x",
-                              children: t.label
-                            }
-                          ),
-                          /* @__PURE__ */ a(e, { _fgT: "span", _fgS: "d3bl190", _fgB: 1784204816503, className: "text-[9px] flex-shrink-0", style: { color: "#8A8478" }, "data-fg-d3bl190": ":0:/src/app/App.tsx:634:29:29821:91:e:span:x", children: t.time })
-                        ]
-                      },
-                      t.label
-                    )) })
-                  ] })
-                ]
-              }
-            ),
+            /* @__PURE__ */ a("img", { src: "/assets/chronos-vitae-home.png", alt: "Chronos Vitae – aktuálna obrazovka aplikácie", className: "w-[260px] rounded-[36px] relative", style: { boxShadow: "0 40px 80px rgba(0,0,0,0.5), 0 0 0 1px rgba(255,255,255,0.12)" } }),
             /* @__PURE__ */ a(
               e,
               {
@@ -1316,7 +1207,7 @@ function Oe() {
               _fgS: "d3bl200",
               _fgB: 1784204816503,
               src: "https://images.unsplash.com/photo-1667586733515-bf0bacbf325b?w=900&h=700&fit=crop&auto=format",
-              alt: "Pohoda v prírode — žena v tichu",
+              alt: "Pohoda v prírode – žena v tichu",
               className: "w-full h-full object-cover",
               "data-fg-d3bl200": ":0:/src/app/App.tsx:657:19:30891:262:e:img"
             }
@@ -1351,19 +1242,19 @@ function Oe() {
               children: "Wellness nie je trend. Je to spôsob života."
             }
           ),
-          /* @__PURE__ */ a(e, { _fgT: "p", _fgS: "d3bl212", _fgB: 1784204816503, className: "text-base leading-relaxed mb-5", style: { color: "#8A8478" }, "data-fg-d3bl212": ":0:/src/app/App.tsx:684:17:32239:280:e:p:t", children: "zije.me vzniklo z presvedčenia, že každý človek si zaslúži žiť naplno — v zdraví, v rovnováhe a v radosti. Nie je to o dokonalosti. Je to o malých, vedomých krokoch." }),
+          /* @__PURE__ */ a(e, { _fgT: "p", _fgS: "d3bl212", _fgB: 1784204816503, className: "text-base leading-relaxed mb-5", style: { color: "#8A8478" }, "data-fg-d3bl212": ":0:/src/app/App.tsx:684:17:32239:280:e:p:t", children: "zije.me vzniklo z presvedčenia, že každý človek si zaslúži žiť naplno – v zdraví, v rovnováhe a v radosti. Nie je to o dokonalosti. Je to o malých, vedomých krokoch." }),
           /* @__PURE__ */ a(e, { _fgT: "p", _fgS: "d3bl214", _fgB: 1784204816503, className: "text-base leading-relaxed mb-8", style: { color: "#8A8478" }, "data-fg-d3bl214": ":0:/src/app/App.tsx:687:17:32536:264:e:p:t", children: "Každý produkt, ktorý odporúčame, prechádza dôkladným výberom. Spolupracujeme s odborníkmi, testujeme, skúmame a vyberáme iba to, čo skutočne funguje." }),
-          /* @__PURE__ */ a(e, { _fgT: "div", _fgS: "d3bl216", _fgB: 1784204816503, className: "grid grid-cols-3 gap-6", "data-fg-d3bl216": ":0:/src/app/App.tsx:690:17:32817:666:e:div:x", children: [
-            { num: "14+", label: "oblastí života" },
-            { num: "1", label: "bezplatná aplikácia" },
-            { num: "1", label: "rastúca komunita" }
-          ].map(({ num: t, label: d }) => /* @__PURE__ */ l(e, { _fgT: "div", _fgS: "d3bl218", _fgB: 1784204816503, "data-fg-d3bl218": ":0:/src/app/App.tsx:696:21:33115:323:e:div:ete", children: [
-            /* @__PURE__ */ a(e, { _fgT: "p", _fgS: "d3bl219", _fgB: 1784204816503, className: "text-3xl font-semibold mb-1", style: { fontFamily: "'Playfair Display', serif", color: "#1C1C1A" }, "data-fg-d3bl219": ":0:/src/app/App.tsx:697:23:33155:170:e:p:x", children: t }),
-            /* @__PURE__ */ a(e, { _fgT: "p", _fgS: "d3bl221", _fgB: 1784204816503, className: "text-sm", style: { color: "#8A8478" }, "data-fg-d3bl221": ":0:/src/app/App.tsx:700:23:33348:63:e:p:x", children: d })
+          /* @__PURE__ */ a(e, { _fgT: "div", _fgS: "d3bl216", _fgB: 1784204816503, className: "flex flex-col gap-4", "data-fg-d3bl216": ":0:/src/app/App.tsx:690:17:32817:666:e:div:x", children: [
+            "Oblasti života",
+            "Bezplatná aplikácia",
+            "Rastúca komunita"
+          ].map((d) => /* @__PURE__ */ l(e, { _fgT: "div", _fgS: "d3bl218", _fgB: 1784204816503, className: "flex items-center gap-3", "data-fg-d3bl218": ":0:/src/app/App.tsx:696:21:33115:323:e:div:ete", children: [
+            /* @__PURE__ */ a(e, { _fgT: "div", _fgS: "d3bl219", _fgB: 1784204816503, className: "w-2 h-2 rounded-full flex-shrink-0", style: { background: "#4E8B68" }, "data-fg-d3bl219": ":0:/src/app/App.tsx:697:23:33155:170:e:div" }),
+            /* @__PURE__ */ a(e, { _fgT: "p", _fgS: "d3bl221", _fgB: 1784204816503, className: "text-2xl lg:text-3xl font-semibold", style: { fontFamily: "'Playfair Display', serif", color: "#1C1C1A" }, "data-fg-d3bl221": ":0:/src/app/App.tsx:700:23:33348:63:e:p:x", children: d })
           ] }, d)) })
         ] })
       ] }) }) }),
-      /* @__PURE__ */ a(e, { _fgT: "section", _fgS: "d3bl224", _fgB: 1784204816503, id: "ambasadori", className: "py-24 lg:py-32", style: { background: "#F0EBE3" }, "data-fg-d3bl224": ":0:/src/app/App.tsx:710:9:33605:4317:e:section:e", children: /* @__PURE__ */ l(e, { _fgT: "div", _fgS: "d3bl225", _fgB: 1784204816503, className: "max-w-7xl mx-auto px-5 sm:px-8 lg:px-10", "data-fg-d3bl225": ":0:/src/app/App.tsx:711:11:33702:4201:e:div:ete", children: [
+      /* @__PURE__ */ a(e, { _fgT: "section", _fgS: "d3bl224", _fgB: 1784204816503, id: "ambasadori", className: "py-24 lg:py-32", style: { background: "#F0EBE3" }, "data-fg-d3bl224": ":0:/src/app/App.tsx:710:9:33605:4317:e:section:e", children: ambOpen ? /* @__PURE__ */ l(e, { _fgT: "div", _fgS: "d3bl225", _fgB: 1784204816503, className: "max-w-7xl mx-auto px-5 sm:px-8 lg:px-10", "data-fg-d3bl225": ":0:/src/app/App.tsx:711:11:33702:4201:e:div:ete", children: [
         /* @__PURE__ */ l(e, { _fgT: "div", _fgS: "d3bl226", _fgB: 1784204816503, className: "text-center mb-16", "data-fg-d3bl226": ":0:/src/app/App.tsx:712:13:33772:679:e:div:etete", children: [
           /* @__PURE__ */ a(e, { _fgT: "p", _fgS: "d3bl227", _fgB: 1784204816503, className: "text-sm font-medium tracking-widest uppercase mb-3", style: { color: "#4E8B68", letterSpacing: "0.18em" }, "data-fg-d3bl227": ":0:/src/app/App.tsx:713:15:33822:164:e:p:t", children: "Komunita" }),
           /* @__PURE__ */ a(
@@ -1475,6 +1366,18 @@ function Oe() {
           },
           t.id
         )) })
+      ] }) : /* @__PURE__ */ l("div", { className: "max-w-xl mx-auto px-5 sm:px-8 text-center", children: [
+        /* @__PURE__ */ a("p", { className: "text-sm font-medium tracking-widest uppercase mb-3", style: { color: "#4E8B68", letterSpacing: "0.18em" }, children: "Komunita" }),
+        /* @__PURE__ */ a("h2", { className: "text-4xl lg:text-5xl font-normal mb-4 leading-tight", style: { fontFamily: "'Playfair Display', serif", color: "#1C1C1A" }, children: "Ambasádori" }),
+        /* @__PURE__ */ a("p", { className: "text-base mb-10", style: { color: "#8A8478" }, children: "Táto sekcia je zatiaľ uzamknutá. Prístup majú iba pozvaní partneri." }),
+        /* @__PURE__ */ l("form", { onSubmit: ambSubmit, className: "flex flex-col sm:flex-row gap-3 max-w-md mx-auto", children: [
+          /* @__PURE__ */ a("input", { type: "password", value: ambPw, onChange: (t) => {
+            setAmbPw(t.target.value);
+            setAmbErr(!1);
+          }, placeholder: "Zadajte heslo", "aria-label": "Heslo pre sekciu Ambasádori", className: "flex-1 px-5 py-4 rounded-full text-sm focus:outline-none", style: { background: "#fff", color: "#1C1C1A", border: ambErr ? "1.5px solid #B84A4A" : "1.5px solid rgba(28,28,26,0.1)", fontFamily: "'DM Sans', sans-serif" } }),
+          /* @__PURE__ */ a("button", { type: "submit", className: "flex-shrink-0 font-medium px-8 py-4 rounded-full text-sm text-white transition-all duration-300", style: { background: "#4E8B68" }, children: "Odomknúť" })
+        ] }),
+        ambErr && /* @__PURE__ */ a("p", { className: "text-xs mt-4", style: { color: "#B84A4A" }, children: "Nesprávne heslo. Skúste to znova." })
       ] }) }),
       /* @__PURE__ */ a(e, { _fgT: "section", _fgS: "d3bl254", _fgB: 1784204816503, id: "clanky", className: "py-24 lg:py-32", style: { background: "#F8F5F0" }, "data-fg-d3bl254": ":0:/src/app/App.tsx:796:9:37965:5561:e:section:e", children: /* @__PURE__ */ l(e, { _fgT: "div", _fgS: "d3bl255", _fgB: 1784204816503, className: "max-w-7xl mx-auto px-5 sm:px-8 lg:px-10", "data-fg-d3bl255": ":0:/src/app/App.tsx:797:11:38058:5449:e:div:ete", children: [
         /* @__PURE__ */ l(e, { _fgT: "div", _fgS: "d3bl256", _fgB: 1784204816503, className: "flex flex-col lg:flex-row lg:items-end justify-between mb-14 gap-6", "data-fg-d3bl256": ":0:/src/app/App.tsx:798:13:38128:912:e:div:ete", children: [
@@ -1878,7 +1781,7 @@ function Oe() {
           style: { borderTop: "1px solid rgba(255,255,255,0.08)" },
           "data-fg-d3bl392": ":0:/src/app/App.tsx:1105:11:53770:1020:e:div:ete",
           children: [
-            /* @__PURE__ */ a(e, { _fgT: "p", _fgS: "d3bl393", _fgB: 1784204816503, className: "text-xs", style: { color: "rgba(255,255,255,0.25)" }, "data-fg-d3bl393": ":0:/src/app/App.tsx:1109:13:53959:138:e:p:t", children: "© 2025 zije.me — Všetky práva vyhradené" }),
+            /* @__PURE__ */ a(e, { _fgT: "p", _fgS: "d3bl393", _fgB: 1784204816503, className: "text-xs", style: { color: "rgba(255,255,255,0.25)" }, "data-fg-d3bl393": ":0:/src/app/App.tsx:1109:13:53959:138:e:p:t", children: "© 2025 zije.me – Všetky práva vyhradené" }),
             /* @__PURE__ */ a(e, { _fgT: "div", _fgS: "d3bl395", _fgB: 1784204816503, className: "flex items-center gap-6", "data-fg-d3bl395": ":0:/src/app/App.tsx:1112:13:54110:663:e:div:x", children: ["Ochrana osobných údajov", "Obchodné podmienky", "Cookies"].map((t) => /* @__PURE__ */ a(
               e,
               {
