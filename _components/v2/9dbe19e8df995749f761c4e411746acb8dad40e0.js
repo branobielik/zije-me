@@ -696,7 +696,7 @@ function Oe() {
         },
         "data-fg-d3bl2": ":0:/src/app/App.tsx:175:7:6828:3332:e:header:etxte",
         children: [
-          /* @__PURE__ */ l(e, { _fgT: "div", _fgS: "d3bl3", _fgB: 1784204816503, className: "max-w-7xl mx-auto px-5 sm:px-8 lg:px-10 flex items-center justify-between h-16 lg:h-20", "data-fg-d3bl3": ":0:/src/app/App.tsx:183:9:7173:2111:e:div:xtetxtetxte", children: [
+            /* @__PURE__ */ l(e, { _fgT: "div", _fgS: "d3bl3", _fgB: 1784204816503, className: "zm-headrow max-w-7xl mx-auto px-5 sm:px-8 lg:px-10 flex items-center justify-between h-16 lg:h-20", "data-fg-d3bl3": ":0:/src/app/App.tsx:183:9:7173:2111:e:div:xtetxtetxte", children: [
             /* @__PURE__ */ l(e, { _fgT: "a", _fgS: "d3bl5", _fgB: 1784204816503, href: "#domov", className: "flex items-center gap-2.5 flex-shrink-0", "data-fg-d3bl5": ":0:/src/app/App.tsx:185:11:7311:509:e:a:ete", children: [
               /* @__PURE__ */ a(e, { _fgT: "div", _fgS: "d3bl6", _fgB: 1784204816503, className: "w-8 h-8 rounded-full bg-[#4E8B68] flex items-center justify-center", "data-fg-d3bl6": ":0:/src/app/App.tsx:186:13:7393:157:e:div:e", children: /* @__PURE__ */ a(e, { _fgT: A, _fgS: "d3bl7", _fgB: 1784204816503, className: "w-4 h-4 text-white", "data-fg-d3bl7": ":0:node_modules/lucide-react:187:15:7492:39:e:Leaf::::::Dxgq" }) }),
               /* @__PURE__ */ a(
