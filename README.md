@@ -10,13 +10,14 @@ The public homepage introduces the brand philosophy, wellbeing areas, Chronos Vi
 
 ## Development
 
-The site is intentionally dependency-free:
+The site mirrors the approved published Figma Make design:
 
 - `index.html`
-- `styles.css`
-- `script.js`
+- `_components/v2/` — exported component bundle and styles
+- `_runtimes/` — Figma Sites runtime
+- `_json/` — page definition
 
-Open `index.html` locally or serve the folder with any static HTTP server.
+Serve the folder through an HTTP server; ES module imports do not work correctly from `file://`.
 
 ## Deployment
 
