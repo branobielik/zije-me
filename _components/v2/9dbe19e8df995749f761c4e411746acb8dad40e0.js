@@ -526,7 +526,7 @@ const Fe = [
   { label: "Domov", href: "#domov" },
   { label: "Kategórie", href: "#kategorie" },
   { label: "Chronos Vitae", href: "#chronos", accent: !0 },
-  { label: "Články", href: "#clanky" },
+  { label: "Články", href: "/clanky/" },
   { label: "Ambasádori", href: "#ambasadori" },
   { label: "O nás", href: "#o-nas" },
   { label: "Kontakt", href: "#kontakt" }
@@ -614,43 +614,43 @@ const Fe = [
   {
     id: 1,
     featured: !0,
-    category: "Výživa",
-    title: "Prečo je horčík kľúčovým minerálom modernej doby",
-    excerpt: "Až 70 % Slovákov trpí nedostatkom horčíka a ani o tom nevedia. Zistite, ako tento minerál ovplyvňuje váš spánok, náladu aj energiu – a čo s tým môžete urobiť ešte dnes.",
-    author: "Mgr. Jana Horáková",
-    readTime: "7 min čítania",
-    date: "12. júla 2025",
-    image: "https://images.unsplash.com/photo-1650284178711-f1c13222f793?w=900&h=650&fit=crop&auto=format"
+    category: "Myseľ",
+    title: "Menej rozhodovania, viac priestoru v hlave",
+    excerpt: "Rozhodovacia únava nevzniká iba pri veľkých voľbách. Pomôcť môže niekoľko jednoduchých pravidiel, ktoré šetria pozornosť bez toho, aby obmedzovali slobodu.",
+    readTime: "4 min čítania",
+    date: "16. júla 2026",
+    image: "/assets/clanky/mysel.png",
+    href: "/clanky/mene-rozhodovani-viac-priestoru/"
   },
   {
     id: 2,
-    category: "Myseľ",
-    title: "Ranná rutina, ktorá zmení váš celý deň",
-    excerpt: "5 jednoduchých návykov pre jasnejšiu myseľ a viac energie každé ráno.",
-    author: "Natália Blaho",
-    readTime: "4 min",
-    date: "8. júla 2025",
-    image: "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=600&h=420&fit=crop&auto=format"
+    category: "Duša",
+    title: "Malé rituály, ktoré dávajú dňu zmysel",
+    excerpt: "Rituál nemusí byť veľký ani slávnostný. Pravidelný vedomý moment môže priniesť pocit ukotvenia.",
+    readTime: "4 min čítania",
+    date: "14. júla 2026",
+    image: "/assets/clanky/dusa.png",
+    href: "/clanky/male-ritualy-pre-zmysluplny-den/"
   },
   {
     id: 3,
-    category: "Výživa",
-    title: "Protizápalová strava: čo jesť každý deň",
-    excerpt: "Potraviny, ktoré tlmia zápal a podporujú dlhodobé zdravie.",
-    author: "Marek Holub",
-    readTime: "5 min",
-    date: "3. júla 2025",
-    image: "https://images.unsplash.com/photo-1493770348161-369560ae357d?w=600&h=420&fit=crop&auto=format"
+    category: "Telo",
+    title: "Pohyblivosť a regenerácia bez tlaku na výkon",
+    excerpt: "Stuhnuté telo často nepotrebuje náročný tréning, ale pestrú a primeranú dávku pohybu.",
+    readTime: "4 min čítania",
+    date: "10. júla 2026",
+    image: "/assets/clanky/telo.png",
+    href: "/clanky/pohyblivost-a-regeneracia-bez-tlaku/"
   },
   {
     id: 4,
-    category: "Regenerácia",
-    title: "Spánok ako vaša superschopnosť",
-    excerpt: "Ako optimalizovať spánok pre maximálnu výkonnosť a regeneráciu.",
-    author: "Lucia Kováčová",
-    readTime: "6 min",
-    date: "28. júna 2025",
-    image: "https://images.unsplash.com/photo-1644704170910-a0cdf183649b?w=600&h=420&fit=crop&auto=format"
+    category: "Myseľ",
+    title: "Mentálny oddych nie je prázdno",
+    excerpt: "Myseľ potrebuje zmenu nárokov, menej vstupov a chvíle bez povinnosti niečo spracovať.",
+    readTime: "4 min čítania",
+    date: "7. júla 2026",
+    image: "/assets/clanky/mysel.png",
+    href: "/clanky/mentalny-oddych-nie-je-prazdno/"
   }
 ];
 function Oe() {
@@ -1402,7 +1402,7 @@ function Oe() {
               _fgT: "a",
               _fgS: "d3bl262",
               _fgB: 1784204816503,
-              href: "#clanky",
+              href: "/clanky/",
               className: "inline-flex items-center gap-2 text-sm font-medium transition-all duration-300 hover:gap-3",
               style: { color: "#4E8B68" },
               "data-fg-d3bl262": ":0:/src/app/App.tsx:810:15:38715:306:e:a:te",
@@ -1414,7 +1414,7 @@ function Oe() {
           )
         ] }),
         /* @__PURE__ */ l(e, { _fgT: "div", _fgS: "d3bl265", _fgB: 1784204816503, className: "grid lg:grid-cols-5 gap-6 lg:gap-10", "data-fg-d3bl265": ":0:/src/app/App.tsx:819:13:39054:4436:e:div:xtetxte", children: [
-          /* @__PURE__ */ l(e, { _fgT: "article", _fgS: "d3bl267", _fgB: 1784204816503, className: "lg:col-span-3 group cursor-pointer", "data-fg-d3bl267": ":0:/src/app/App.tsx:821:15:39161:2034:e:article:etetete", children: [
+          /* @__PURE__ */ l(e, { _fgT: "a", _fgS: "d3bl267", _fgB: 1784204816503, href: i[0].href, className: "lg:col-span-3 group cursor-pointer block", "data-fg-d3bl267": ":0:/src/app/App.tsx:821:15:39161:2034:e:article:etetete", children: [
             /* @__PURE__ */ l(
               e,
               {
@@ -1453,8 +1453,6 @@ function Oe() {
               }
             ),
             /* @__PURE__ */ l(e, { _fgT: "div", _fgS: "d3bl274", _fgB: 1784204816503, className: "flex items-center gap-2 text-xs mb-3", style: { color: "#8A8478" }, "data-fg-d3bl274": ":0:/src/app/App.tsx:841:17:40182:386:e:div:etetetete", children: [
-              /* @__PURE__ */ a(e, { _fgT: "span", _fgS: "d3bl275", _fgB: 1784204816503, "data-fg-d3bl275": ":0:/src/app/App.tsx:842:19:40284:33:e:span:x", children: i[0].author }),
-              /* @__PURE__ */ a(e, { _fgT: "span", _fgS: "d3bl277", _fgB: 1784204816503, style: { color: "#C8C2BA" }, "data-fg-d3bl277": ":0:/src/app/App.tsx:843:19:40336:43:e:span:t", children: "·" }),
               /* @__PURE__ */ a(e, { _fgT: "span", _fgS: "d3bl279", _fgB: 1784204816503, "data-fg-d3bl279": ":0:/src/app/App.tsx:844:19:40398:35:e:span:x", children: i[0].readTime }),
               /* @__PURE__ */ a(e, { _fgT: "span", _fgS: "d3bl281", _fgB: 1784204816503, style: { color: "#C8C2BA" }, "data-fg-d3bl281": ":0:/src/app/App.tsx:845:19:40452:43:e:span:t", children: "·" }),
               /* @__PURE__ */ a(e, { _fgT: "span", _fgS: "d3bl283", _fgB: 1784204816503, "data-fg-d3bl283": ":0:/src/app/App.tsx:846:19:40514:31:e:span:x", children: i[0].date })
@@ -1475,7 +1473,7 @@ function Oe() {
             ),
             /* @__PURE__ */ a(e, { _fgT: "p", _fgS: "d3bl287", _fgB: 1784204816503, className: "text-sm leading-relaxed", style: { color: "#8A8478" }, "data-fg-d3bl287": ":0:/src/app/App.tsx:856:17:41077:93:e:p:x", children: i[0].excerpt })
           ] }),
-          /* @__PURE__ */ a(e, { _fgT: "div", _fgS: "d3bl290", _fgB: 1784204816503, className: "lg:col-span-2 flex flex-col gap-7", "data-fg-d3bl290": ":0:/src/app/App.tsx:860:15:41247:2224:e:div:x", children: i.slice(1).map((t) => /* @__PURE__ */ l(e, { _fgT: "article", _fgS: "d3bl292", _fgB: 1784204816503, className: "group flex gap-4 cursor-pointer", "data-fg-d3bl292": ":0:/src/app/App.tsx:862:19:41371:2059:e:article:ete", children: [
+          /* @__PURE__ */ a(e, { _fgT: "div", _fgS: "d3bl290", _fgB: 1784204816503, className: "lg:col-span-2 flex flex-col gap-7", "data-fg-d3bl290": ":0:/src/app/App.tsx:860:15:41247:2224:e:div:x", children: i.slice(1).map((t) => /* @__PURE__ */ l(e, { _fgT: "a", _fgS: "d3bl292", _fgB: 1784204816503, href: t.href, className: "group flex gap-4 cursor-pointer", "data-fg-d3bl292": ":0:/src/app/App.tsx:862:19:41371:2059:e:article:ete", children: [
             /* @__PURE__ */ a(
               e,
               {
@@ -1535,11 +1533,7 @@ function Oe() {
                   children: t.title
                 }
               ),
-              /* @__PURE__ */ l(e, { _fgT: "p", _fgS: "d3bl303", _fgB: 1784204816503, className: "text-xs", style: { color: "#8A8478" }, "data-fg-d3bl303": ":0:/src/app/App.tsx:897:23:43285:89:e:p:xtx", children: [
-                t.author,
-                " · ",
-                t.date
-              ] })
+              /* @__PURE__ */ a(e, { _fgT: "p", _fgS: "d3bl303", _fgB: 1784204816503, className: "text-xs", style: { color: "#8A8478" }, "data-fg-d3bl303": ":0:/src/app/App.tsx:897:23:43285:89:e:p:x", children: t.date })
             ] })
           ] }, t.id)) })
         ] })

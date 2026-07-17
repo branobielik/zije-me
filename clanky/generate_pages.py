@@ -1,0 +1,138 @@
+from __future__ import annotations
+
+import html
+import re
+from pathlib import Path
+
+
+ROOT = Path(__file__).resolve().parent
+DATA = (ROOT / "articles-data.js").read_text(encoding="utf-8")
+
+ARTICLE_PATTERN = re.compile(
+    r'slug: "(?P<slug>[^"]+)",\s*'
+    r'category: "(?P<category>[^"]+)",\s*'
+    r'title: "(?P<title>[^"]+)",\s*'
+    r'excerpt: "(?P<excerpt>[^"]+)",\s*'
+    r'readTime: "(?P<read_time>[^"]+)",\s*'
+    r'date: "(?P<date>[^"]+)",\s*'
+    r'isoDate: "(?P<iso_date>[^"]+)",\s*'
+    r'image: "(?P<image>[^"]+)",\s*'
+    r'imageAlt: "(?P<image_alt>[^"]+)"',
+    re.MULTILINE,
+)
+
+
+def detail_page(article: dict[str, str]) -> str:
+    title = html.escape(article["title"], quote=True)
+    excerpt = html.escape(article["excerpt"], quote=True)
+    slug = html.escape(article["slug"], quote=True)
+    image = html.escape(article["image"], quote=True)
+    canonical = f"https://zije.me/clanky/{slug}/"
+
+    return f"""<!doctype html>
+<html lang="sk">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{title} | zije.me</title>
+    <meta name="description" content="{excerpt}">
+    <meta name="robots" content="index,follow">
+    <meta property="og:title" content="{title}">
+    <meta property="og:description" content="{excerpt}">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="{canonical}">
+    <meta property="og:image" content="https://zije.me{image}">
+    <meta property="article:published_time" content="{article["iso_date"]}">
+    <link rel="canonical" href="{canonical}">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/clanky/magazin.css">
+  </head>
+  <body data-article-slug="{slug}">
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="/" aria-label="zije.me – domov">
+          <span class="brand-mark" aria-hidden="true">⌁</span>
+          <span>zije.me</span>
+        </a>
+        <nav class="header-nav" aria-label="Hlavná navigácia">
+          <a href="/">Domov</a>
+          <a href="/#kategorie">Kategórie</a>
+          <a href="/#chronos">Chronos Vitae</a>
+          <a href="/clanky/" aria-current="page">Články</a>
+          <a href="/#o-nas">O nás</a>
+          <a href="/#kontakt">Kontakt</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="article-shell">
+        <a class="article-back" href="/clanky/">← Všetky články</a>
+        <div id="articleRoot"></div>
+      </div>
+      <section class="related" aria-label="Ďalšie články z rovnakej témy">
+        <p class="eyebrow">Pokračujte v čítaní</p>
+        <h2>Ďalšie z témy {html.escape(article["category"])}</h2>
+        <div id="relatedGrid" class="article-grid"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <a class="brand" href="/">
+          <span class="brand-mark" aria-hidden="true">⌁</span>
+          <span>zije.me</span>
+        </a>
+        <nav class="footer-links" aria-label="Navigácia v pätičke">
+          <a href="/clanky/">Magazín</a>
+          <a href="/#chronos">Chronos Vitae</a>
+          <a href="/#o-nas">O nás</a>
+          <a href="/#kontakt">Kontakt</a>
+        </nav>
+      </div>
+    </footer>
+
+    <script src="/clanky/articles-data.js"></script>
+    <script src="/clanky/magazin.js"></script>
+  </body>
+</html>
+"""
+
+
+articles = [match.groupdict() for match in ARTICLE_PATTERN.finditer(DATA)]
+if len(articles) != 15:
+    raise SystemExit(f"Expected 15 articles, found {len(articles)}")
+
+blocks = re.findall(r"(?ms)^  \{\n    slug: .*?^  \}(?:,|$)", DATA)
+if len(blocks) != 15:
+    raise SystemExit(f"Expected 15 complete article blocks, found {len(blocks)}")
+
+category_counts = {
+    category: sum(article["category"] == category for article in articles)
+    for category in ("Telo", "Duša", "Myseľ")
+}
+if category_counts != {"Telo": 5, "Duša": 5, "Myseľ": 5}:
+    raise SystemExit(f"Unexpected category counts: {category_counts}")
+
+dates = [article["iso_date"] for article in articles]
+if len(set(dates)) != 15 or dates != sorted(dates, reverse=True):
+    raise SystemExit("Article dates must be unique and ordered newest first.")
+
+word_counts = []
+for article, block in zip(articles, blocks):
+    strings = re.findall(r'"([^"]*)"', block)
+    word_count = sum(len(re.findall(r"\b[\wÀ-ž]+\b", value)) for value in strings)
+    word_counts.append((article["slug"], word_count))
+    if not 520 <= word_count <= 900:
+        raise SystemExit(f"Unexpected article length for {article['slug']}: {word_count} words")
+
+for article in articles:
+    directory = ROOT / article["slug"]
+    directory.mkdir(exist_ok=True)
+    (directory / "index.html").write_text(detail_page(article), encoding="utf-8")
+
+print(f"Generated {len(articles)} article pages.")
+print("Article length range:", min(count for _, count in word_counts), "to", max(count for _, count in word_counts), "words.")
