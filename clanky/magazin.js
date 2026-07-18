@@ -21,7 +21,7 @@
     return meta;
   }
 
-  function createCard(article) {
+  function createCard(article, eager) {
     var link = element("a", "article-card");
     link.href = articleUrl(article);
     link.setAttribute("aria-label", article.title);
@@ -30,7 +30,8 @@
     var image = document.createElement("img");
     image.src = article.image;
     image.alt = article.imageAlt;
-    image.loading = "lazy";
+    image.loading = eager ? "eager" : "lazy";
+    if (eager) image.fetchPriority = "high";
     image.width = 960;
     image.height = 600;
     imageWrap.appendChild(image);
@@ -64,7 +65,9 @@
         grid.appendChild(element("p", "empty-state", "V tejto kategórii zatiaľ nie sú žiadne články."));
         return;
       }
-      visible.forEach(function (article) { grid.appendChild(createCard(article)); });
+      visible.forEach(function (article, index) {
+        grid.appendChild(createCard(article, index < 3));
+      });
     }
 
     buttons.forEach(function (button) {
@@ -152,7 +155,7 @@
           return candidate.category === article.category && candidate.slug !== article.slug;
         })
         .slice(0, 3)
-        .forEach(function (candidate) { relatedGrid.appendChild(createCard(candidate)); });
+        .forEach(function (candidate) { relatedGrid.appendChild(createCard(candidate, false)); });
     }
   }
 

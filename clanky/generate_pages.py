@@ -54,7 +54,7 @@ def detail_page(article: dict[str, str]) -> str:
     <header class="site-header">
       <div class="header-inner">
         <a class="brand" href="/" aria-label="zije.me – domov">
-          <span class="brand-mark" aria-hidden="true">⌁</span>
+          <img class="brand-mark" src="/assets/icons/zije-me.svg" alt="" aria-hidden="true">
           <span>zije.me</span>
         </a>
         <nav class="header-nav" aria-label="Hlavná navigácia">
@@ -83,7 +83,7 @@ def detail_page(article: dict[str, str]) -> str:
     <footer class="site-footer">
       <div class="footer-inner">
         <a class="brand" href="/">
-          <span class="brand-mark" aria-hidden="true">⌁</span>
+          <img class="brand-mark" src="/assets/icons/zije-me.svg" alt="" aria-hidden="true">
           <span>zije.me</span>
         </a>
         <nav class="footer-links" aria-label="Navigácia v pätičke">

@@ -7,7 +7,7 @@ window.ZIJE_ARTICLES = [
     readTime: "4 min čítania",
     date: "16. júla 2026",
     isoDate: "2026-07-16",
-    image: "/assets/clanky/mysel.png",
+    image: "/assets/clanky/mene-rozhodovani-viac-priestoru.webp",
     imageAlt: "Pokojný pracovný stôl s poznámkovým blokom a šálkou čaju",
     intro: "Od rána vyberáme, čo si obliecť, čomu odpovedať, čo urobiť najskôr a čo nechať na neskôr. Jednotlivé voľby pôsobia nevinne, no spolu môžu spotrebovať prekvapivo veľa mentálnej energie. Keď sa večer nevieme rozhodnúť ani medzi dvoma jednoduchými možnosťami, nemusí ísť o nerozhodnosť. Často je to signál, že myseľ už spracovala priveľa otvorených otázok.",
     sections: [
@@ -51,7 +51,7 @@ window.ZIJE_ARTICLES = [
     readTime: "4 min čítania",
     date: "14. júla 2026",
     isoDate: "2026-07-14",
-    image: "/assets/clanky/dusa.png",
+    image: "/assets/clanky/male-ritualy-pre-zmysluplny-den.webp",
     imageAlt: "Zapálená sviečka pri knihe v pokojnom večernom svetle",
     intro: "Niektoré dni sa rozplynú v povinnostiach bez jasného začiatku a konca. Rituál dokáže vytvoriť malý ostrov pozornosti, ktorý pripomenie, kde práve sme a na čom nám záleží. Nemusí mať duchovný význam ani presný scenár. Stačí, že sa opakuje, je vykonaný vedome a nesie osobný zmysel, napríklad pokojné otvorenie okna ráno alebo odloženie telefónu pred večerou.",
     sections: [
@@ -95,7 +95,7 @@ window.ZIJE_ARTICLES = [
     readTime: "4 min čítania",
     date: "10. júla 2026",
     isoDate: "2026-07-10",
-    image: "/assets/clanky/telo.png",
+    image: "/assets/clanky/pohyblivost-a-regeneracia-bez-tlaku.webp",
     imageAlt: "Človek sa jemne naťahuje pri otvorenom okne",
     intro: "Pohyblivosť nie je súťaž v tom, kto sa predkloní najhlbšie. Je to schopnosť pohodlne používať rozsah, ktorý potrebujeme pri vstávaní, chôdzi, dvíhaní vecí či otáčaní hlavy. Po dlhom sedení alebo jednostrannej záťaži môže telo pôsobiť stuhnuto. Namiesto prudkého naprávania často lepšie funguje pravidelný, pokojný pohyb a dostatok času na obnovu.",
     sections: [
@@ -139,7 +139,7 @@ window.ZIJE_ARTICLES = [
     readTime: "4 min čítania",
     date: "7. júla 2026",
     isoDate: "2026-07-07",
-    image: "/assets/clanky/mysel.png",
+    image: "/assets/clanky/mentalny-oddych-nie-je-prazdno.webp",
     imageAlt: "Prázdna lavička pri pokojnej vode a zeleni",
     intro: "Po náročnom dni často siahneme po obrazovke s pocitom, že vypíname. Telo možno sedí, no pozornosť ďalej preskakuje medzi správami, videami a rozhodnutiami. Mentálny oddych nemusí znamenať absolútne ticho ani meditáciu. Je to čas, keď od mysle žiadame iný, spravidla menší druh úsilia a nepridávame jej ďalší prúd noviniek na spracovanie.",
     sections: [
@@ -183,7 +183,7 @@ window.ZIJE_ARTICLES = [
     readTime: "4 min čítania",
     date: "3. júla 2026",
     isoDate: "2026-07-03",
-    image: "/assets/clanky/dusa.png",
+    image: "/assets/clanky/blizkost-aj-ked-sa-citime-osamelo.webp",
     imageAlt: "Dvaja ľudia kráčajú vedľa seba po tichej ceste",
     intro: "Človek môže byť osamelý v prázdnom byte aj uprostred skupiny. Nejde iba o počet ľudí okolo nás, ale o rozdiel medzi kontaktom, ktorý máme, a blízkosťou, ktorú potrebujeme. Tento pocit môže bolieť, no zároveň prináša informáciu. Namiesto hanby si zaslúži zvedavosť: aký druh spojenia mi chýba a aký malý krok je dnes dostupný?",
     sections: [
@@ -227,7 +227,7 @@ window.ZIJE_ARTICLES = [
     readTime: "4 min čítania",
     date: "30. júna 2026",
     isoDate: "2026-06-30",
-    image: "/assets/clanky/telo.png",
+    image: "/assets/clanky/energia-pocas-dna-vlastny-rytmus.webp",
     imageAlt: "Slnečné svetlo sa počas dňa posúva po pracovnom stole",
     intro: "Nie každý deň má rovnakú energiu a ani v rámci jedného dňa nefungujeme rovnomerne. Bdelosť ovplyvňuje spánok, svetlo, jedlo, pohyb, stres aj prirodzené biologické rytmy. Namiesto snahy byť stále rovnako produktívni môžeme sledovať, kedy sa nám sústredí ľahšie, kedy potrebujeme zmenu a čo nám pomáha prejsť slabším obdobím bez zbytočného tlaku.",
     sections: [
@@ -271,7 +271,7 @@ window.ZIJE_ARTICLES = [
     readTime: "4 min čítania",
     date: "26. júna 2026",
     isoDate: "2026-06-26",
-    image: "/assets/clanky/mysel.png",
+    image: "/assets/clanky/navyky-ktore-sa-zmestia-do-zivota.webp",
     imageAlt: "Otvorený kalendár s jednoduchými farebnými značkami",
     intro: "Nový návyk často začína silným rozhodnutím a končí pri prvom rušnom týždni. To nemusí znamenať nedostatok vôle. Správanie vzniká v konkrétnom prostredí, čase a energetickom stave. Ak plán funguje iba za ideálnych podmienok, je príliš krehký. Užitočnejšie je postaviť návyk tak, aby mal malú verziu aj pre obyčajné, unavené dni.",
     sections: [
@@ -315,7 +315,7 @@ window.ZIJE_ARTICLES = [
     readTime: "4 min čítania",
     date: "23. júna 2026",
     isoDate: "2026-06-23",
-    image: "/assets/clanky/dusa.png",
+    image: "/assets/clanky/vdacnost-bez-natlaku-na-pozitivitu.webp",
     imageAlt: "Ruky držia teplý hrnček pri okne počas dažďa",
     intro: "Rada buď vďačný môže v ťažkej chvíli znieť ako zákaz smútku. Vďačnosť však nemusí popierať to, čo bolí. Dve pravdy môžu existovať naraz: dnešok bol náročný a niečí telefonát priniesol úľavu. Užitočná prax nevyrába dobrú náladu na povel. Iba jemne rozširuje pozornosť, aby popri problémoch zostalo viditeľné aj to, čo nás podopiera.",
     sections: [
@@ -359,7 +359,7 @@ window.ZIJE_ARTICLES = [
     readTime: "4 min čítania",
     date: "19. júna 2026",
     isoDate: "2026-06-19",
-    image: "/assets/clanky/telo.png",
+    image: "/assets/clanky/hydratacia-podla-potrieb-tela.webp",
     imageAlt: "Pohár čistej vody s citrónom na svetlom stole",
     intro: "Okolo pitia vody vzniklo veľa presných pravidiel, hoci potreba tekutín nie je každý deň rovnaká. Mení sa s teplotou, pohybom, potením, stravou, vekom aj individuálnym zdravím. Väčšine ľudí viac pomôže dostupný nápoj a pravidelné príležitosti napiť sa než úzkostlivé plnenie univerzálneho objemu. Cieľom je priebežná starostlivosť, nie súťaž v počte pohárov.",
     sections: [
@@ -403,7 +403,7 @@ window.ZIJE_ARTICLES = [
     readTime: "4 min čítania",
     date: "16. júna 2026",
     isoDate: "2026-06-16",
-    image: "/assets/clanky/mysel.png",
+    image: "/assets/clanky/ked-myslienky-chodia-dokola.webp",
     imageAlt: "Kľukatá cestička vedúca cez pokojnú lúku",
     intro: "Myseľ sa vracia k rozhovoru, skúša ďalšie verzie budúcnosti a hľadá istotu, ktorá neprichádza. Takéto premýšľanie môže pôsobiť zodpovedne, pretože je aktívne. Ak však opakuje tie isté otázky bez nového kroku, skôr vyčerpáva, než rieši. Cieľom nie je zakázať si myšlienky, ale rozlíšiť užitočné uvažovanie od kruhu a zvoliť vhodnú odpoveď.",
     sections: [
@@ -447,7 +447,7 @@ window.ZIJE_ARTICLES = [
     readTime: "4 min čítania",
     date: "12. júna 2026",
     isoDate: "2026-06-12",
-    image: "/assets/clanky/dusa.png",
+    image: "/assets/clanky/hranice-ktore-chrania-vztahy.webp",
     imageAlt: "Dve záhradné cestičky oddelené nízkym živým plotom",
     intro: "Povedať áno môže byť jednoduchšie než zniesť chvíľu sklamania na druhej strane. Keď však opakovane sľúbime viac, než dokážeme uniesť, napätie sa často vráti ako únava, odpor alebo náhle stiahnutie. Hranice pomáhajú pomenovať kapacitu skôr, než sa vyčerpá. Nie sú nástrojom na ovládanie druhých, ale spôsobom, ako zodpovedne hovoriť o vlastnom konaní.",
     sections: [
@@ -491,7 +491,7 @@ window.ZIJE_ARTICLES = [
     readTime: "4 min čítania",
     date: "9. júna 2026",
     isoDate: "2026-06-09",
-    image: "/assets/clanky/telo.png",
+    image: "/assets/clanky/chodza-ako-dostupny-pohyb.webp",
     imageAlt: "Pohodlné topánky na chodníku medzi zelenými stromami",
     intro: "Chôdza je taká bežná, že jej ľahko odoprieme hodnotu, ak nie je rýchla, dlhá alebo zaznamenaná hodinkami. Pre telo je však pohybom aj cesta na zastávku, okruh okolo domu či pár minút po obede. Jej výhodou je dostupnosť a pružnosť. Dá sa prispôsobiť energii, počasiu aj času bez potreby premeniť každý krok na výkon.",
     sections: [
@@ -535,7 +535,7 @@ window.ZIJE_ARTICLES = [
     readTime: "4 min čítania",
     date: "5. júna 2026",
     isoDate: "2026-06-05",
-    image: "/assets/clanky/mysel.png",
+    image: "/assets/clanky/pozornost-v-svete-vyruseni.webp",
     imageAlt: "Jedna otvorená kniha na čistom stole pri okne",
     intro: "Pozornosť sa prirodzene obracia k novému, hlasnému a naliehavému. Moderné prostredie ponúka takýchto podnetov viac, než dokážeme spracovať naraz. Keď sa nevieme sústrediť, nemusí to znamenať slabú disciplínu. Často je úloha nejasná, prostredie plné signálov alebo myseľ unavená. Namiesto prísnejšieho tlaku môžeme znížiť počet konkurentov a uľahčiť návrat.",
     sections: [
@@ -579,7 +579,7 @@ window.ZIJE_ARTICLES = [
     readTime: "4 min čítania",
     date: "2. júna 2026",
     isoDate: "2026-06-02",
-    image: "/assets/clanky/dusa.png",
+    image: "/assets/clanky/vnutorny-pokoj-v-rusnom-dni.webp",
     imageAlt: "Tiché miesto pri okne s mäkkým ranným svetlom",
     intro: "Čakať na úplne pokojný deň je neistá stratégia. Povinnosti, správy a nečakané udalosti nezmiznú naraz. Vnútorný pokoj preto nemusí byť trvalý stav, ktorý dosiahneme správnou technikou. Môže mať podobu niekoľkých sekúnd medzi podnetom a odpoveďou, uvoľnenia čeľuste alebo vedomého rozhodnutia, že ďalšiu vec urobíme pomalšie a bez súčasného riešenia troch ďalších.",
     sections: [
@@ -623,7 +623,7 @@ window.ZIJE_ARTICLES = [
     readTime: "4 min čítania",
     date: "29. mája 2026",
     isoDate: "2026-05-29",
-    image: "/assets/clanky/telo.png",
+    image: "/assets/clanky/spanok-bez-boja-o-dokonalu-noc.webp",
     imageAlt: "Pokojná spálňa so zatiahnutými závesmi a mäkkým svetlom",
     intro: "Keď veľmi potrebujeme zaspať, spánok sa niekedy vzdiali. Kontrolovanie hodín, počítanie zostávajúceho času a snaha vypnúť myšlienky zvyšujú napätie. Jedna horšia noc pritom patrí k bežnému životu. Užitočnejšie než naháňať dokonalý spánok je vytvárať opakovateľné podmienky, ktoré telu dávajú zrozumiteľné signály pre bdelosť cez deň a odpočinok večer.",
     sections: [

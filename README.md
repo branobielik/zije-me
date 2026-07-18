@@ -6,7 +6,16 @@ Brand-first landing page for the Slovak wellness and lifestyle concept **zije.me
 
 > Všetko pre telo, dušu a myseľ.
 
-The public homepage introduces the brand philosophy, wellbeing areas, Chronos Vitae life planner, and community partnership model. The future Shopify store is intentionally separate and is not linked from the initial landing page.
+The public homepage introduces the brand philosophy, wellbeing areas, Chronos Vitae life planner, and community partnership model. The Shopify store is hosted separately on `shop.zije.me` (customer accounts included) and is linked from the navigation.
+
+## Shopify integration
+
+The navigation array `N` in `_components/v2/9dbe19e8df995749f761c4e411746acb8dad40e0.js` contains two external links added manually on top of the Figma export:
+
+- `Obchod` -> `https://shop.zije.me` (Shopify Online Store)
+- `Môj účet` -> `https://shop.zije.me/account` (redirects to Shopify Customer Accounts regardless of the accounts domain setup)
+
+IMPORTANT: a fresh Figma Make export overwrites the `_components` bundle - re-apply these two entries after every export. The matching Shopify theme lives in `../zije-shopify-theme`.
 
 ## Development
 

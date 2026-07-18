@@ -525,11 +525,13 @@ const Fe = [
 ], ze = g("youtube", Fe), N = [
   { label: "Domov", href: "#domov" },
   { label: "Kategórie", href: "#kategorie" },
+  { label: "E-shop", href: "https://shop.zije.me" },
   { label: "Chronos Vitae", href: "#chronos", accent: !0 },
   { label: "Články", href: "/clanky/" },
   { label: "Ambasádori", href: "#ambasadori" },
   { label: "O nás", href: "#o-nas" },
-  { label: "Kontakt", href: "#kontakt" }
+  { label: "Kontakt", href: "#kontakt" },
+  { label: "Môj účet", href: "https://shop.zije.me/account" }
 ], De = [
   { icon: ae, label: "Fitness", bg: "#E8F4ED", color: "#3d7857" },
   { icon: de, label: "Jóga", bg: "#FFF0E6", color: "#B86A2E" },
@@ -619,7 +621,7 @@ const Fe = [
     excerpt: "Rozhodovacia únava nevzniká iba pri veľkých voľbách. Pomôcť môže niekoľko jednoduchých pravidiel, ktoré šetria pozornosť bez toho, aby obmedzovali slobodu.",
     readTime: "4 min čítania",
     date: "16. júla 2026",
-    image: "/assets/clanky/mysel.png",
+    image: "/assets/clanky/mene-rozhodovani-viac-priestoru.webp",
     href: "/clanky/mene-rozhodovani-viac-priestoru/"
   },
   {
@@ -629,7 +631,7 @@ const Fe = [
     excerpt: "Rituál nemusí byť veľký ani slávnostný. Pravidelný vedomý moment môže priniesť pocit ukotvenia.",
     readTime: "4 min čítania",
     date: "14. júla 2026",
-    image: "/assets/clanky/dusa.png",
+    image: "/assets/clanky/male-ritualy-pre-zmysluplny-den.webp",
     href: "/clanky/male-ritualy-pre-zmysluplny-den/"
   },
   {
@@ -639,7 +641,7 @@ const Fe = [
     excerpt: "Stuhnuté telo často nepotrebuje náročný tréning, ale pestrú a primeranú dávku pohybu.",
     readTime: "4 min čítania",
     date: "10. júla 2026",
-    image: "/assets/clanky/telo.png",
+    image: "/assets/clanky/pohyblivost-a-regeneracia-bez-tlaku.webp",
     href: "/clanky/pohyblivost-a-regeneracia-bez-tlaku/"
   },
   {
@@ -649,7 +651,7 @@ const Fe = [
     excerpt: "Myseľ potrebuje zmenu nárokov, menej vstupov a chvíle bez povinnosti niečo spracovať.",
     readTime: "4 min čítania",
     date: "7. júla 2026",
-    image: "/assets/clanky/mysel.png",
+    image: "/assets/clanky/mentalny-oddych-nie-je-prazdno.webp",
     href: "/clanky/mentalny-oddych-nie-je-prazdno/"
   }
 ];
@@ -698,7 +700,7 @@ function Oe() {
         children: [
             /* @__PURE__ */ l(e, { _fgT: "div", _fgS: "d3bl3", _fgB: 1784204816503, className: "zm-headrow max-w-7xl mx-auto px-5 sm:px-8 lg:px-10 flex items-center justify-between h-16 lg:h-20", "data-fg-d3bl3": ":0:/src/app/App.tsx:183:9:7173:2111:e:div:xtetxtetxte", children: [
             /* @__PURE__ */ l(e, { _fgT: "a", _fgS: "d3bl5", _fgB: 1784204816503, href: "#domov", className: "flex items-center gap-2.5 flex-shrink-0", "data-fg-d3bl5": ":0:/src/app/App.tsx:185:11:7311:509:e:a:ete", children: [
-              /* @__PURE__ */ a(e, { _fgT: "div", _fgS: "d3bl6", _fgB: 1784204816503, className: "w-8 h-8 rounded-full bg-[#4E8B68] flex items-center justify-center", "data-fg-d3bl6": ":0:/src/app/App.tsx:186:13:7393:157:e:div:e", children: /* @__PURE__ */ a(e, { _fgT: A, _fgS: "d3bl7", _fgB: 1784204816503, className: "w-4 h-4 text-white", "data-fg-d3bl7": ":0:node_modules/lucide-react:187:15:7492:39:e:Leaf::::::Dxgq" }) }),
+              /* @__PURE__ */ a("img", { src: "/assets/icons/zije-me.svg", alt: "", className: "w-8 h-8 rounded-[10px] object-contain", "aria-hidden": "true" }),
               /* @__PURE__ */ a(
                 e,
                 {
@@ -739,7 +741,10 @@ function Oe() {
                   className: "hidden lg:inline-flex items-center gap-2 text-sm font-medium px-5 py-2.5 rounded-full transition-all duration-300",
                   style: o ? { background: "#4E8B68", color: "#fff" } : { background: "rgba(255,255,255,0.15)", color: "#fff", border: "1px solid rgba(255,255,255,0.3)", backdropFilter: "blur(8px)" },
                   "data-fg-d3bl17": ":0:/src/app/App.tsx:213:13:8409:497:e:a:t",
-                  children: "Instagram ↗"
+                  children: [
+                    /* @__PURE__ */ a(e, { _fgT: ce, className: "w-4 h-4 text-white", "aria-hidden": "true" }),
+                    "Instagram"
+                  ]
                 }
               ),
               /* @__PURE__ */ a(
@@ -851,7 +856,7 @@ function Oe() {
             }
           ),
           /* @__PURE__ */ a(e, { _fgT: "p", _fgS: "d3bl46", _fgB: 1784204816503, className: "text-white/75 text-lg lg:text-xl mb-10 leading-relaxed max-w-xl", "data-fg-d3bl46": ":0:/src/app/App.tsx:292:15:11664:203:e:p:t", children: "Starostlivo vyberáme produkty, ktoré podporujú zdravší, spokojnejší a kvalitnejší život." }),
-          /* @__PURE__ */ l(e, { _fgT: "div", _fgS: "d3bl48", _fgB: 1784204816503, className: "flex flex-col sm:flex-row gap-4", "data-fg-d3bl48": ":0:/src/app/App.tsx:295:15:11882:949:e:div:ete", children: [
+          /* @__PURE__ */ l(e, { _fgT: "div", _fgS: "d3bl48", _fgB: 1784204816503, className: "flex flex-col sm:flex-row sm:flex-wrap gap-4", "data-fg-d3bl48": ":0:/src/app/App.tsx:295:15:11882:949:e:div:ete", children: [
             /* @__PURE__ */ l(
               e,
               {
@@ -881,6 +886,19 @@ function Oe() {
                 children: [
                   /* @__PURE__ */ a(e, { _fgT: C, _fgS: "d3bl53", _fgB: 1784204816503, className: "w-4 h-4", "data-fg-d3bl53": ":0:node_modules/lucide-react:309:19:12716:32:e:Download::::::yh6" }),
                   "Bezplatná aplikácia"
+                ]
+              }
+            ),
+            /* @__PURE__ */ l(
+              e,
+              {
+                _fgT: "a",
+                href: "https://shop.zije.me",
+                className: "inline-flex items-center justify-center gap-2.5 font-medium px-8 py-4 rounded-full transition-all duration-300",
+                style: { background: "#fff", color: "#2C3D30" },
+                children: [
+                  "E-shop",
+                  /* @__PURE__ */ a(e, { _fgT: m, className: "w-4 h-4", "aria-hidden": "true" })
                 ]
               }
             )
@@ -1126,7 +1144,10 @@ function Oe() {
         ),
         /* @__PURE__ */ a(e, { _fgT: "div", _fgS: "d3bl132", _fgB: 1784204816503, className: "relative z-10 max-w-7xl mx-auto px-5 sm:px-8 lg:px-10", "data-fg-d3bl132": ":0:/src/app/App.tsx:501:11:22346:8072:e:div:e", children: /* @__PURE__ */ l(e, { _fgT: "div", _fgS: "d3bl133", _fgB: 1784204816503, className: "grid lg:grid-cols-2 gap-16 items-center", "data-fg-d3bl133": ":0:/src/app/App.tsx:502:13:22430:7971:e:div:xtetxte", children: [
           /* @__PURE__ */ l(e, { _fgT: "div", _fgS: "d3bl135", _fgB: 1784204816503, "data-fg-d3bl135": ":0:/src/app/App.tsx:504:15:22529:2505:e:div:etetetete", children: [
-            /* @__PURE__ */ a(e, { _fgT: "p", _fgS: "d3bl136", _fgB: 1784204816503, className: "text-sm font-medium tracking-widest uppercase mb-4", style: { color: "#6EC491", letterSpacing: "0.18em" }, "data-fg-d3bl136": ":0:/src/app/App.tsx:505:17:22551:179:e:p:t", children: "Bezplatná aplikácia" }),
+            /* @__PURE__ */ l(e, { _fgT: "div", _fgS: "d3bl136", _fgB: 1784204816503, className: "flex items-center gap-3 text-sm font-medium tracking-widest uppercase mb-4", style: { color: "#6EC491", letterSpacing: "0.18em" }, "data-fg-d3bl136": ":0:/src/app/App.tsx:505:17:22551:179:e:div:et", children: [
+              /* @__PURE__ */ a("img", { src: "/assets/icons/chronos-vitae.svg", alt: "Ikona Chronos Vitae", className: "w-10 h-10 rounded-xl object-contain" }),
+              /* @__PURE__ */ a("span", { children: "Bezplatná aplikácia" })
+            ] }),
             /* @__PURE__ */ a(
               e,
               {
@@ -1638,8 +1659,8 @@ function Oe() {
     /* @__PURE__ */ a(e, { _fgT: "footer", _fgS: "d3bl335", _fgB: 1784204816503, style: { background: "#1C1C1A", color: "#fff" }, className: "pt-20 pb-10", "data-fg-d3bl335": ":0:/src/app/App.tsx:981:7:47173:7648:e:footer:e", children: /* @__PURE__ */ l(e, { _fgT: "div", _fgS: "d3bl336", _fgB: 1784204816503, className: "max-w-7xl mx-auto px-5 sm:px-8 lg:px-10", "data-fg-d3bl336": ":0:/src/app/App.tsx:982:9:47263:7542:e:div:etxte", children: [
       /* @__PURE__ */ l(e, { _fgT: "div", _fgS: "d3bl337", _fgB: 1784204816503, className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 mb-16", "data-fg-d3bl337": ":0:/src/app/App.tsx:983:11:47331:6398:e:div:xtetxtetxtetxte", children: [
         /* @__PURE__ */ l(e, { _fgT: "div", _fgS: "d3bl339", _fgB: 1784204816503, "data-fg-d3bl339": ":0:/src/app/App.tsx:985:13:47447:2815:e:div:etete", children: [
-          /* @__PURE__ */ l(e, { _fgT: "div", _fgS: "d3bl340", _fgB: 1784204816503, className: "flex items-center gap-2.5 mb-5", "data-fg-d3bl340": ":0:/src/app/App.tsx:986:15:47467:489:e:div:ete", children: [
-            /* @__PURE__ */ a(e, { _fgT: "div", _fgS: "d3bl341", _fgB: 1784204816503, className: "w-8 h-8 rounded-full bg-[#4E8B68] flex items-center justify-center", "data-fg-d3bl341": ":0:/src/app/App.tsx:987:17:47532:165:e:div:e", children: /* @__PURE__ */ a(e, { _fgT: A, _fgS: "d3bl342", _fgB: 1784204816503, className: "w-4 h-4 text-white", "data-fg-d3bl342": ":0:node_modules/lucide-react:988:19:47635:39:e:Leaf::::::Dxgq" }) }),
+            /* @__PURE__ */ l(e, { _fgT: "div", _fgS: "d3bl340", _fgB: 1784204816503, className: "flex items-center gap-2.5 mb-5", "data-fg-d3bl340": ":0:/src/app/App.tsx:986:15:47467:489:e:div:ete", children: [
+            /* @__PURE__ */ a("img", { src: "/assets/icons/zije-me.svg", alt: "", className: "w-8 h-8 rounded-[10px] object-contain", "aria-hidden": "true" }),
             /* @__PURE__ */ a(
               e,
               {
