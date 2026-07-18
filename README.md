@@ -10,12 +10,13 @@ The public homepage introduces the brand philosophy, wellbeing areas, Chronos Vi
 
 ## Shopify integration
 
-The navigation array `N` in `_components/v2/9dbe19e8df995749f761c4e411746acb8dad40e0.js` contains two external links added manually on top of the Figma export:
+The navigation array `N` in `_components/v2/9dbe19e8df995749f761c4e411746acb8dad40e0.js` contains an external shop link added manually on top of the Figma export:
 
-- `Obchod` -> `https://shop.zije.me` (Shopify Online Store)
-- `Môj účet` -> `https://shop.zije.me/account` (redirects to Shopify Customer Accounts regardless of the accounts domain setup)
+- `E-shop` -> `https://shop.zije.me` (Shopify Online Store)
 
-IMPORTANT: a fresh Figma Make export overwrites the `_components` bundle - re-apply these two entries after every export. The matching Shopify theme lives in `../zije-shopify-theme`.
+Customer accounts stay inside the Shopify storefront and are intentionally not shown in the main zije.me navigation.
+
+IMPORTANT: a fresh Figma Make export overwrites the `_components` bundle - re-apply this entry after every export. The matching Shopify theme lives in `../zije-shopify-theme`.
 
 ## Development
 

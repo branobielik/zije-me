@@ -51,10 +51,9 @@ button { font: inherit; }
   font-weight: 600;
 }
 .brand-mark {
-  width: 34px;
-  height: 34px;
+  width: 46px;
+  height: 46px;
   display: block;
-  border-radius: 10px;
   object-fit: contain;
 }
 .header-nav {

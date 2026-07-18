@@ -530,8 +530,7 @@ const Fe = [
   { label: "Články", href: "/clanky/" },
   { label: "Ambasádori", href: "#ambasadori" },
   { label: "O nás", href: "#o-nas" },
-  { label: "Kontakt", href: "#kontakt" },
-  { label: "Môj účet", href: "https://shop.zije.me/account" }
+  { label: "Kontakt", href: "#kontakt" }
 ], De = [
   { icon: ae, label: "Fitness", bg: "#E8F4ED", color: "#3d7857" },
   { icon: de, label: "Jóga", bg: "#FFF0E6", color: "#B86A2E" },
@@ -700,7 +699,7 @@ function Oe() {
         children: [
             /* @__PURE__ */ l(e, { _fgT: "div", _fgS: "d3bl3", _fgB: 1784204816503, className: "zm-headrow max-w-7xl mx-auto px-5 sm:px-8 lg:px-10 flex items-center justify-between h-16 lg:h-20", "data-fg-d3bl3": ":0:/src/app/App.tsx:183:9:7173:2111:e:div:xtetxtetxte", children: [
             /* @__PURE__ */ l(e, { _fgT: "a", _fgS: "d3bl5", _fgB: 1784204816503, href: "#domov", className: "flex items-center gap-2.5 flex-shrink-0", "data-fg-d3bl5": ":0:/src/app/App.tsx:185:11:7311:509:e:a:ete", children: [
-              /* @__PURE__ */ a("img", { src: "/assets/icons/zije-me.svg", alt: "", className: "w-8 h-8 rounded-[10px] object-contain", "aria-hidden": "true" }),
+              /* @__PURE__ */ a("img", { src: "/assets/icons/zije-me.svg", alt: "", className: "w-12 h-12 object-contain", "aria-hidden": "true" }),
               /* @__PURE__ */ a(
                 e,
                 {
@@ -1660,7 +1659,7 @@ function Oe() {
       /* @__PURE__ */ l(e, { _fgT: "div", _fgS: "d3bl337", _fgB: 1784204816503, className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 mb-16", "data-fg-d3bl337": ":0:/src/app/App.tsx:983:11:47331:6398:e:div:xtetxtetxtetxte", children: [
         /* @__PURE__ */ l(e, { _fgT: "div", _fgS: "d3bl339", _fgB: 1784204816503, "data-fg-d3bl339": ":0:/src/app/App.tsx:985:13:47447:2815:e:div:etete", children: [
             /* @__PURE__ */ l(e, { _fgT: "div", _fgS: "d3bl340", _fgB: 1784204816503, className: "flex items-center gap-2.5 mb-5", "data-fg-d3bl340": ":0:/src/app/App.tsx:986:15:47467:489:e:div:ete", children: [
-            /* @__PURE__ */ a("img", { src: "/assets/icons/zije-me.svg", alt: "", className: "w-8 h-8 rounded-[10px] object-contain", "aria-hidden": "true" }),
+            /* @__PURE__ */ a("img", { src: "/assets/icons/zije-me.svg", alt: "", className: "w-12 h-12 object-contain", "aria-hidden": "true" }),
             /* @__PURE__ */ a(
               e,
               {
