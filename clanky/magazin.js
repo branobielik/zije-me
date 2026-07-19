@@ -4,6 +4,7 @@
   var coreArticles = Array.isArray(window.ZIJE_ARTICLES) ? window.ZIJE_ARTICLES : [];
   var intimacyArticles = Array.isArray(window.ZIJE_INTIMITA_ARTICLES) ? window.ZIJE_INTIMITA_ARTICLES : [];
   var moreIntimacyArticles = Array.isArray(window.ZIJE_INTIMITA_MORE_ARTICLES) ? window.ZIJE_INTIMITA_MORE_ARTICLES : [];
+  var articleSources = window.ZIJE_ARTICLE_SOURCES || {};
   var articles = moreIntimacyArticles.concat(intimacyArticles, coreArticles).sort(function (a, b) {
     return b.isoDate.localeCompare(a.isoDate);
   });
@@ -148,6 +149,35 @@
     takeaway.appendChild(element("strong", "", "Skúste dnes"));
     takeaway.appendChild(element("p", "", article.takeaway));
     content.appendChild(takeaway);
+
+    var sources = Array.isArray(articleSources[article.slug]) ? articleSources[article.slug] : [];
+    if (sources.length) {
+      var sourceSection = element("section", "article-sources");
+      sourceSection.setAttribute("aria-labelledby", "articleSourcesTitle");
+
+      var sourceTitle = element("h2", "", "Zdroje a ďalšie čítanie");
+      sourceTitle.id = "articleSourcesTitle";
+      sourceSection.appendChild(sourceTitle);
+      sourceSection.appendChild(element(
+        "p",
+        "sources-note",
+        "Zdroje podporujú hlavné odborné tvrdenia článku. Text má vzdelávací charakter a nenahrádza individuálnu zdravotnú, psychologickú ani právnu konzultáciu."
+      ));
+
+      var sourceList = element("ol", "sources-list");
+      sources.forEach(function (source) {
+        var item = document.createElement("li");
+        var link = element("a", "", source.title);
+        link.href = source.url;
+        link.target = "_blank";
+        link.rel = "noopener noreferrer";
+        item.appendChild(link);
+        item.appendChild(element("span", "", source.publisher));
+        sourceList.appendChild(item);
+      });
+      sourceSection.appendChild(sourceList);
+      content.appendChild(sourceSection);
+    }
 
     root.appendChild(header);
     root.appendChild(hero);

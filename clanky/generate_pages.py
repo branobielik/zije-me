@@ -13,6 +13,7 @@ DATA_FILES = (
     ROOT / "articles-data.js",
 )
 DATA = "\n".join(path.read_text(encoding="utf-8") for path in DATA_FILES)
+SOURCE_DATA = (ROOT / "sources-data.js").read_text(encoding="utf-8")
 
 ARTICLE_PATTERN = re.compile(
     r'slug: "(?P<slug>[^"]+)",\s*'
@@ -101,6 +102,7 @@ def detail_page(article: dict[str, str]) -> str:
       </div>
     </footer>
 
+    <script src="/clanky/sources-data.js"></script>
     <script src="/clanky/intimita-more-data.js"></script>
     <script src="/clanky/intimita-data.js"></script>
     <script src="/clanky/articles-data.js"></script>
@@ -124,6 +126,16 @@ category_counts = {
 }
 if category_counts != {"Telo": 5, "Duša": 5, "Myseľ": 5, "Intimita": 19}:
     raise SystemExit(f"Unexpected category counts: {category_counts}")
+
+source_slugs = set(re.findall(r'(?m)^  "([^"]+)": \[$', SOURCE_DATA))
+intimacy_slugs = {article["slug"] for article in articles if article["category"] == "Intimita"}
+if source_slugs != intimacy_slugs:
+    missing = sorted(intimacy_slugs - source_slugs)
+    unexpected = sorted(source_slugs - intimacy_slugs)
+    raise SystemExit(f"Source coverage mismatch. Missing: {missing}; unexpected: {unexpected}")
+source_urls = re.findall(r'url: "(https://[^"]+)"', SOURCE_DATA)
+if len(source_urls) < len(intimacy_slugs):
+    raise SystemExit("Every Intimita article must have at least one HTTPS source.")
 
 dates = [article["iso_date"] for article in articles]
 if len(set(dates)) != 34:
