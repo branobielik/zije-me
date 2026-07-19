@@ -3,7 +3,8 @@
 
   var coreArticles = Array.isArray(window.ZIJE_ARTICLES) ? window.ZIJE_ARTICLES : [];
   var intimacyArticles = Array.isArray(window.ZIJE_INTIMITA_ARTICLES) ? window.ZIJE_INTIMITA_ARTICLES : [];
-  var articles = intimacyArticles.concat(coreArticles).sort(function (a, b) {
+  var moreIntimacyArticles = Array.isArray(window.ZIJE_INTIMITA_MORE_ARTICLES) ? window.ZIJE_INTIMITA_MORE_ARTICLES : [];
+  var articles = moreIntimacyArticles.concat(intimacyArticles, coreArticles).sort(function (a, b) {
     return b.isoDate.localeCompare(a.isoDate);
   });
 

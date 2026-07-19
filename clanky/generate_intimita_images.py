@@ -99,6 +99,87 @@ ARTWORKS = [
         '<path d="M170 600 C300 600 315 325 450 325 C585 325 600 700 735 700 C870 700 890 255 1020 255 C1150 255 1175 575 1430 575" fill="none" stroke="url(#soft)" stroke-width="54" stroke-linecap="round"/>'
         '<path d="M170 660 C340 660 360 450 510 450 C670 450 690 770 850 770 C1010 770 1040 430 1430 430" fill="none" stroke="#fff" stroke-opacity=".16" stroke-width="18" stroke-linecap="round"/>',
     ),
+    (
+        "aj-muzi-maju-bod-g-a-neuverite-kde-ho-najdete",
+        "#122733",
+        "#4b98a4",
+        "#e39a72",
+        '<path d="M590 245 C470 390 495 690 680 790 M1010 245 C1130 390 1105 690 920 790" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width="24" stroke-linecap="round"/>'
+        '<ellipse cx="800" cy="545" rx="125" ry="92" fill="url(#soft)" opacity=".88"/>'
+        '<circle cx="800" cy="545" r="165" fill="none" stroke="#fff" stroke-opacity=".18" stroke-width="8"/>',
+    ),
+    (
+        "sexualne-stastie-telo-dusa-a-mysel",
+        "#172d2b",
+        "#57a078",
+        "#e5b36b",
+        '<circle cx="650" cy="480" r="205" fill="url(#soft)" opacity=".54"/>'
+        '<circle cx="950" cy="480" r="205" fill="#fff" fill-opacity=".18"/>'
+        '<circle cx="800" cy="675" r="205" fill="#8fb8a1" fill-opacity=".28"/>'
+        '<circle cx="800" cy="535" r="72" fill="#fff" fill-opacity=".7"/>',
+    ),
+    (
+        "zenska-sexualna-energia-verzus-muzska-sexualna-energia",
+        "#261a31",
+        "#b06391",
+        "#68a5a0",
+        '<path d="M170 620 C330 180 560 820 760 420 C930 80 1160 760 1430 355" fill="none" stroke="url(#soft)" stroke-width="62" stroke-linecap="round"/>'
+        '<path d="M190 410 C380 770 590 230 810 650 C990 990 1190 310 1410 590" fill="none" stroke="#fff" stroke-opacity=".22" stroke-width="24" stroke-linecap="round"/>',
+    ),
+    (
+        "vie-vas-partner-o-vasej-najtajnejsej-sexualnej-tuzbe",
+        "#241b31",
+        "#9f678e",
+        "#d8a36e",
+        '<path d="M260 300 H790 Q860 300 860 370 V620 Q860 690 790 690 H560 L420 805 L455 690 H330 Q260 690 260 620Z" fill="url(#soft)" opacity=".58"/>'
+        '<path d="M785 225 H1270 Q1340 225 1340 295 V555 Q1340 625 1270 625 H1135 L1170 735 L1035 625 H785 Q715 625 715 555 V295 Q715 225 785 225Z" fill="#fff" fill-opacity=".16"/>'
+        '<circle cx="800" cy="470" r="34" fill="#fff" fill-opacity=".72"/>',
+    ),
+    (
+        "sexualita-v-partnerstve-a-jej-piliere",
+        "#162a2d",
+        "#56947e",
+        "#d7a064",
+        '<path d="M300 780 H1300 M380 350 V780 M520 290 V780 M660 245 V780 M800 215 V780 M940 245 V780 M1080 290 V780 M1220 350 V780" stroke="url(#soft)" stroke-width="46" stroke-linecap="round"/>'
+        '<path d="M300 365 Q800 110 1300 365" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width="28"/>',
+    ),
+    (
+        "aj-traumy-sa-daju-riesit-najcitlivejsia-tema",
+        "#1c2530",
+        "#547d86",
+        "#d7aa71",
+        '<path d="M790 125 L675 315 L825 430 L690 590 L845 710 L790 900" fill="none" stroke="#101923" stroke-width="75" stroke-linejoin="round"/>'
+        '<path d="M790 125 L675 315 L825 430 L690 590 L845 710 L790 900" fill="none" stroke="url(#soft)" stroke-width="18" stroke-linejoin="round"/>'
+        '<circle cx="790" cy="125" r="24" fill="#fff" fill-opacity=".7"/><circle cx="790" cy="900" r="24" fill="#fff" fill-opacity=".7"/>',
+    ),
+    (
+        "partnerske-potreby-bez-povinnosti",
+        "#17302e",
+        "#5aa080",
+        "#dfa46e",
+        '<path d="M180 720 C430 720 430 300 690 300 C820 300 835 485 800 585" fill="none" stroke="url(#soft)" stroke-width="64" stroke-linecap="round"/>'
+        '<path d="M1420 720 C1170 720 1170 300 910 300 C780 300 765 485 800 585" fill="none" stroke="#fff" stroke-opacity=".34" stroke-width="64" stroke-linecap="round"/>'
+        '<circle cx="800" cy="585" r="95" fill="#fff" fill-opacity=".18"/>',
+    ),
+    (
+        "cyklus-cesta-k-svojej-sexualite",
+        "#20223a",
+        "#6e78b3",
+        "#d99678",
+        '<path d="M1070 295 A340 340 0 1 1 555 275" fill="none" stroke="url(#soft)" stroke-width="44" stroke-linecap="round"/>'
+        '<path d="M545 275 L590 390 L450 355Z" fill="#d99678"/>'
+        '<circle cx="800" cy="500" r="90" fill="#fff" fill-opacity=".18"/>'
+        '<circle cx="800" cy="500" r="220" fill="none" stroke="#fff" stroke-opacity=".12" stroke-width="8" stroke-dasharray="18 30"/>',
+    ),
+    (
+        "masturbacia-prirodzena-tema-o-ktorej-sa-stale-mlci",
+        "#2a1d2d",
+        "#a3668d",
+        "#db9e72",
+        '<path d="M800 220 C590 310 520 545 625 750 C700 895 900 895 975 750 C1080 545 1010 310 800 220Z" fill="url(#soft)" opacity=".5"/>'
+        '<path d="M800 305 C670 390 640 570 710 710 C755 800 845 800 890 710 C960 570 930 390 800 305Z" fill="#fff" fill-opacity=".16"/>'
+        '<circle cx="800" cy="570" r="58" fill="#fff" fill-opacity=".58"/>',
+    ),
 ]
 
 

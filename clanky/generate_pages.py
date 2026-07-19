@@ -7,7 +7,11 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parent
-DATA_FILES = (ROOT / "intimita-data.js", ROOT / "articles-data.js")
+DATA_FILES = (
+    ROOT / "intimita-more-data.js",
+    ROOT / "intimita-data.js",
+    ROOT / "articles-data.js",
+)
 DATA = "\n".join(path.read_text(encoding="utf-8") for path in DATA_FILES)
 
 ARTICLE_PATTERN = re.compile(
@@ -97,6 +101,7 @@ def detail_page(article: dict[str, str]) -> str:
       </div>
     </footer>
 
+    <script src="/clanky/intimita-more-data.js"></script>
     <script src="/clanky/intimita-data.js"></script>
     <script src="/clanky/articles-data.js"></script>
     <script src="/clanky/magazin.js"></script>
@@ -106,22 +111,22 @@ def detail_page(article: dict[str, str]) -> str:
 
 
 articles = [match.groupdict() for match in ARTICLE_PATTERN.finditer(DATA)]
-if len(articles) != 25:
-    raise SystemExit(f"Expected 25 articles, found {len(articles)}")
+if len(articles) != 34:
+    raise SystemExit(f"Expected 34 articles, found {len(articles)}")
 
 blocks = re.findall(r"(?ms)^  \{\n    slug: .*?^  \}(?:,|$)", DATA)
-if len(blocks) != 25:
-    raise SystemExit(f"Expected 25 complete article blocks, found {len(blocks)}")
+if len(blocks) != 34:
+    raise SystemExit(f"Expected 34 complete article blocks, found {len(blocks)}")
 
 category_counts = {
     category: sum(article["category"] == category for article in articles)
     for category in ("Telo", "Duša", "Myseľ", "Intimita")
 }
-if category_counts != {"Telo": 5, "Duša": 5, "Myseľ": 5, "Intimita": 10}:
+if category_counts != {"Telo": 5, "Duša": 5, "Myseľ": 5, "Intimita": 19}:
     raise SystemExit(f"Unexpected category counts: {category_counts}")
 
 dates = [article["iso_date"] for article in articles]
-if len(set(dates)) != 25:
+if len(set(dates)) != 34:
     raise SystemExit("Article dates must be unique.")
 
 image_paths = [ROOT.parent / article["image"].lstrip("/") for article in articles]
