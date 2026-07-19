@@ -1,7 +1,11 @@
 (function () {
   "use strict";
 
-  var articles = Array.isArray(window.ZIJE_ARTICLES) ? window.ZIJE_ARTICLES : [];
+  var coreArticles = Array.isArray(window.ZIJE_ARTICLES) ? window.ZIJE_ARTICLES : [];
+  var intimacyArticles = Array.isArray(window.ZIJE_INTIMITA_ARTICLES) ? window.ZIJE_INTIMITA_ARTICLES : [];
+  var articles = intimacyArticles.concat(coreArticles).sort(function (a, b) {
+    return b.isoDate.localeCompare(a.isoDate);
+  });
 
   function articleUrl(article) {
     return "/clanky/" + article.slug + "/";

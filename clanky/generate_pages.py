@@ -1,12 +1,14 @@
 from __future__ import annotations
 
 import html
+import hashlib
 import re
 from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parent
-DATA = (ROOT / "articles-data.js").read_text(encoding="utf-8")
+DATA_FILES = (ROOT / "intimita-data.js", ROOT / "articles-data.js")
+DATA = "\n".join(path.read_text(encoding="utf-8") for path in DATA_FILES)
 
 ARTICLE_PATTERN = re.compile(
     r'slug: "(?P<slug>[^"]+)",\s*'
@@ -95,6 +97,7 @@ def detail_page(article: dict[str, str]) -> str:
       </div>
     </footer>
 
+    <script src="/clanky/intimita-data.js"></script>
     <script src="/clanky/articles-data.js"></script>
     <script src="/clanky/magazin.js"></script>
   </body>
@@ -103,30 +106,39 @@ def detail_page(article: dict[str, str]) -> str:
 
 
 articles = [match.groupdict() for match in ARTICLE_PATTERN.finditer(DATA)]
-if len(articles) != 15:
-    raise SystemExit(f"Expected 15 articles, found {len(articles)}")
+if len(articles) != 25:
+    raise SystemExit(f"Expected 25 articles, found {len(articles)}")
 
 blocks = re.findall(r"(?ms)^  \{\n    slug: .*?^  \}(?:,|$)", DATA)
-if len(blocks) != 15:
-    raise SystemExit(f"Expected 15 complete article blocks, found {len(blocks)}")
+if len(blocks) != 25:
+    raise SystemExit(f"Expected 25 complete article blocks, found {len(blocks)}")
 
 category_counts = {
     category: sum(article["category"] == category for article in articles)
-    for category in ("Telo", "Duša", "Myseľ")
+    for category in ("Telo", "Duša", "Myseľ", "Intimita")
 }
-if category_counts != {"Telo": 5, "Duša": 5, "Myseľ": 5}:
+if category_counts != {"Telo": 5, "Duša": 5, "Myseľ": 5, "Intimita": 10}:
     raise SystemExit(f"Unexpected category counts: {category_counts}")
 
 dates = [article["iso_date"] for article in articles]
-if len(set(dates)) != 15 or dates != sorted(dates, reverse=True):
-    raise SystemExit("Article dates must be unique and ordered newest first.")
+if len(set(dates)) != 25:
+    raise SystemExit("Article dates must be unique.")
+
+image_paths = [ROOT.parent / article["image"].lstrip("/") for article in articles]
+missing_images = [str(path) for path in image_paths if not path.is_file()]
+if missing_images:
+    raise SystemExit(f"Missing article images: {missing_images}")
+image_hashes = [hashlib.sha256(path.read_bytes()).hexdigest() for path in image_paths]
+if len(set(image_hashes)) != len(image_hashes):
+    raise SystemExit("Every article must use a unique image.")
 
 word_counts = []
 for article, block in zip(articles, blocks):
     strings = re.findall(r'"([^"]*)"', block)
     word_count = sum(len(re.findall(r"\b[\wÀ-ž]+\b", value)) for value in strings)
     word_counts.append((article["slug"], word_count))
-    if not 520 <= word_count <= 900:
+    minimum, maximum = (620, 1200) if article["category"] == "Intimita" else (520, 900)
+    if not minimum <= word_count <= maximum:
         raise SystemExit(f"Unexpected article length for {article['slug']}: {word_count} words")
 
 for article in articles:

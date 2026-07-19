@@ -3,22 +3,23 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Magazín o tele, duši, mysli a intimite | zije.me</title>
-    <meta name="description" content="Slovenské články o tele, duši, mysli a intimite. Praktické a citlivé čítanie pre každodenný život.">
+    <title>Čo je závislosť od pornografie a kedy sa dá o nej hovoriť? | zije.me</title>
+    <meta name="description" content="Časté sledovanie pornografie ešte samo osebe neznamená závislosť. Podstatnejšie sú strata kontroly, následky a narušenie života.">
     <meta name="robots" content="index,follow">
-    <meta property="og:title" content="Magazín o tele, duši, mysli a intimite | zije.me">
-    <meta property="og:description" content="Pokojné a praktické čítanie pre telo, dušu, myseľ a zdravé vzťahy.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://zije.me/clanky/">
-    <meta property="og:image" content="https://zije.me/assets/clanky/mene-rozhodovani-viac-priestoru.webp">
-    <link rel="canonical" href="https://zije.me/clanky/">
+    <meta property="og:title" content="Čo je závislosť od pornografie a kedy sa dá o nej hovoriť?">
+    <meta property="og:description" content="Časté sledovanie pornografie ešte samo osebe neznamená závislosť. Podstatnejšie sú strata kontroly, následky a narušenie života.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://zije.me/clanky/co-je-zavislost-od-pornografie-a-kedy-sa-da-o-nej-hovorit/">
+    <meta property="og:image" content="https://zije.me/assets/clanky/co-je-zavislost-od-pornografie-a-kedy-sa-da-o-nej-hovorit.webp">
+    <meta property="article:published_time" content="2026-07-17">
+    <link rel="canonical" href="https://zije.me/clanky/co-je-zavislost-od-pornografie-a-kedy-sa-da-o-nej-hovorit/">
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/clanky/magazin.css">
   </head>
-  <body>
+  <body data-article-slug="co-je-zavislost-od-pornografie-a-kedy-sa-da-o-nej-hovorit">
     <header class="site-header">
       <div class="header-inner">
         <a class="brand" href="/" aria-label="zije.me – domov">
@@ -37,21 +38,14 @@
     </header>
 
     <main>
-      <section class="magazine-hero">
-        <p class="eyebrow">Magazín zije.me</p>
-        <h1>Čítanie pre telo, dušu, myseľ a intimitu</h1>
-        <p class="lead">Praktické myšlienky, citlivé témy a malé kroky, ktoré sa dajú preniesť do bežného života aj vzťahov.</p>
-        <div class="filters" aria-label="Filtrovať články podľa témy">
-          <button class="filter-button is-active" type="button" data-category="Všetko" aria-pressed="true">Všetko</button>
-          <button class="filter-button" type="button" data-category="Telo" aria-pressed="false">Telo</button>
-          <button class="filter-button" type="button" data-category="Duša" aria-pressed="false">Duša</button>
-          <button class="filter-button" type="button" data-category="Myseľ" aria-pressed="false">Myseľ</button>
-          <button class="filter-button" type="button" data-category="Intimita" aria-pressed="false">Intimita</button>
-        </div>
-      </section>
-
-      <section class="magazine-main" aria-label="Všetky články">
-        <div id="articleGrid" class="article-grid"></div>
+      <div class="article-shell">
+        <a class="article-back" href="/clanky/">← Všetky články</a>
+        <div id="articleRoot"></div>
+      </div>
+      <section class="related" aria-label="Ďalšie články z rovnakej témy">
+        <p class="eyebrow">Pokračujte v čítaní</p>
+        <h2>Ďalšie z témy Intimita</h2>
+        <div id="relatedGrid" class="article-grid"></div>
       </section>
     </main>
 
