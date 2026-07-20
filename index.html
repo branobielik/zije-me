@@ -1,87 +1,418 @@
-
-
 <!doctype html>
-<!-- Created in Figma Make -->
 <html lang="sk">
   <head>
     <meta charset="utf-8" />
-    <noscript>
-      <style>
-        #container {
-          display: none;
-        }
-      </style>
-    </noscript>
-
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="color-scheme" content="light" />
-    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-    <link rel="preload" href="/_runtimes/sites-runtime.974f5243ba253f62259b10aa62a3d5f09e694bfbeff9a0abc48c2faf8480c6ed.js" as="script" crossorigin />
-    <link rel="preload" href="/_components/v2/9dbe19e8df995749f761c4e411746acb8dad40e0.js" as="script" crossorigin />
-    <link rel="preload" href="/_json/c41a2c7f-1073-4ee7-9a39-527e808643c3/_index.json" as="fetch" />
-        <style id="reset-css"> @layer figreset,figoverridable,reset,theme,base,figutils,components,utilities;@layer figoverridable{:root{font-synthesis:none}}@layer figutils{:root{--banner-height:48px;--banner-height-v2:40px;--full-height-with-banner:calc(100dvh - var(--banner-height))}@media (max-width:600px){.banner-v2-container{left:0 !important;right:0 !important;margin:0 auto !important}}.wrapper-with-banner .min-h-screen{min-height:var(--full-height-with-banner)}.wrapper-with-banner .h-screen{height:var(--full-height-with-banner)}}</style><style id="font-faces-0"></style><style id="body-background-color">body:has([data-breakpoint-id="node-0_4"]) { background-color: #fff }</style><style id="ssr-css">#container .css-uwf2km {position: relative; flex: 1 0 0; display: block;}#container .css-fou3uo {min-height: 1px; width: 100%; height: 100dvh;}</style><script>window.__serverRenderedCSSClassNames = {"css-uwf2km":"{\"position\":\"relative\",\"flex\":\"1 0 0\",\"display\":\"block\"}","css-fou3uo":"{\"minHeight\":1,\"width\":\"100%\",\"height\":\"100dvh\"}"}</script><meta id="meta-k6nlig" name="description" content="Slovenský wellness a lifestyle koncept. Všetko pre telo, dušu a myseľ – s bezplatnou aplikáciou Chronos Vitae."><meta id="meta-nrl5b5" name="title" content="Všetko pre Telo, Myseľ a Dušu"><meta id="meta-yw3oin" name="robots" content="index,follow"><meta id="meta-1ab1uk" name="twitter:card" content="summary_large_image"><meta id="meta-fnr44y" name="twitter:url" content="https://zije.me/"><meta id="meta-nv9mti" name="twitter:title" content="Všetko pre Telo, Myseľ a Dušu"><meta id="meta-gkj4wh" name="twitter:description" content="Slovenský wellness a lifestyle koncept. Všetko pre telo, dušu a myseľ – s bezplatnou aplikáciou Chronos Vitae."><meta id="meta-q6pfcv" property="og:title" content="Všetko pre Telo, Myseľ a Dušu"><meta id="meta-vq9t6y" property="og:description" content="Slovenský wellness a lifestyle koncept. Všetko pre telo, dušu a myseľ – s bezplatnou aplikáciou Chronos Vitae."><meta id="meta-zfz6ci" property="og:type" content="website"><meta id="meta-oncyjb" property="og:url" content="https://zije.me/"><meta id="meta-ey4jhy" property="og:site_name" content="Všetko pre Telo, Myseľ a Dušu"><title id="title-z462ok">Všetko pre Telo, Myseľ a Dušu</title>
-    <link rel="stylesheet" href="/_components/v2/9dbe19e8df995749f761c4e411746acb8dad40e0.css">
-    <style id="zm-overrides">
-      /* Header menu is always visible; the hamburger is never used. */
-      .zm-nav { display: flex !important; flex-wrap: wrap; }
-      .zm-burger { display: none !important; }
-      .zm-mobilemenu { display: none !important; }
-
-      /* Below the desktop breakpoint: tighter links, allow the row to grow. */
-      @media (max-width: 1279px) {
-        .zm-headrow { height: auto !important; min-height: 4rem; padding-top: 0.65rem; padding-bottom: 0.65rem; gap: 0.75rem 1rem; flex-wrap: wrap; }
-        .zm-nav { gap: 0.35rem 1rem; justify-content: flex-end; row-gap: 0.25rem; }
-        .zm-nav a { font-size: 13px; }
-      }
-      @media (max-width: 639px) {
-        .zm-nav { gap: 0.2rem 0.7rem; }
-        .zm-nav a { font-size: 12px; }
-      }
-    </style>
+    <meta name="robots" content="index,follow" />
+    <meta name="theme-color" content="#e6ded7" />
+    <title>zije.me — Intimita začína vzťahom k sebe</title>
+    <meta
+      name="description"
+      content="Prémiový intimacy & wellness koncept pre jednotlivcov aj páry. Starostlivo vybrané produkty, odborný obsah a vedomé rituály."
+    />
+    <link rel="icon" href="./favicon.png" type="image/png" />
+    <link rel="preload" href="./assets/zije-logo-web.webp" as="image" type="image/webp" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Manrope:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    
-    
-    <script data-template-id="country-code">window.__cf_country = "SK"</script>
-    <script type="module">
-      import {SitesRuntime} from '/_runtimes/sites-runtime.974f5243ba253f62259b10aa62a3d5f09e694bfbeff9a0abc48c2faf8480c6ed.js';
-      const sitesRuntime = new SitesRuntime({
-        container: document.getElementById('container'),
-        env: 'published',
-        bundleId: 'c41a2c7f-1073-4ee7-9a39-527e808643c3',
-        
-        loadComponentsOverNetwork: true,
-        assetsVersion: 'v11',
-        fontsVersion: 'v1',
-        videosVersion: 'v1',
-        codeComponentsVersion: 'v2',
-        withBaseStyles: false,
-        reportingDomain: "https://www.figma.com",
-        bundleCreationDate: '2026-07-16 12:38:44 UTC',
-        isFigmake: true,
-        enableMetaTags: true,
-        renderOptions: {
-          metronomeEnabled: true,
-          transform3dEnabled: false,
-        },
-      });
-    </script>
-    
-    <div id="container"><div class="css-uwf2km css-fou3uo tailwind"></div></div>
-    
+    <div class="announcement">
+      <p>Diskrétne doručenie · Starostlivo vybrané produkty · Bez zahanbovania</p>
+      <button type="button" aria-label="Zavrieť oznam" data-close-announcement>×</button>
+    </div>
 
-     <noscript data-nosnippet>
-      <main style="height: 100vh; width: 100vw; background-color: white; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;">
-        <h1 style="font-size: 24px; padding: 8px; color: black">
-        This site requires JavaScript
-        </h1>
-        <p style="font-size: 16px; padding: 8px; color: #00000080">To view this website, enable JavaScript in your browser settings and reload the page.</p>
-        <form style="margin-top: 12px;" action="">
-          <button type="submit" style="font-size: 14px; color: black; border: 1px solid #0000001a; border-radius: 5px; width: 256px; height: 32px;">
-          Reload page
-          </button>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="zije.me domov">
+        <img src="./assets/zije-logo-web.webp" width="800" height="672" decoding="sync" fetchpriority="high" alt="" />
+        <span>zije.me</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">
+        <span></span><span></span>
+        <span class="sr-only">Otvoriť menu</span>
+      </button>
+
+      <nav id="main-nav" class="main-nav" aria-label="Hlavná navigácia">
+        <a href="#pre-seba">Pre seba</a>
+        <a href="#pre-dvoch">Pre dvoch</a>
+        <a href="#produkty">Produkty</a>
+        <a href="#ritualy">Rituály</a>
+        <a href="/clanky/">Magazín</a>
+        <a href="#chronos">Vitae Amoris</a>
+        <a href="#o-nas">O nás</a>
+      </nav>
+
+      <div class="header-actions" aria-label="Používateľské akcie">
+        <button type="button" aria-label="Hľadať">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"></circle><path d="m16 16 4 4"></path></svg>
+        </button>
+        <a href="https://shop.zije.me" aria-label="Otvoriť e-shop">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14l-1 12H6L5 8Z"></path><path d="M9 9V6a3 3 0 0 1 6 0v3"></path></svg>
+        </a>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-art" aria-hidden="true"></div>
+        <div class="hero-copy">
+          <p class="eyebrow">Intimacy &amp; Wellness · Pre jednotlivcov aj páry</p>
+          <h1>Intimita začína<br />vzťahom <em>k sebe.</em></h1>
+          <p class="hero-lead">
+            Starostlivo vybrané intímne produkty, odborný obsah a rituály,
+            ktoré ti pomôžu lepšie rozumieť svojmu telu, túžbam a blízkosti —
+            sólo aj vo dvojici.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#pre-seba">Objavovať pre seba</a>
+            <a class="button button-ghost" href="#pre-dvoch">Objavovať pre dvoch <span>→</span></a>
+          </div>
+          <div class="hero-proof">
+            <span class="proof-mark">✓</span>
+            <p><strong>Body-safe výber</strong><br />Diskrétne balenie · Zrozumiteľné návody</p>
+          </div>
+        </div>
+
+        <div class="hero-image" role="img" aria-label="Pokojná chvíľa vedomého spojenia so sebou">
+          <div class="hero-image-shade"></div>
+          <aside class="floating-note">
+            <span>Naša filozofia</span>
+            <p>„Tvoje telo. Tvoje tempo. Tvoje objavovanie.“</p>
+          </aside>
+        </div>
+
+        <div class="scroll-cue" aria-hidden="true"><span></span>Objavovať</div>
+      </section>
+
+      <section class="audience-paths" aria-labelledby="paths-title">
+        <div class="section-heading section-heading-inline">
+          <div>
+            <p class="eyebrow">Dve rovnocenné cesty</p>
+            <h2 id="paths-title">Začni tam, kde si.</h2>
+          </div>
+          <p>Sexuálne šťastie nie je podmienené vzťahom. A blízkosť vo vzťahu nevzniká automaticky.</p>
+        </div>
+
+        <div class="path-grid">
+          <article id="pre-seba" class="path-card path-self">
+            <img src="./assets/self.jpg" alt="Žena vo vedomom kontakte so sebou" />
+            <div class="path-shade"></div>
+            <div class="path-copy">
+              <p class="eyebrow">Pre seba</p>
+              <h3>Tvoje telo. Tvoje tempo.</h3>
+              <p>Objavuj svoje potreby bez hanby, porovnávania a tlaku na výkon.</p>
+              <a class="button button-light" href="#produkty">Nájsť svoj začiatok</a>
+            </div>
+          </article>
+          <article id="pre-dvoch" class="path-card path-together">
+            <img src="./assets/together.jpg" alt="Dve ruky vytvárajúce symbol blízkosti" />
+            <div class="path-shade"></div>
+            <div class="path-copy">
+              <p class="eyebrow">Pre dvoch</p>
+              <h3>Blízkosť sa tvorí.</h3>
+              <p>Dotyk, komunikácia a spoločné objavovanie bez očakávania povinného výsledku.</p>
+              <a class="button button-light" href="#ritualy">Objavovať spolu</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="intimacy-pillars" aria-labelledby="pillars-title">
+        <div class="section-heading section-heading-inline">
+          <div>
+            <p class="eyebrow">Telo · Myseľ · Duša</p>
+            <h2 id="pillars-title">Sexuálne šťastie nie je iba o tele.</h2>
+          </div>
+          <p>Intimita prepája potešenie, sebaspoznanie a bezpečie do jedného celku.</p>
+        </div>
+        <div class="intimacy-pillar-grid">
+          <article>
+            <span>01</span>
+            <h3>Telo</h3>
+            <p>Potešenie, sexuálne zdravie, dotyk, komfort a energia.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Myseľ</h3>
+            <p>Sebaspoznanie, túžby, predstavivosť a otvorená komunikácia.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Duša</h3>
+            <p>Prijatie, blízkosť, dôvera, rešpekt k hraniciam a bezpečie.</p>
+          </article>
+        </div>
+        <div class="pillars-note">
+          <p>Sexualita je prirodzenou súčasťou kvalitného života — nie jeho oddelenou kategóriou.</p>
+          <a class="text-link" href="/clanky/?category=Intimita">Čítať o intimite <span>→</span></a>
+        </div>
+      </section>
+
+      <section id="ritualy" class="rituals">
+        <div class="ritual-intro">
+          <p class="eyebrow">Produkt je iba začiatok</p>
+          <h2>Rituál mu dáva<br /><em>zmysel.</em></h2>
+          <p>
+            Zámer, príprava, bezpečné kroky a priestor vnímať, čo ti skutočne vyhovuje.
+          </p>
+          <a class="text-link" href="#ritual-detail">Ako tvoríme rituály <span>→</span></a>
+        </div>
+
+        <div class="ritual-timeline" id="ritual-detail">
+          <div class="timeline-line"><span></span></div>
+          <article class="ritual-step is-active">
+            <div class="step-time">Sólo · 15–30 min</div>
+            <div class="step-symbol">01</div>
+            <h3>Čas pre seba</h3>
+            <p>Sebaspoznanie<br />Tvoje tempo<br />Bez výkonu</p>
+            <button type="button">Zobraziť</button>
+          </article>
+          <article class="ritual-step">
+            <div class="step-time">Sólo / Dvojica · 20 min</div>
+            <div class="step-symbol">02</div>
+            <h3>Vedomý dotyk</h3>
+            <p>Vnímanie<br />Komunikácia<br />Hranice</p>
+            <button type="button">Zobraziť</button>
+          </article>
+          <article class="ritual-step">
+            <div class="step-time">Dvojica · 45–90 min</div>
+            <div class="step-symbol">03</div>
+            <h3>Večer pre dvoch</h3>
+            <p>Blízkosť<br />Spoločný čas<br />Bez očakávaní</p>
+            <button type="button">Zobraziť</button>
+          </article>
+          <article class="ritual-step">
+            <div class="step-time">Sólo / Dvojica · 30–60 min</div>
+            <div class="step-symbol">04</div>
+            <h3>Masážny večer</h3>
+            <p>Relaxácia<br />Senzorický dotyk<br />Dôvera</p>
+            <button type="button">Zobraziť</button>
+          </article>
+          <article class="ritual-step">
+            <div class="step-time">Sólo / Dvojica · 20–40 min</div>
+            <div class="step-symbol">05</div>
+            <h3>Objavovanie túžob</h3>
+            <p>Predstavy<br />Prijatie<br />Súhlas</p>
+            <button type="button">Zobraziť</button>
+          </article>
+        </div>
+      </section>
+
+      <section id="produkty" class="products">
+        <div class="section-heading">
+          <p class="eyebrow">Kurátorovaný výber</p>
+          <h2>Menej možností. Lepšie rozhodnutia.</h2>
+          <p>
+            Vyberáme produkty, pri ktorých vieme jasne vysvetliť funkciu, materiál,
+            bezpečnosť, cenu aj reálne použitie.
+          </p>
+          <a class="text-link" href="#ako-vyberame">Ako vyberáme <span>→</span></a>
+        </div>
+
+        <div class="product-layout">
+          <div class="product-grid">
+            <article class="product-card">
+              <button class="heart" type="button" aria-label="Pridať stimulátor Arc do obľúbených">♡</button>
+              <div class="product-visual product-visual-wine">
+                <div class="wand"><span>zije.me</span></div>
+              </div>
+              <p class="product-kicker">Pre seba · Začiatočník</p>
+              <h3>Vibračný stimulátor Arc</h3>
+              <p class="product-note">Tichý · Body-safe silikón · Vodeodolný</p>
+              <p class="price">59,90 €</p>
+            </article>
+            <article class="product-card">
+              <button class="heart" type="button" aria-label="Pridať lubrikant Pure Water do obľúbených">♡</button>
+              <div class="product-visual product-visual-sand">
+                <div class="lube-bottle"><span>zije.me</span><small>PURE WATER</small></div>
+              </div>
+              <p class="product-kicker">Starostlivosť · Univerzálne</p>
+              <h3>Lubrikant Pure Water</h3>
+              <p class="product-note">Na vodnej báze · Bez parfumácie · 100 ml</p>
+              <p class="price">14,90 €</p>
+            </article>
+            <article class="product-card">
+              <button class="heart" type="button" aria-label="Pridať masážnu sviečku Touch do obľúbených">♡</button>
+              <div class="product-visual product-visual-rose">
+                <div class="massage-candle"><span>zije.me</span><small>TOUCH</small></div>
+              </div>
+              <p class="product-kicker">Dotyk a masáž · Pre dvoch</p>
+              <h3>Masážna sviečka Touch</h3>
+              <p class="product-note">Nízka teplota · Jemná vôňa · 120 g</p>
+              <p class="price">24,90 €</p>
+            </article>
+          </div>
+
+          <article id="balicky" class="bundle-card">
+            <img src="./assets/touch.jpg" alt="Vedomý masážny rituál" />
+            <div class="bundle-shade"></div>
+            <div class="bundle-copy">
+              <p class="eyebrow">Rituálny balíček</p>
+              <h3>Vedomý dotyk</h3>
+              <p>Masážna sviečka, body-safe olej a kompletný návod. Sólo alebo vo dvojici.</p>
+              <div class="bundle-price"><strong>69,90 €</strong><del>79,70 €</del></div>
+              <a class="button button-light" href="#">Objaviť rituál</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="ako-vyberame" class="selection-standard">
+        <div class="selection-score">
+          <span>Minimálne skóre</span>
+          <strong>75<small>/100</small></strong>
+          <p>Bezpečnosť musí samostatne dosiahnuť aspoň 16 z 20 bodov.</p>
+        </div>
+        <div class="selection-copy">
+          <p class="eyebrow">Štandard zije.me</p>
+          <h2>Vieš, čo kupuješ — a prečo.</h2>
+          <p>
+            Každý produkt hodnotíme podľa bezpečnosti, funkcie, komfortu,
+            hygieny, transparentnosti výrobcu a férovosti ceny.
+          </p>
+          <div class="selection-grid">
+            <div><span>01</span><p><strong>Body-safe materiály</strong>Úplné zloženie a kompatibilita.</p></div>
+            <div><span>02</span><p><strong>Férové plusy aj mínusy</strong>Žiadne skryté kompromisy.</p></div>
+            <div><span>03</span><p><strong>Návod a čistenie</strong>Bezpečné používanie po slovensky.</p></div>
+            <div><span>04</span><p><strong>Cena a hodnota</strong>Porovnanie s relevantným trhom.</p></div>
+          </div>
+          <a class="text-link" href="#">Poznať celý štandard <span>→</span></a>
+        </div>
+      </section>
+
+      <section id="chronos" class="app-section">
+        <div class="app-copy">
+          <img
+            class="app-mark"
+            src="./assets/vitae-amoris-icon.webp"
+            width="447"
+            height="720"
+            loading="lazy"
+            alt="Ikona Vitae Amoris"
+          />
+          <p class="eyebrow">Vitae Amoris · Súkromie na prvom mieste</p>
+          <h2>Rituály, ktoré<br />ostanú s tebou.</h2>
+          <p>
+            Voliteľná súkromná vrstva ti môže diskrétne pripomenúť čas pre seba,
+            partnerský check-in alebo vedomý dotyk.
+          </p>
+          <ul>
+            <li><span>✓</span> Intímne dáta uložené lokálne</li>
+            <li><span>✓</span> Neutrálne a diskrétne pripomienky</li>
+            <li><span>✓</span> Žiadne hodnotenie frekvencie ani výkonu</li>
+          </ul>
+          <a class="button button-primary" href="#">Spoznať Vitae Amoris</a>
+        </div>
+
+        <div class="phone-stage" aria-label="Ukážka aplikácie Vitae Amoris">
+          <div class="halo halo-one"></div>
+          <div class="halo halo-two"></div>
+          <div class="phone">
+            <div class="phone-speaker"></div>
+            <div class="phone-screen">
+              <div class="phone-top"><span>9:41</span><span>● ᯤ</span></div>
+              <p class="phone-label">Súkromný rytmus</p>
+              <h3>Priestor pre seba</h3>
+              <div class="phone-score"><strong>20</strong><span>minút pre seba</span></div>
+              <div class="phone-task">
+                <span>01</span><p><small>Dnešný rituál</small>Vedomý dotyk</p><b>20:30</b>
+              </div>
+              <div class="phone-task">
+                <span>02</span><p><small>Voliteľné</small>Krátky check-in</p>
+              </div>
+              <button type="button">Otvoriť rituál</button>
+              <div class="phone-nav"><span>⌂</span><span>◌</span><span>□</span><span>♙</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="journal">
+        <div class="section-heading section-heading-inline">
+          <div>
+            <p class="eyebrow">Odborný magazín zije.me</p>
+            <h2>Najprv porozumenie. Potom rozhodnutie.</h2>
+          </div>
+          <a class="text-link" href="/clanky/">Všetky články <span>→</span></a>
+        </div>
+        <div class="journal-grid">
+          <a class="journal-feature" href="/clanky/sexualita-v-partnerstve-a-jej-piliere/">
+            <img src="./assets/touch.jpg" alt="Dotyk ako súčasť vedomej intimity" />
+            <div>
+              <p class="eyebrow">Intimita · 7 min</p>
+              <h3>Sexualita v partnerstve a jej piliere</h3>
+              <span>Čítať článok →</span>
+            </div>
+          </a>
+          <div class="journal-list">
+            <a href="/clanky/co-je-sexualita-a-ako-sa-s-nou-stotoznit/">
+              <span>01</span><div><small>Sebaspoznanie</small><h3>Čo je sexualita a ako sa s ňou stotožniť?</h3></div><b>→</b>
+            </a>
+            <a href="/clanky/komunikacia-ako-zaklad-zdraveho-sexualneho-zivota/">
+              <span>02</span><div><small>Komunikácia</small><h3>Komunikácia ako základ zdravého sexuálneho života</h3></div><b>→</b>
+            </a>
+            <a href="/clanky/masturbacia-prirodzena-tema-o-ktorej-sa-stale-mlci/">
+              <span>03</span><div><small>Telo a myseľ</small><h3>Masturbácia: prirodzená téma, o ktorej sa stále mlčí</h3></div><b>→</b>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="o-nas" class="manifesto">
+        <img src="./assets/zije-logo-web.webp" width="800" height="672" decoding="async" alt="" />
+        <p class="eyebrow">Naša filozofia</p>
+        <blockquote>
+          Neponúkame bezduché produkty.<br />
+          Pomáhame tvoriť <em>hlbšiu intimitu.</em>
+        </blockquote>
+        <p>
+          Pomáhame ľuďom lepšie rozumieť sebe, bezpečne objavovať svoju sexualitu
+          a budovať kvalitnejší vzťah k sebe aj k druhým.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-brand">
+        <a class="brand brand-light" href="#top">
+          <img src="./assets/zije-logo-web.webp" width="800" height="672" decoding="async" alt="" />
+          <span>zije.me</span>
+        </a>
+        <p>Intimita začína vzťahom k sebe.</p>
+      </div>
+      <div>
+        <h2>Objavuj</h2>
+        <a href="#pre-seba">Pre seba</a>
+        <a href="#pre-dvoch">Pre dvoch</a>
+        <a href="#ritualy">Rituály</a>
+        <a href="#produkty">Produkty</a>
+      </div>
+      <div>
+        <h2>Dôvera</h2>
+        <a href="#ako-vyberame">Ako vyberáme</a>
+        <a href="/clanky/">Magazín</a>
+        <a href="#chronos">Vitae Amoris</a>
+      </div>
+      <div class="newsletter">
+        <h2>Bez hanby. Bez spamu.</h2>
+        <p>Občas odborný článok alebo rituál, ktorý stojí za pozornosť.</p>
+        <form>
+          <label class="sr-only" for="email">E-mail</label>
+          <input id="email" type="email" placeholder="Tvoj e-mail" />
+          <button type="submit" aria-label="Prihlásiť sa">→</button>
         </form>
-      </main>
-    </noscript>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 zije.me</span>
+        <span>Intimita · Telo · Duša · Myseľ</span>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
   </body>
 </html>
