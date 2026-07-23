@@ -6,11 +6,15 @@ Premium Slovak intimacy and wellness platform **zije.me** for individuals and co
 
 > Intimita začína vzťahom k sebe.
 
-The public homepage introduces the intimacy-first brand philosophy, curated products, rituals, expert magazine, and the Vitae Amoris private ritual planner. The Shopify store is hosted separately on `shop.zije.me` and is linked from the header.
+The public homepage introduces the intimacy-first brand philosophy, daily rituals, expert magazine, and the Vitae Amoris private ritual planner. Product listings live exclusively in the Shopify store at `shop.zije.me`; the homepage presents the store only as a primary journey.
+
+The dedicated `/filozofia/` page defines the zije.me IP framework: Intímna vitalita, Telo–Myseľ–Duša, everyday rituals, the orientational Index intímnej vitality, Modrá zóna intimity, seven content pillars, and the controlled terminology glossary.
+
+The signed Android build linked from the homepage is stored at `downloads/VitaeAmoris.v40.apk`.
 
 ## Shopify integration
 
-The header bag links to `https://shop.zije.me`. Customer accounts stay inside the Shopify storefront and are intentionally not shown in the main zije.me navigation. The matching Shopify theme lives in `../zije-shopify-theme`.
+The primary hero CTA links to `https://shop.zije.me`. Customer accounts and all product merchandising stay inside Shopify. The matching Shopify theme lives in `../zije-shopify-theme`.
 
 ## Development
 

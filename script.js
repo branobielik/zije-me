@@ -3,8 +3,6 @@
 
   var menuButton = document.querySelector(".menu-toggle");
   var menu = document.querySelector(".main-nav");
-  var announcement = document.querySelector(".announcement");
-  var announcementClose = document.querySelector("[data-close-announcement]");
 
   if (menuButton && menu) {
     menuButton.addEventListener("click", function () {
@@ -20,20 +18,6 @@
       });
     });
   }
-
-  if (announcement && announcementClose) {
-    announcementClose.addEventListener("click", function () {
-      announcement.remove();
-    });
-  }
-
-  document.querySelectorAll(".heart").forEach(function (button) {
-    button.addEventListener("click", function () {
-      var liked = button.classList.toggle("is-liked");
-      button.textContent = liked ? "♥" : "♡";
-      button.setAttribute("aria-pressed", String(liked));
-    });
-  });
 
   var ritualSteps = document.querySelectorAll(".ritual-step");
   var ritualProgress = document.querySelector(".timeline-line span");

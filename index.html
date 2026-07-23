@@ -22,8 +22,7 @@
   </head>
   <body>
     <div class="announcement">
-      <p>Diskrétne doručenie · Starostlivo vybrané produkty · Bez zahanbovania</p>
-      <button type="button" aria-label="Zavrieť oznam" data-close-announcement>×</button>
+      <p>Diskrétne doručenie · Starostlivý výber · Bez predsudkov</p>
     </div>
 
     <header class="site-header">
@@ -38,9 +37,8 @@
       </button>
 
       <nav id="main-nav" class="main-nav" aria-label="Hlavná navigácia">
-        <a href="#objavit">Objaviť zije.me</a>
-        <a class="nav-app" href="#chronos">Stiahnuť Vitae Amoris</a>
-        <a class="nav-shop" href="https://shop.zije.me">Do obchodu <span aria-hidden="true">→</span></a>
+        <a class="nav-self" href="#pre-seba">Objavovať pre seba</a>
+        <a class="nav-together" href="#pre-dvoch">Objavovať pre dvoch <span aria-hidden="true">→</span></a>
       </nav>
     </header>
 
@@ -51,17 +49,23 @@
           <p class="eyebrow">Intimacy &amp; Wellness · Pre jednotlivcov aj páry</p>
           <h1>Intimita začína<br />vzťahom <em>k sebe.</em></h1>
           <p class="hero-lead">
-            Starostlivo vybrané intímne produkty, odborný obsah a rituály,
-            ktoré ti pomôžu lepšie rozumieť svojmu telu, túžbam a blízkosti —
-            sólo aj vo dvojici.
+            Kurátorovaný obchod, odborný obsah a vedomé rituály, ktoré ti pomôžu
+            lepšie rozumieť svojmu telu, túžbam a blízkosti — sólo aj vo dvojici.
           </p>
-          <div class="hero-actions">
-            <a class="button button-primary" href="#pre-seba">Objavovať pre seba</a>
-            <a class="button button-ghost" href="#pre-dvoch">Objavovať pre dvoch <span>→</span></a>
+          <div class="hero-actions hero-actions-stack" aria-label="Hlavné cesty zije.me">
+            <a class="hero-cta hero-cta-shop" href="https://shop.zije.me">
+              <span>Do obchodu</span><b aria-hidden="true">→</b>
+            </a>
+            <a class="hero-cta hero-cta-discover" href="#objavit">
+              <span>Objaviť zije.me</span><b aria-hidden="true">↓</b>
+            </a>
+            <a class="hero-cta hero-cta-app" href="/downloads/VitaeAmoris.v40.apk" download>
+              <span>Stiahnuť Vitae Amoris</span><b aria-hidden="true">→</b>
+            </a>
           </div>
           <div class="hero-proof">
             <span class="proof-mark">✓</span>
-            <p><strong>Body-safe výber</strong><br />Diskrétne balenie · Zrozumiteľné návody</p>
+            <p><strong>Tvoje telo. Tvoje tempo.</strong><br />Odborne · Ľudsky · Bez predsudkov</p>
           </div>
         </div>
 
@@ -87,13 +91,13 @@
 
         <div class="path-grid">
           <article id="pre-seba" class="path-card path-self">
-            <img src="./assets/self.jpg" alt="Žena vo vedomom kontakte so sebou" />
+            <img src="./assets/pre-seba-vitalita.webp" alt="Žena prežívajúca pokojný moment spojenia so sebou" />
             <div class="path-shade"></div>
             <div class="path-copy">
               <p class="eyebrow">Pre seba</p>
               <h3>Tvoje telo. Tvoje tempo.</h3>
               <p>Objavuj svoje potreby bez hanby, porovnávania a tlaku na výkon.</p>
-              <a class="button button-light" href="#produkty">Nájsť svoj začiatok</a>
+              <a class="button button-light" href="#ritualy">Nájsť svoj začiatok</a>
             </div>
           </article>
           <article id="pre-dvoch" class="path-card path-together">
@@ -140,10 +144,38 @@
         </div>
       </section>
 
+      <section class="vitality-model" aria-labelledby="vitality-title">
+        <div class="vitality-visual">
+          <img
+            src="./assets/intimna-vitalita-model.webp"
+            width="1024"
+            height="1024"
+            loading="lazy"
+            alt="Model intímnej vitality prepájajúci telo, myseľ a dušu"
+          />
+        </div>
+        <div class="vitality-copy">
+          <p class="eyebrow">Filozofia zije.me</p>
+          <h2 id="vitality-title">Intímna vitalita vzniká v rovnováhe.</h2>
+          <p>
+            Keď sa telo, myseľ a duša nestavajú proti sebe, vzniká priestor pre
+            spojenie, radosť a naplnenie v intímnom živote. Tento stav nazývame
+            <strong>Intímna vitalita</strong>.
+          </p>
+          <div class="vitality-terms" aria-label="Základné pojmy filozofie zije.me">
+            <span>Intímna vitalita</span>
+            <span>Rituál blízkosti</span>
+            <span>Intímny kompas</span>
+            <span>Modrá zóna intimity</span>
+          </div>
+          <a class="button button-primary" href="/filozofia/">Spoznať filozofiu zije.me <span>→</span></a>
+        </div>
+      </section>
+
       <section id="ritualy" class="rituals">
         <div class="ritual-intro">
-          <p class="eyebrow">Produkt je iba začiatok</p>
-          <h2>Rituál mu dáva<br /><em>zmysel.</em></h2>
+          <p class="eyebrow">Každodenné malé kroky</p>
+          <h2>Rituál dáva zámeru<br /><em>zmysel.</em></h2>
           <p>
             Zámer, príprava, bezpečné kroky a priestor vnímať, čo ti skutočne vyhovuje.
           </p>
@@ -190,88 +222,6 @@
         </div>
       </section>
 
-      <section id="produkty" class="products">
-        <div class="section-heading">
-          <p class="eyebrow">Kurátorovaný výber</p>
-          <h2>Menej možností. Lepšie rozhodnutia.</h2>
-          <p>
-            Vyberáme produkty, pri ktorých vieme jasne vysvetliť funkciu, materiál,
-            bezpečnosť, cenu aj reálne použitie.
-          </p>
-          <a class="text-link" href="#ako-vyberame">Ako vyberáme <span>→</span></a>
-        </div>
-
-        <div class="product-layout">
-          <div class="product-grid">
-            <article class="product-card">
-              <button class="heart" type="button" aria-label="Pridať stimulátor Arc do obľúbených">♡</button>
-              <div class="product-visual product-visual-wine">
-                <div class="wand"><span>zije.me</span></div>
-              </div>
-              <p class="product-kicker">Pre seba · Začiatočník</p>
-              <h3>Vibračný stimulátor Arc</h3>
-              <p class="product-note">Tichý · Body-safe silikón · Vodeodolný</p>
-              <p class="price">59,90 €</p>
-            </article>
-            <article class="product-card">
-              <button class="heart" type="button" aria-label="Pridať lubrikant Pure Water do obľúbených">♡</button>
-              <div class="product-visual product-visual-sand">
-                <div class="lube-bottle"><span>zije.me</span><small>PURE WATER</small></div>
-              </div>
-              <p class="product-kicker">Starostlivosť · Univerzálne</p>
-              <h3>Lubrikant Pure Water</h3>
-              <p class="product-note">Na vodnej báze · Bez parfumácie · 100 ml</p>
-              <p class="price">14,90 €</p>
-            </article>
-            <article class="product-card">
-              <button class="heart" type="button" aria-label="Pridať masážnu sviečku Touch do obľúbených">♡</button>
-              <div class="product-visual product-visual-rose">
-                <div class="massage-candle"><span>zije.me</span><small>TOUCH</small></div>
-              </div>
-              <p class="product-kicker">Dotyk a masáž · Pre dvoch</p>
-              <h3>Masážna sviečka Touch</h3>
-              <p class="product-note">Nízka teplota · Jemná vôňa · 120 g</p>
-              <p class="price">24,90 €</p>
-            </article>
-          </div>
-
-          <article id="balicky" class="bundle-card">
-            <img src="./assets/touch.jpg" alt="Vedomý masážny rituál" />
-            <div class="bundle-shade"></div>
-            <div class="bundle-copy">
-              <p class="eyebrow">Rituálny balíček</p>
-              <h3>Vedomý dotyk</h3>
-              <p>Masážna sviečka, body-safe olej a kompletný návod. Sólo alebo vo dvojici.</p>
-              <div class="bundle-price"><strong>69,90 €</strong><del>79,70 €</del></div>
-              <a class="button button-light" href="#">Objaviť rituál</a>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section id="ako-vyberame" class="selection-standard">
-        <div class="selection-score">
-          <span>Minimálne skóre</span>
-          <strong>75<small>/100</small></strong>
-          <p>Bezpečnosť musí samostatne dosiahnuť aspoň 16 z 20 bodov.</p>
-        </div>
-        <div class="selection-copy">
-          <p class="eyebrow">Štandard zije.me</p>
-          <h2>Vieš, čo kupuješ — a prečo.</h2>
-          <p>
-            Každý produkt hodnotíme podľa bezpečnosti, funkcie, komfortu,
-            hygieny, transparentnosti výrobcu a férovosti ceny.
-          </p>
-          <div class="selection-grid">
-            <div><span>01</span><p><strong>Body-safe materiály</strong>Úplné zloženie a kompatibilita.</p></div>
-            <div><span>02</span><p><strong>Férové plusy aj mínusy</strong>Žiadne skryté kompromisy.</p></div>
-            <div><span>03</span><p><strong>Návod a čistenie</strong>Bezpečné používanie po slovensky.</p></div>
-            <div><span>04</span><p><strong>Cena a hodnota</strong>Porovnanie s relevantným trhom.</p></div>
-          </div>
-          <a class="text-link" href="#">Poznať celý štandard <span>→</span></a>
-        </div>
-      </section>
-
       <section id="chronos" class="app-section">
         <div class="app-copy">
           <img
@@ -293,7 +243,7 @@
             <li><span>✓</span> Neutrálne a diskrétne pripomienky</li>
             <li><span>✓</span> Žiadne hodnotenie frekvencie ani výkonu</li>
           </ul>
-          <a class="button button-primary" href="#">Spoznať Vitae Amoris</a>
+          <a class="button button-primary" href="/downloads/VitaeAmoris.v40.apk" download>Stiahnuť Vitae Amoris v40</a>
         </div>
 
         <div class="phone-stage" aria-label="Ukážka aplikácie Vitae Amoris">
@@ -361,6 +311,7 @@
           Pomáhame ľuďom lepšie rozumieť sebe, bezpečne objavovať svoju sexualitu
           a budovať kvalitnejší vzťah k sebe aj k druhým.
         </p>
+        <a class="button button-primary" href="/filozofia/">Spoznať našu filozofiu</a>
       </section>
     </main>
 
@@ -376,17 +327,17 @@
         <h2>Objavuj</h2>
         <a href="#pre-seba">Pre seba</a>
         <a href="#pre-dvoch">Pre dvoch</a>
-        <a href="#ritualy">Rituály</a>
-        <a href="#produkty">Produkty</a>
+        <a href="#ritualy">Denné rituály</a>
+        <a href="/filozofia/">Filozofia zije.me</a>
       </div>
       <div>
         <h2>Dôvera</h2>
-        <a href="#ako-vyberame">Ako vyberáme</a>
         <a href="/clanky/">Magazín</a>
         <a href="#chronos">Vitae Amoris</a>
+        <a href="https://shop.zije.me">Do obchodu</a>
       </div>
       <div class="newsletter">
-        <h2>Bez hanby. Bez spamu.</h2>
+        <h2>Bez predsudkov. Bez spamu.</h2>
         <p>Občas odborný článok alebo rituál, ktorý stojí za pozornosť.</p>
         <form>
           <label class="sr-only" for="email">E-mail</label>

@@ -65,9 +65,8 @@ def detail_page(article: dict[str, str]) -> str:
           <span>zije.me</span>
         </a>
         <nav class="header-nav" aria-label="Hlavná navigácia">
-          <a href="/#objavit">Objaviť zije.me</a>
-          <a class="nav-app" href="/#chronos">Stiahnuť Vitae Amoris</a>
-          <a class="nav-shop" href="https://shop.zije.me">Do obchodu <span aria-hidden="true">→</span></a>
+          <a href="/#pre-seba">Objavovať pre seba</a>
+          <a class="nav-together" href="/#pre-dvoch">Objavovať pre dvoch <span aria-hidden="true">→</span></a>
         </nav>
       </div>
     </header>
@@ -93,8 +92,9 @@ def detail_page(article: dict[str, str]) -> str:
         <nav class="footer-links" aria-label="Navigácia v pätičke">
           <a href="/clanky/">Magazín</a>
           <a href="/#chronos">Vitae Amoris</a>
+          <a href="/filozofia/">Filozofia zije.me</a>
           <a href="/#o-nas">O nás</a>
-          <a href="/#produkty">Produkty</a>
+          <a href="https://shop.zije.me">Do obchodu</a>
         </nav>
       </div>
     </footer>
