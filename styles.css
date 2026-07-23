@@ -113,7 +113,7 @@ img {
   min-height: 90px;
   padding: 12px clamp(24px, 4.6vw, 78px);
   display: grid;
-  grid-template-columns: minmax(180px, 1fr) auto minmax(180px, 1fr);
+  grid-template-columns: minmax(180px, 1fr) auto;
   align-items: center;
   gap: 32px;
   border-bottom: 1px solid var(--line);
@@ -141,13 +141,13 @@ img {
 .main-nav {
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: clamp(20px, 2.4vw, 42px);
+  justify-content: flex-end;
+  gap: clamp(10px, 1.2vw, 18px);
 }
 
 .main-nav a {
   position: relative;
-  padding: 10px 0;
+  padding: 12px 10px;
   color: #392d29;
   font-size: 10px;
   font-weight: 600;
@@ -155,19 +155,49 @@ img {
   text-transform: uppercase;
 }
 
-.main-nav a::after {
+.main-nav a:not(.nav-app):not(.nav-shop)::after {
   content: "";
   position: absolute;
-  left: 0;
-  right: 100%;
-  bottom: 5px;
+  left: 10px;
+  right: calc(100% - 10px);
+  bottom: 7px;
   height: 1px;
   background: var(--wine);
   transition: right 220ms ease;
 }
 
-.main-nav a:hover::after {
-  right: 0;
+.main-nav a:not(.nav-app):not(.nav-shop):hover::after {
+  right: 10px;
+}
+
+.main-nav a.nav-app {
+  padding: 12px 17px;
+  border: 1px solid rgba(86, 16, 31, 0.28);
+  border-radius: 999px;
+  background: rgba(255, 253, 249, 0.32);
+  transition: border-color 180ms ease, background 180ms ease;
+}
+
+.main-nav a.nav-app:hover {
+  border-color: rgba(86, 16, 31, 0.55);
+  background: rgba(255, 253, 249, 0.7);
+}
+
+.main-nav a.nav-shop {
+  padding: 14px 22px;
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  border-radius: 999px;
+  color: #fff9f5;
+  background: linear-gradient(110deg, var(--wine-dark), var(--wine-bright));
+  box-shadow: 0 12px 30px rgba(126, 13, 47, 0.28);
+  transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+.main-nav a.nav-shop:hover {
+  box-shadow: 0 15px 36px rgba(126, 13, 47, 0.38);
+  transform: translateY(-1px);
 }
 
 .header-actions {
@@ -1775,7 +1805,7 @@ footer > div:not(.footer-brand):not(.footer-bottom) > a {
 
 @media (max-width: 1180px) {
   .site-header {
-    grid-template-columns: auto 1fr auto;
+    grid-template-columns: auto 1fr;
     gap: 15px;
   }
 
@@ -1883,6 +1913,16 @@ footer > div:not(.footer-brand):not(.footer-bottom) > a {
     padding: 13px;
     font-size: 10px;
     text-align: center;
+  }
+
+  .main-nav a.nav-app,
+  .main-nav a.nav-shop {
+    justify-content: center;
+    margin-top: 5px;
+  }
+
+  .main-nav a.nav-shop {
+    padding: 15px 20px;
   }
 
   .header-actions {
