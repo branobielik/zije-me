@@ -8,7 +8,7 @@ window.ZIJE_INTIMITA_MORE_ARTICLES = [
     date: "22. júla 2026",
     isoDate: "2026-07-22",
     image: "/assets/clanky/zakazana-laska-milujeme-cloveka-alebo-prekazku.webp",
-    imageAlt: "Dvaja dospelí ľudia oddelení vínovým závesom v teplom večernom svetle",
+    imageAlt: "Dva kruhy oddelené vínovou líniou pod spoločným oblúkom na tmavom pozadí",
     intro: "Niektoré lásky vstúpia do života cez otvorené dvere. Iné prídu potichu, medzi dve povinnosti, cudzie očakávania alebo hranicu, ktorú by sme podľa všetkého nemali prekročiť. Práve slovo zakázané môže citom pridať elektrinu: každé stretnutie je vzácne, každý pohľad nesie tajomstvo a neprítomnosť dostáva väčší priestor než spoločná realita. To však neznamená, že taká láska je nepravá. Znamená to iba, že jej intenzitu spoluvytvára aj prekážka. A kým jej uveríme ako osudu, stojí za to oddeliť človeka, ktorého milujeme, od príbehu, ktorý okolo neho vytvoril zákaz.",
     sections: [
       {
