@@ -1,4 +1,16 @@
 window.ZIJE_ARTICLE_SOURCES = {
+  "zakazana-laska-milujeme-cloveka-alebo-prekazku": [
+    {
+      title: "Secret Romantic Relationships: Consequences for Personal and Relational Well-Being",
+      publisher: "Personality and Social Psychology Bulletin",
+      url: "https://doi.org/10.1177/0146167209342594"
+    },
+    {
+      title: "A 50-year review of psychological reactance theory: Do not read this article",
+      publisher: "Motivation Science – American Psychological Association",
+      url: "https://doi.org/10.1037/mot0000091"
+    }
+  ],
   "co-je-sexualita-a-ako-sa-s-nou-stotoznit": [
     {
       title: "Defining sexual health",

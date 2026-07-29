@@ -1,5 +1,62 @@
 window.ZIJE_INTIMITA_MORE_ARTICLES = [
   {
+    slug: "zakazana-laska-milujeme-cloveka-alebo-prekazku",
+    category: "Intimita",
+    title: "Zakázaná láska: milujeme človeka, alebo prekážku medzi nami?",
+    excerpt: "Zákaz dokáže túžbu zosilniť, tajomstvo vytvoriť vlastný svet a prekážka pôsobiť ako dôkaz osudovosti. Intenzita však ešte nemusí znamenať kompatibilitu.",
+    readTime: "7 min čítania",
+    date: "22. júla 2026",
+    isoDate: "2026-07-22",
+    image: "/assets/clanky/zakazana-laska-milujeme-cloveka-alebo-prekazku.webp",
+    imageAlt: "Dvaja dospelí ľudia oddelení vínovým závesom v teplom večernom svetle",
+    intro: "Niektoré lásky vstúpia do života cez otvorené dvere. Iné prídu potichu, medzi dve povinnosti, cudzie očakávania alebo hranicu, ktorú by sme podľa všetkého nemali prekročiť. Práve slovo zakázané môže citom pridať elektrinu: každé stretnutie je vzácne, každý pohľad nesie tajomstvo a neprítomnosť dostáva väčší priestor než spoločná realita. To však neznamená, že taká láska je nepravá. Znamená to iba, že jej intenzitu spoluvytvára aj prekážka. A kým jej uveríme ako osudu, stojí za to oddeliť človeka, ktorého milujeme, od príbehu, ktorý okolo neho vytvoril zákaz.",
+    sections: [
+      {
+        heading: "Nie každé zakázané znamená to isté",
+        paragraphs: [
+          "Zakázaná láska môže označovať vzťah dvoch slobodných dospelých, ktorému bráni predsudok rodiny, kultúry či okolia. Môže však znamenať aj príťažlivosť k človeku v inom záväzku, vzťah s nerovnováhou moci alebo situáciu, v ktorej by konanie porušilo dôveru ďalších ľudí. Tieto príbehy nemožno vložiť do jedného romantického rámca. Vonkajší nesúhlas nie je automaticky dôkazom, že vzťah je nesprávny; rovnako silný cit nie je automaticky ospravedlnením každého rozhodnutia.",
+          "Pocit sám osebe nie je morálnym zlyhaním. Ľudia si nevyberajú každú iskru, ktorá sa v nich objaví. Zodpovednosť sa začína pri tom, čo s ňou urobia: či rešpektujú súhlas, existujúce dohody, bezpečie a slobodu všetkých zúčastnených. Dospelosť lásky sa neukazuje iba odvahou ísť proti svetu, ale aj schopnosťou vidieť následky bez toho, aby sme ich premenovali na cenu za osud."
+        ]
+      },
+      {
+        heading: "Keď zákaz pridá túžbe hlasitosť",
+        paragraphs: [
+          "Psychológia používa pojem reaktancia pre motivačnú reakciu, ktorá sa môže objaviť, keď cítime ohrozenie vlastnej slobody. Ak nám niekto hovorí, koho nesmieme chcieť alebo čo nesmieme cítiť, zakázaná možnosť môže získať väčšiu príťažlivosť. Myseľ sa nesústredí iba na človeka, ale aj na obnovenie autonómie. Odpor voči zákazu sa potom ľahko zamieša do lásky tak tesne, že ich nevieme rozlíšiť.",
+          "To neznamená, že city sú iba psychologický truc. Reaktancia môže zosilniť niečo, čo už existovalo, no nevytvorí automaticky kompatibilitu, bezpečie ani schopnosť žiť spolu v bežnom dni. Užitočná otázka preto neznie: „Je to skutočné?“ Skôr: „Ktorá časť tejto intenzity patrí nám dvom a ktorá patrí boju o možnosť rozhodovať o sebe?“"
+        ]
+      },
+      {
+        heading: "Tajomstvo vytvára svet bez pondelkov",
+        paragraphs: [
+          "Utajený vzťah často žije v starostlivo vybraných oknách času. Chýbajú mu nákupy, únava, choroba, spoločné rozhodovanie aj ticho po obyčajnej hádke. Stretnutia sú koncentrované a neprítomnosť vypĺňa fantázia. Keď vzťah nemôže byť vystavený dennému svetlu, menej často prechádza prirodzeným testom reality a ľahšie zostáva idealizovaný.",
+          "Výskum romantického utajovania zároveň naznačuje, že tajomstvo nebýva iba afrodiziakom. Môže obmedzovať pocit spoločného života, znižovať spokojnosť a prinášať nervozitu, strach či osamelosť. Vlastný svet dvojice môže byť na začiatku opojný, no ak v ňom nemožno požiadať o podporu, plánovať ani pravdivo hovoriť o svojom živote, jeho steny sa časom môžu priblížiť."
+        ]
+      },
+      {
+        heading: "Intenzita nie je synonymom kompatibility",
+        paragraphs: [
+          "Silná túžba odpovedá na otázku, ako veľmi nás to k niekomu ťahá. Kompatibilita odpovedá na celkom iné otázky: vieme riešiť konflikt, hovoriť pravdu, niesť zodpovednosť, rešpektovať hranice a vytvoriť život, v ktorom sa obaja môžeme nadýchnuť? Prekážka môže generovať energiu, ale neprezradí, čo zostane, keď zmizne.",
+          "Predstavme si preto vzťah bez zákazu, úkrytov a dramatických odchodov. Zostáva zvedavosť o skutočného človeka, alebo najmä úľava, že sme konečne vyhrali? Vieme sa rozprávať aj vtedy, keď nie je čo riskovať? Máme podobnú predstavu o vernosti, každodennosti a budúcnosti? Láska nemusí byť pokojná, aby bola pravdivá. Ak však dokáže existovať iba v napätí, možno je napätie jej hlavným palivom."
+        ]
+      },
+      {
+        heading: "Intímny kompas pre rozhodnutie bez sebaklamu",
+        paragraphs: [
+          "Pred veľkým krokom môže pomôcť päť bodov Intímneho kompasu zije.me. Po prvé: je vzťah medzi dospelými a slobodne zvolený bez nerovnováhy, ktorá komplikuje súhlas? Po druhé: aké dohody a záväzky by naše konanie porušilo? Po tretie: koho môže zasiahnuť a čo sme ochotní napraviť, nie iba stratiť? Po štvrté: poznáme sa aj mimo výnimočných chvíľ? Po piate: približuje nás tento vzťah k sexuálnej integrite — k súladu túžob, hodnôt, hraníc a konania?",
+          "Kompas nerozhoduje za človeka a nevydáva rozsudok nad jeho citom. Spomaľuje však príbeh dosť na to, aby sa doň zmestila realita. Ak zákaz vzniká z predsudkov voči rovnocennému vzťahu dospelých, dôležité môže byť bezpečie, podporná komunita a trpezlivé budovanie autonómie. Ak prekážku tvoria záväzky, klamstvo alebo moc, odvaha môže znamenať najskôr urobiť čestné rozhodnutie tam, kde už stojíme."
+        ]
+      },
+      {
+        heading: "Niekedy je láska pravdivá a predsa nie je určená na pokračovanie",
+        paragraphs: [
+          "Romantické príbehy nás učia, že veľký cit musí viesť k spoločnému koncu, inak nebol dostatočne veľký. V živote však možno niekoho milovať a zároveň vidieť, že cesta k nemu by vyžadovala verziu nás samých, ktorou nechceme byť. Rozhodnutie nepokračovať nemusí cit zneplatniť. Môže byť prejavom hranice, integrity alebo starostlivosti o ľudí, ktorých príbeh tiež existuje.",
+          "Ak sa rozhodneme zostať, odísť alebo počkať, užitočné je nenechať zákaz hovoriť najhlasnejšie. Vypočujme túžbu, ale aj telo, hodnoty, strach a dôsledky. Zakázaná láska môže odkryť, čo nám v živote chýba: pocit videnia, sloboda, živé telo či odvaha niečo zmeniť. Nie každé také odhalenie však prikazuje nasledovať konkrétneho človeka. Niekedy nás volá k pravdivejšiemu životu — aj keď vedie iným smerom."
+        ]
+      }
+    ],
+    takeaway: "Oddeľte na chvíľu človeka od prekážky a opýtajte sa: čo z nášho spojenia by zostalo v obyčajnom, otvorenom a zodpovednom živote?"
+  },
+  {
     slug: "aj-muzi-maju-bod-g-a-neuverite-kde-ho-najdete",
     category: "Intimita",
     title: "Aj muži majú bod G. A neuveríte, kde ho nájdete",

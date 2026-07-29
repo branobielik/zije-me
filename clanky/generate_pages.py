@@ -110,18 +110,18 @@ def detail_page(article: dict[str, str]) -> str:
 
 
 articles = [match.groupdict() for match in ARTICLE_PATTERN.finditer(DATA)]
-if len(articles) != 50:
-    raise SystemExit(f"Expected 50 articles, found {len(articles)}")
+if len(articles) != 51:
+    raise SystemExit(f"Expected 51 articles, found {len(articles)}")
 
 blocks = re.findall(r"(?ms)^  \{\n    slug: .*?^  \}(?:,|$)", DATA)
-if len(blocks) != 50:
-    raise SystemExit(f"Expected 50 complete article blocks, found {len(blocks)}")
+if len(blocks) != 51:
+    raise SystemExit(f"Expected 51 complete article blocks, found {len(blocks)}")
 
 category_counts = {
     category: sum(article["category"] == category for article in articles)
     for category in ("Telo", "Duša", "Myseľ", "Intimita")
 }
-if category_counts != {"Telo": 5, "Duša": 6, "Myseľ": 5, "Intimita": 34}:
+if category_counts != {"Telo": 5, "Duša": 6, "Myseľ": 5, "Intimita": 35}:
     raise SystemExit(f"Unexpected category counts: {category_counts}")
 
 source_slugs = set(re.findall(r'(?m)^  "([^"]+)": \[$', SOURCE_DATA))
@@ -135,7 +135,7 @@ if len(source_urls) < len(intimacy_slugs):
     raise SystemExit("Every Intimita article must have at least one HTTPS source.")
 
 dates = [article["iso_date"] for article in articles]
-if len(set(dates)) != 50:
+if len(set(dates)) != 51:
     raise SystemExit("Article dates must be unique.")
 
 image_paths = [ROOT.parent / article["image"].lstrip("/") for article in articles]
