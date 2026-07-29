@@ -136,43 +136,39 @@ img {
 
 .main-nav a {
   position: relative;
-  padding: 12px 10px;
-  color: #392d29;
-  font-size: 10px;
-  font-weight: 600;
-  letter-spacing: 0.11em;
-  text-transform: uppercase;
-}
-
-.main-nav a:not(.nav-together)::after {
-  content: "";
-  position: absolute;
-  left: 10px;
-  right: calc(100% - 10px);
-  bottom: 7px;
-  height: 1px;
-  background: var(--wine);
-  transition: right 220ms ease;
-}
-
-.main-nav a:not(.nav-together):hover::after {
-  right: 10px;
-}
-
-.main-nav a.nav-together {
   padding: 14px 22px;
   display: inline-flex;
   align-items: center;
   gap: 12px;
+  border: 1px solid transparent;
   border-radius: 999px;
-  color: #fff9f5;
-  background: linear-gradient(110deg, #8d2145, #d5507d 58%, #b67f78);
-  box-shadow: 0 12px 30px rgba(143, 35, 72, 0.25);
+  color: #fffaf6;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
   transition: transform 180ms ease, box-shadow 180ms ease;
 }
 
+.main-nav a.nav-self {
+  border-color: rgba(68, 76, 49, 0.24);
+  background: linear-gradient(110deg, #4f583d, #73764e 58%, #8a735d);
+  box-shadow: 0 12px 28px rgba(71, 78, 52, 0.22);
+}
+
+.main-nav a.nav-together {
+  border-color: rgba(58, 79, 87, 0.24);
+  background: linear-gradient(110deg, #3f555f, #5c7077 58%, #76666a);
+  box-shadow: 0 12px 28px rgba(59, 75, 82, 0.22);
+}
+
+.main-nav a.nav-self:hover {
+  box-shadow: 0 15px 34px rgba(71, 78, 52, 0.32);
+  transform: translateY(-1px);
+}
+
 .main-nav a.nav-together:hover {
-  box-shadow: 0 15px 36px rgba(143, 35, 72, 0.36);
+  box-shadow: 0 15px 34px rgba(59, 75, 82, 0.32);
   transform: translateY(-1px);
 }
 
@@ -438,8 +434,8 @@ img {
 .hero-image {
   position: relative;
   min-height: 620px;
-  background-image: url("./assets/hero.jpg");
-  background-position: center 42%;
+  background-image: url("./assets/hero.png");
+  background-position: center 48%;
   background-size: cover;
 }
 
@@ -2269,7 +2265,7 @@ footer > div:not(.footer-brand):not(.footer-bottom) > a {
     display: none;
     flex-direction: column;
     align-items: stretch;
-    gap: 2px;
+    gap: 8px;
     border-bottom: 1px solid var(--line);
     background: rgba(230, 222, 215, 0.98);
   }
@@ -2284,9 +2280,9 @@ footer > div:not(.footer-brand):not(.footer-bottom) > a {
     text-align: center;
   }
 
+  .main-nav a.nav-self,
   .main-nav a.nav-together {
     justify-content: center;
-    margin-top: 5px;
     padding: 15px 20px;
   }
 
