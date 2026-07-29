@@ -134,7 +134,7 @@ img {
   gap: clamp(10px, 1.2vw, 18px);
 }
 
-.main-nav a {
+.main-nav .nav-option {
   position: relative;
   padding: 14px 22px;
   display: inline-flex;
@@ -147,28 +147,56 @@ img {
   font-weight: 600;
   letter-spacing: 0.11em;
   text-transform: uppercase;
+  cursor: default;
+  user-select: none;
   transition: transform 180ms ease, box-shadow 180ms ease;
 }
 
-.main-nav a.nav-self {
+.main-nav .nav-self {
   border-color: rgba(68, 76, 49, 0.24);
   background: linear-gradient(110deg, #4f583d, #73764e 58%, #8a735d);
   box-shadow: 0 12px 28px rgba(71, 78, 52, 0.22);
 }
 
-.main-nav a.nav-together {
+.main-nav .nav-together {
   border-color: rgba(58, 79, 87, 0.24);
   background: linear-gradient(110deg, #3f555f, #5c7077 58%, #76666a);
   box-shadow: 0 12px 28px rgba(59, 75, 82, 0.22);
 }
 
-.main-nav a.nav-self:hover {
+.main-nav .nav-equal {
+  border-color: rgba(113, 79, 108, 0.18);
+  color: #463741;
+  background: linear-gradient(
+    105deg,
+    #efb8b6 0 16.67%,
+    #efd09f 16.67% 33.33%,
+    #e9e3a7 33.33% 50%,
+    #bdd9bd 50% 66.67%,
+    #b8d2e7 66.67% 83.33%,
+    #d2bde1 83.33% 100%
+  );
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.85),
+    inset 0 -9px 18px rgba(92, 64, 84, 0.1),
+    0 12px 28px rgba(91, 68, 87, 0.18);
+}
+
+.main-nav .nav-self:hover {
   box-shadow: 0 15px 34px rgba(71, 78, 52, 0.32);
   transform: translateY(-1px);
 }
 
-.main-nav a.nav-together:hover {
+.main-nav .nav-together:hover {
   box-shadow: 0 15px 34px rgba(59, 75, 82, 0.32);
+  transform: translateY(-1px);
+}
+
+.main-nav .nav-equal:hover {
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.9),
+    inset 0 -9px 18px rgba(92, 64, 84, 0.12),
+    0 15px 34px rgba(91, 68, 87, 0.26);
   transform: translateY(-1px);
 }
 
@@ -360,7 +388,7 @@ img {
   gap: 24px;
   border: 1px solid transparent;
   border-radius: 2px;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -398,37 +426,6 @@ img {
 
 .hero-cta-shop:hover {
   box-shadow: 0 19px 42px rgba(126, 15, 43, 0.4);
-}
-
-.hero-proof {
-  margin-top: 40px;
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  color: var(--ink-soft);
-  font-size: 10px;
-  letter-spacing: 0.04em;
-}
-
-.hero-proof p {
-  margin: 0;
-  line-height: 1.5;
-}
-
-.hero-proof strong {
-  color: var(--ink);
-  font-weight: 600;
-  text-transform: uppercase;
-}
-
-.proof-mark {
-  width: 30px;
-  height: 30px;
-  display: grid;
-  place-items: center;
-  border: 1px solid rgba(163, 19, 59, 0.35);
-  border-radius: 50%;
-  color: var(--wine);
 }
 
 .hero-image {
@@ -1471,6 +1468,37 @@ footer > div:not(.footer-brand):not(.footer-bottom) > a {
   padding: clamp(86px, 9vw, 144px) clamp(24px, 5vw, 80px);
 }
 
+.inclusive-values {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: clamp(76px, 8vw, 126px) clamp(24px, 5vw, 80px);
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(320px, 1.1fr);
+  gap: clamp(42px, 8vw, 130px);
+  align-items: start;
+  border-bottom: 1px solid var(--line);
+}
+
+.inclusive-values h2 {
+  max-width: 650px;
+  margin: 0;
+  font-family: var(--serif);
+  font-size: clamp(48px, 5.2vw, 82px);
+  font-weight: 500;
+  letter-spacing: -0.045em;
+  line-height: 0.92;
+}
+
+.inclusive-values > div:last-child {
+  padding-top: 30px;
+  color: var(--ink-soft);
+  font-size: clamp(16px, 1.4vw, 20px);
+}
+
+.inclusive-values > div:last-child p {
+  margin: 0 0 22px;
+}
+
 .vitality-model {
   max-width: var(--max);
   margin: 0 auto;
@@ -2178,7 +2206,7 @@ footer > div:not(.footer-brand):not(.footer-bottom) > a {
     gap: 17px;
   }
 
-  .main-nav a {
+  .main-nav .nav-option {
     font-size: 8px;
   }
 
@@ -2274,14 +2302,13 @@ footer > div:not(.footer-brand):not(.footer-bottom) > a {
     display: flex;
   }
 
-  .main-nav a {
+  .main-nav .nav-option {
     padding: 13px;
     font-size: 10px;
     text-align: center;
   }
 
-  .main-nav a.nav-self,
-  .main-nav a.nav-together {
+  .main-nav .nav-option {
     justify-content: center;
     padding: 15px 20px;
   }
@@ -2367,6 +2394,11 @@ footer > div:not(.footer-brand):not(.footer-bottom) > a {
 
   .vitality-model {
     grid-template-columns: 1fr;
+  }
+
+  .inclusive-values {
+    grid-template-columns: 1fr;
+    gap: 20px;
   }
 
   .vitality-copy {
@@ -2517,6 +2549,7 @@ footer > div:not(.footer-brand):not(.footer-bottom) > a {
   .audience-paths,
   .intimacy-pillars,
   .vitality-model,
+  .inclusive-values,
   .products,
   .journal {
     padding-left: 18px;

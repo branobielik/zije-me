@@ -65,8 +65,9 @@ def detail_page(article: dict[str, str]) -> str:
           <span>zije.me</span>
         </a>
         <nav class="header-nav" aria-label="Hlavná navigácia">
-          <a href="/#pre-seba">Objavovať pre seba</a>
-          <a class="nav-together" href="/#pre-dvoch">Objavovať pre dvoch <span aria-hidden="true">→</span></a>
+          <span class="nav-option nav-self">Objavovať pre seba</span>
+          <span class="nav-option nav-together">Objavovať pre viacerých</span>
+          <span class="nav-option nav-equal">Objavovať pre rovnakých</span>
         </nav>
       </div>
     </header>
