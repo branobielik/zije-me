@@ -658,5 +658,48 @@ window.ZIJE_ARTICLES = [
       }
     ],
     takeaway: "Najbližší týždeň skúste ukotviť približný čas vstávania a krátke ranné svetlo. Večer si zvoľte dve jednoduché činnosti, ktoré sa dajú opakovať aj v rušný deň."
+  },
+  {
+    slug: "vo-vztahu-a-predsa-osamelo",
+    category: "Duša",
+    title: "Vo vzťahu, a predsa osamelo: keď spolužitie neznamená blízkosť",
+    excerpt: "Aj vo fungujúcom spolužití môže chýbať pocit, že vás druhý človek vníma, chápe a prijíma. Emočná osamelosť hovorí o kvalite spojenia, nie o počte spoločných hodín.",
+    readTime: "4 min čítania",
+    date: "7. augusta 2026",
+    isoDate: "2026-08-07",
+    image: "/assets/clanky/vo-vztahu-a-predsa-osamelo.webp",
+    imageAlt: "Dvojica sediaca blízko seba, no obrátená rôznymi smermi",
+    intro: "Môžete spolu bývať, deliť si povinnosti a každý večer sedieť na tej istej pohovke, a predsa sa cítiť osamelo. Nejde o rozpor ani automatický dôkaz, že vzťah zlyhal. Emočná osamelosť vzniká vtedy, keď nám chýba želané intímne spojenie: pocit, že môžeme byť poznaní, vypočutí a prijatí. Odpoveď preto nemusí spočívať vo väčšom množstve spoločného času, ale v tom, čo sa počas neho medzi vami deje.",
+    sections: [
+      {
+        heading: "Blízkosť sa nemeria vzdialenosťou",
+        paragraphs: [
+          "Byť sám znamená opis situácie; cítiť sa osamelo je subjektívna skúsenosť. Človek môže samotu vyhľadávať a cítiť sa dobre, alebo môže mať partnera, rodinu a častý kontakt, no postrádať vzťah, v ktorom sa cíti skutočne videný. Emočná osamelosť v páre sa môže ozvať najmä v citlivých chvíľach: keď potrebujete podporu, chcete sa podeliť o radosť alebo skúšate hovoriť o niečom zraniteľnom.",
+          "Tento pocit sám osebe neprezrádza, či sa partner alebo partnerka nezaujíma, ani neurčuje jednu príčinu. Dôležité je všímať si konkrétne situácie. Možno spolu dobre organizujete domácnosť, ale rozhovory zostávajú iba pri úlohách. Možno sa počúvate, no chýba vám záujem, povzbudenie či bezpečie povedať, čo naozaj prežívate."
+        ]
+      },
+      {
+        heading: "Odpojenie sa často stáva spoločným cyklom",
+        paragraphs: [
+          "Vzdialenosť nemusí vzniknúť jedným veľkým konfliktom. Niekedy sa skladá z drobných opakovaní: jeden človek sa pokúsi priblížiť, druhý reaguje stručne alebo obranne, prvý to prežije ako odmietnutie a nabudúce povie menej. Postupne môže pribudnúť sklamanie, domýšľanie úmyslov a opatrnosť. Čím menej sa ukazujete, tým menej príležitostí má druhý človek porozumieť vám.",
+          "Takýto vzorec môže sprevádzať pracovné vyčerpanie, rodičovstvo, opatrovanie, chorobu, životnú zmenu alebo nevyriešené zranenie. Nie sú to však automatické vysvetlenia. Užitočnejšie než hľadať vinníka býva pomenovať sled udalostí: čo sa stalo, ako ste tomu porozumeli, čo ste vtedy potrebovali a ako zareagoval každý z vás. Vzorec tvoríte spolu, hoci jeho dôsledky nemusíte prežívať rovnako."
+        ]
+      },
+      {
+        heading: "Obnova kontaktu potrebuje odozvu",
+        paragraphs: [
+          "Pocit blízkosti súvisí aj s tým, či partnera vnímame ako človeka, ktorý sa usiluje porozumieť nám, berie naše prežívanie vážne a dáva najavo starostlivosť. Namiesto všeobecného „nikdy tu pre mňa nie si“ môžete opísať jeden moment: „Keď som hovoril o náročnom dni a rozhovor sa rýchlo presunul k povinnostiam, cítil som sa sám. Potreboval som, aby si chvíľu zostal pri tom, čo prežívam.“",
+          "Jeden rozhovor nemusí zmeniť dlhodobú dynamiku. Väčší význam môžu mať malé, opakované chvíle pozornosti: otázka položená so skutočným záujmom, návrat k nedokončenej téme či pravidelný čas bez praktickej agendy. Zároveň nie je potrebné, aby partner napĺňal všetky vaše potreby. Priateľstvá a ďalšie bezpečné vzťahy zostávajú dôležité. Obnova párovej blízkosti však potrebuje ochotu oboch ľudí počúvať a reagovať."
+        ]
+      },
+      {
+        heading: "Keď samotný rozhovor nestačí",
+        paragraphs: [
+          "Párové poradenstvo môžete zvážiť, ak sa odpojenie drží napriek opakovaným pokusom, rozhovory sa pravidelne menia na útok a ústup alebo sa obaja strácate v tom istom konflikte. Párové terapie môžu zmierniť vzťahovú tieseň, ich výsledok však nemožno zaručiť. Cieľom nemusí byť udržať vzťah za každú cenu, ale lepšie porozumieť dynamike a možnostiam, ktoré máte.",
+          "Iný postup je potrebný, ak sa vo vzťahu bojíte odvety alebo zažívate vyhrážky, sledovanie, sexuálny nátlak, násilie či kontrolovanie peňazí a kontaktov. Pri takýchto okolnostiach nemusí byť bežné spoločné poradenstvo bezpečné. Obráťte sa súkromne na odbornú službu a premyslite si bezpečnostný plán. Ak osamelosť sprevádza dlhodobá beznádej, výrazné zhoršenie fungovania alebo myšlienky na ublíženie si, vyhľadajte individuálnu odbornú alebo bezodkladnú pomoc."
+        ]
+      }
+    ],
+    takeaway: "Emočná osamelosť vo vzťahu nie je to isté ako fyzická samota ani jednoznačný rozsudok nad partnerstvom. Skúste pomenovať konkrétne chvíle, potreby a opakujúci sa cyklus. Blízkosť sa obnovuje cez vzájomnú odozvu; pri nátlaku alebo strachu má prednosť vaša bezpečnosť."
   }
 ];

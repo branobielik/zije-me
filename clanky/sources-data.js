@@ -216,5 +216,370 @@ window.ZIJE_ARTICLE_SOURCES = {
       publisher: "International Society for Sexual Medicine",
       url: "https://www.issm.info/sexual-health-qa/what-are-the-myths-and-facts-about-masturbation"
     }
+  ],
+  "pms-cyklicky-vzorec": [
+      {
+        title: "Premenstrual Syndrome",
+        publisher: "American College of Obstetricians and Gynecologists",
+        url: "https://www.acog.org/womens-health/faqs/premenstrual-syndrome"
+      },
+      {
+        title: "Management of Premenstrual Disorders",
+        publisher: "American College of Obstetricians and Gynecologists",
+        url: "https://www.acog.org/clinical/clinical-guidance/clinical-practice-guideline/articles/2023/12/management-of-premenstrual-disorders"
+      },
+      {
+        title: "PMS",
+        publisher: "NHS",
+        url: "https://www.nhs.uk/conditions/pre-menstrual-syndrome/"
+      },
+      {
+        title: "Selective serotonin reuptake inhibitors for premenstrual syndrome",
+        publisher: "Cochrane",
+        url: "https://doi.org/10.1002/14651858.CD001396.pub4"
+      }
+    ],
+  "muzska-perimenopauza-existuje": [
+      {
+        title: "The male menopause",
+        publisher: "NHS",
+        url: "https://www.nhs.uk/conditions/male-menopause/"
+      },
+      {
+        title: "Hypogonadism in Men",
+        publisher: "Endocrine Society",
+        url: "https://www.endocrine.org/patient-engagement/endocrine-library/hypogonadism"
+      },
+      {
+        title: "Symptoms & Causes of Erectile Dysfunction",
+        publisher: "National Institute of Diabetes and Digestive and Kidney Diseases",
+        url: "https://www.niddk.nih.gov/health-information/urologic-diseases/erectile-dysfunction/symptoms-causes"
+      }
+    ],
+  "andropauza-nedostatok-testosteronu": [
+      {
+        title: "Testosterone Therapy for Hypogonadism Guideline Resources",
+        publisher: "Endocrine Society",
+        url: "https://www.endocrine.org/clinical-practice-guidelines/testosterone-therapy"
+      },
+      {
+        title: "Hypogonadism in Men",
+        publisher: "Endocrine Society",
+        url: "https://www.endocrine.org/patient-engagement/endocrine-library/hypogonadism"
+      },
+      {
+        title: "Male Hypogonadism",
+        publisher: "European Association of Urology",
+        url: "https://uroweb.org/guidelines/sexual-and-reproductive-health/chapter/male-hypogonadism"
+      },
+      {
+        title: "Symptoms & Causes of Erectile Dysfunction",
+        publisher: "National Institute of Diabetes and Digestive and Kidney Diseases",
+        url: "https://www.niddk.nih.gov/health-information/urologic-diseases/erectile-dysfunction/symptoms-causes"
+      }
+    ],
+  "intimna-hygiena-vulva-vagina": [
+      {
+        title: "Think You Have a Vaginal Infection? Here’s What You Need to Know",
+        publisher: "American College of Obstetricians and Gynecologists",
+        url: "https://www.acog.org/womens-health/experts-and-stories/the-latest/think-you-have-a-vaginal-infection-heres-what-you-need-to-know"
+      },
+      {
+        title: "Is it safe to douche during pregnancy?",
+        publisher: "American College of Obstetricians and Gynecologists",
+        url: "https://www.acog.org/womens-health/experts-and-stories/ask-acog/is-it-safe-to-douche-during-pregnancy"
+      },
+      {
+        title: "Vaginal discharge",
+        publisher: "NHS",
+        url: "https://www.nhs.uk/symptoms/vaginal-discharge/"
+      },
+      {
+        title: "Skin conditions of the vulva",
+        publisher: "Royal College of Obstetricians and Gynaecologists",
+        url: "https://www.rcog.org.uk/for-the-public/browse-our-patient-information/skin-conditions-of-the-vulva/"
+      },
+      {
+        title: "Bacterial vaginosis",
+        publisher: "World Health Organization",
+        url: "https://www.who.int/news-room/fact-sheets/detail/bacterial-vaginosis"
+      },
+      {
+        title: "Getting Tested for STIs",
+        publisher: "Centers for Disease Control and Prevention",
+        url: "https://www.cdc.gov/sti/testing/index.html"
+      }
+    ],
+  "intimna-hygiena-muza": [
+      {
+        title: "Balanitis",
+        publisher: "NHS",
+        url: "https://www.nhs.uk/conditions/balanitis/"
+      },
+      {
+        title: "Tight foreskin (phimosis)",
+        publisher: "NHS",
+        url: "https://www.nhs.uk/conditions/phimosis/"
+      },
+      {
+        title: "Penis lumps and spots",
+        publisher: "NHS",
+        url: "https://www.nhs.uk/symptoms/penis-lumps-and-spots/"
+      },
+      {
+        title: "Sex activities and risk",
+        publisher: "NHS",
+        url: "https://www.nhs.uk/live-well/sexual-health/sex-activities-and-risk/"
+      },
+      {
+        title: "Getting Tested for STIs",
+        publisher: "Centers for Disease Control and Prevention",
+        url: "https://www.cdc.gov/sti/testing/index.html"
+      }
+    ],
+  "perimenopauza-zmeny-cyklu": [
+      {
+        title: "Menopause",
+        publisher: "World Health Organization",
+        url: "https://www.who.int/news-room/fact-sheets/detail/menopause"
+      },
+      {
+        title: "What Is Menopause?",
+        publisher: "National Institute on Aging",
+        url: "https://www.nia.nih.gov/health/menopause/what-menopause"
+      },
+      {
+        title: "Menopause: Identification and Management",
+        publisher: "National Institute for Health and Care Excellence",
+        url: "https://www.nice.org.uk/guidance/ng23"
+      },
+      {
+        title: "Should I Have Hormone Testing Before Starting Hormone Therapy?",
+        publisher: "American College of Obstetricians and Gynecologists",
+        url: "https://www.acog.org/womens-health/experts-and-stories/ask-acog/hormone-testing-before-hormone-therapy"
+      },
+      {
+        title: "Symptoms of Menopause and Perimenopause",
+        publisher: "NHS",
+        url: "https://www.nhs.uk/conditions/menopause-and-perimenopause/symptoms/"
+      }
+    ],
+  "menopauza-bez-mytov": [
+      {
+        title: "Menopause",
+        publisher: "World Health Organization",
+        url: "https://www.who.int/news-room/fact-sheets/detail/menopause"
+      },
+      {
+        title: "Treatment for Menopause and Perimenopause",
+        publisher: "NHS",
+        url: "https://www.nhs.uk/conditions/menopause-and-perimenopause/treatment/"
+      },
+      {
+        title: "Menopause: Identification and Management — Recommendations",
+        publisher: "National Institute for Health and Care Excellence",
+        url: "https://www.nice.org.uk/guidance/ng23/chapter/recommendations"
+      },
+      {
+        title: "Hormone Therapy for Menopause",
+        publisher: "American College of Obstetricians and Gynecologists",
+        url: "https://www.acog.org/womens-health/faqs/hormone-therapy-for-menopause"
+      },
+      {
+        title: "Bleeding After Menopause Could Be a Problem. Here Is What to Know",
+        publisher: "American College of Obstetricians and Gynecologists",
+        url: "https://www.acog.org/womens-health/experts-and-stories/the-latest/bleeding-after-menopause-could-be-a-problem-heres-what-to-know"
+      }
+    ],
+  "ked-ma-partner-prestava-pritahovat": [
+    {
+      title: "Defining sexual health",
+      publisher: "World Health Organization",
+      url: "https://www.who.int/teams/sexual-and-reproductive-health-and-research/key-areas-of-work/sexual-health/defining-sexual-health"
+    },
+    {
+      title: "Low sex drive (loss of libido)",
+      publisher: "NHS",
+      url: "https://www.nhs.uk/symptoms/loss-of-libido/"
+    },
+    {
+      title: "Understanding sexual desire and enjoyment",
+      publisher: "Sex Therapy London, NHS",
+      url: "https://www.sextherapylondon.nhs.uk/sexual-difficulties/our-self-help-booklets/increasing-enjoyment-sex/understanding-sexual-desire-and-enjoyment"
+    },
+    {
+      title: "Maintaining Sexual Desire in Long-Term Relationships: A Systematic Review and Conceptual Model",
+      publisher: "The Journal of Sex Research",
+      url: "https://doi.org/10.1080/00224499.2018.1437592"
+    },
+    {
+      title: "When Sex Is Painful",
+      publisher: "American College of Obstetricians and Gynecologists",
+      url: "https://www.acog.org/womens-health/faqs/when-sex-is-painful"
+    }
+  ],
+  "je-normalne-nemat-chut-na-sex": [
+    {
+      title: "Position on the Dignity and Rights of Asexual Individuals",
+      publisher: "AASECT",
+      url: "https://www.aasect.org/asexual-rights"
+    },
+    {
+      title: "Female Sexual Dysfunction",
+      publisher: "American College of Obstetricians and Gynecologists",
+      url: "https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2019/07/female-sexual-dysfunction"
+    },
+    {
+      title: "Low sex drive (loss of libido)",
+      publisher: "NHS",
+      url: "https://www.nhs.uk/symptoms/loss-of-libido/"
+    },
+    {
+      title: "Changes in, and factors associated with, frequency of sex in Britain: evidence from three Natsal surveys",
+      publisher: "The BMJ",
+      url: "https://www.bmj.com/content/365/bmj.l1525"
+    },
+    {
+      title: "Defining sexual health",
+      publisher: "World Health Organization",
+      url: "https://www.who.int/teams/sexual-and-reproductive-health-and-research/key-areas-of-work/sexual-health/defining-sexual-health"
+    }
+  ],
+  "nikdy-som-nemala-orgazmus": [
+    {
+      title: "Female Sexual Dysfunction — ACOG Practice Bulletin No. 213",
+      publisher: "American College of Obstetricians and Gynecologists",
+      url: "https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2019/07/female-sexual-dysfunction"
+    },
+    {
+      title: "What Is Anorgasmia?",
+      publisher: "International Society for Sexual Medicine",
+      url: "https://www.issm.info/sexual-health-qa/what-is-anorgasmia-a-k-a-orgasmic-disorder"
+    },
+    {
+      title: "Psychological and Behavioral Treatment of Female Orgasmic Disorder",
+      publisher: "Sexual Medicine Reviews",
+      url: "https://pubmed.ncbi.nlm.nih.gov/33069622/"
+    },
+    {
+      title: "Process of Care for the Identification of Sexual Concerns and Problems in Women",
+      publisher: "ISSWSH / Mayo Clinic Proceedings",
+      url: "https://www.isswsh.org/resources/publications/317-process-of-care-for-the-identification-of-sexual-concerns-and-problems-in-women"
+    }
+  ],
+  "hanba-vlastneho-tela-v-intimite": [
+    {
+      title: "Body Image and Female Sexual Functioning and Behavior: A Review",
+      publisher: "Journal of Sex Research",
+      url: "https://doi.org/10.1080/00224499.2012.658586"
+    },
+    {
+      title: "Body Dissatisfaction, Cognitive Distraction, and Sexual Satisfaction",
+      publisher: "Healthcare",
+      url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10671832/"
+    },
+    {
+      title: "Is Self-Compassion Relevant to Eating and Body Image Concerns? A Systematic Review and Meta-analysis",
+      publisher: "Clinical Psychology Review",
+      url: "https://doi.org/10.1016/j.cpr.2020.101856"
+    },
+    {
+      title: "Body Dysmorphic Disorder",
+      publisher: "NHS",
+      url: "https://www.nhs.uk/mental-health/conditions/body-dysmorphia/"
+    },
+    {
+      title: "PTSD: Symptoms and Getting Help",
+      publisher: "NHS",
+      url: "https://www.nhs.uk/mental-health/conditions/ptsd-post-traumatic-stress-disorder/"
+    }
+  ],
+  "mam-sexualne-fantazie-o-ktorych-sa-bojim-hovorit": [
+    {
+      title: "Defining sexual health",
+      publisher: "World Health Organization",
+      url: "https://www.who.int/teams/sexual-and-reproductive-health-and-research/key-areas-of-work/sexual-health/defining-sexual-health"
+    },
+    {
+      title: "What are paraphilias?",
+      publisher: "International Society for Sexual Medicine",
+      url: "https://www.issm.info/sexual-health-qa/what-are-paraphilias"
+    },
+    {
+      title: "Normal and Problematic Sexual Fantasies",
+      publisher: "The Journal of Sex Research",
+      url: "https://doi.org/10.1080/00224499.2020.1843722"
+    },
+    {
+      title: "AASECT Position on Sex Addiction",
+      publisher: "AASECT",
+      url: "https://www.aasect.org/position-sex-addiction"
+    }
+  ],
+  "ked-ma-partner-odmietne": [
+    {
+      title: "AASECT Position Statement on Consent and Sexual Violence",
+      publisher: "AASECT",
+      url: "https://www.aasect.org/aasect-position-statement-consent-and-sexual-violence"
+    },
+    {
+      title: "When Tonight Is Not the Night: Sexual Rejection Behaviors and Satisfaction in Romantic Relationships",
+      publisher: "Personality and Social Psychology Bulletin",
+      url: "https://doi.org/10.1177/0146167220907469"
+    },
+    {
+      title: "Sexual Desire Discrepancy",
+      publisher: "Current Sexual Health Reports",
+      url: "https://link.springer.com/article/10.1007/s11930-015-0057-7"
+    },
+    {
+      title: "Strategies for Mitigating Sexual Desire Discrepancy in Relationships",
+      publisher: "Archives of Sexual Behavior",
+      url: "https://doi.org/10.1007/s10508-020-01640-y"
+    }
+  ],
+  "ako-hovorit-o-sexe-bez-hadky": [
+    {
+      title: "Dimensions of Couples' Sexual Communication, Relationship Satisfaction, and Sexual Satisfaction: A Meta-Analysis",
+      publisher: "Journal of Family Psychology",
+      url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9153093/"
+    },
+    {
+      title: "Couples' Sexual Communication and Dimensions of Sexual Function: A Meta-Analysis",
+      publisher: "The Journal of Sex Research",
+      url: "https://pubmed.ncbi.nlm.nih.gov/30777780/"
+    },
+    {
+      title: "Does Flooding Play a Role in Your Perpetual Conflict?",
+      publisher: "The Gottman Institute",
+      url: "https://www.gottman.com/blog/does-flooding-play-a-role-in-your-perpetual-conflict/"
+    },
+    {
+      title: "AASECT Position Statement on Consent and Sexual Violence",
+      publisher: "AASECT",
+      url: "https://www.aasect.org/aasect-position-statement-consent-and-sexual-violence"
+    }
+  ],
+  "trojica-dovera-integrita-vztahu": [
+    {
+      title: "AASECT Position Statement on Consent and Sexual Violence",
+      publisher: "American Association of Sexuality Educators, Counselors and Therapists",
+      url: "https://www.aasect.org/aasect-position-statement-consent-and-sexual-violence"
+    },
+    {
+      title: "A Narrative Review of the Dichotomy Between the Social Views of Non-Monogamy and the Experiences of Consensual Non-Monogamous People",
+      publisher: "PubMed Central",
+      url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10920412/"
+    },
+    {
+      title: "An Empirical Investigation of Variations in Outcomes Associated with Heterosexual Adults' Most Recent Mixed-Sex Threesome Experience",
+      publisher: "Archives of Sexual Behavior",
+      url: "https://pubmed.ncbi.nlm.nih.gov/35767200/"
+    },
+    {
+      title: "How to Prevent STIs",
+      publisher: "Centers for Disease Control and Prevention",
+      url: "https://www.cdc.gov/sti/prevention/index.html"
+    }
   ]
 };
