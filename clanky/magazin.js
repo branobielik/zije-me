@@ -13,6 +13,10 @@
     return "/clanky/" + article.slug + "/";
   }
 
+  function categoryUrl(category) {
+    return "/clanky/?category=" + encodeURIComponent(category);
+  }
+
   function element(tag, className, text) {
     var node = document.createElement(tag);
     if (className) node.className = className;
@@ -25,6 +29,13 @@
     meta.appendChild(element("span", "", article.readTime));
     meta.appendChild(element("span", "", article.date));
     return meta;
+  }
+
+  function createCategoryLink(category) {
+    var link = element("a", "category-badge", category);
+    link.href = categoryUrl(category);
+    link.setAttribute("aria-label", "Zobraziť všetky články v kategórii " + category);
+    return link;
   }
 
   function createCard(article, eager) {
@@ -58,8 +69,12 @@
     var grid = document.getElementById("articleGrid");
     if (!grid) return;
 
-    var activeCategory = "Všetko";
     var buttons = Array.prototype.slice.call(document.querySelectorAll("[data-category]"));
+    var categories = buttons.map(function (button) {
+      return button.getAttribute("data-category");
+    });
+    var requestedCategory = new URLSearchParams(window.location.search).get("category");
+    var activeCategory = categories.indexOf(requestedCategory) >= 0 ? requestedCategory : "Všetko";
 
     function paint() {
       grid.textContent = "";
@@ -76,19 +91,39 @@
       });
     }
 
+    function setActiveCategory(category, updateUrl) {
+      activeCategory = categories.indexOf(category) >= 0 ? category : "Všetko";
+      buttons.forEach(function (button) {
+        var isActive = button.getAttribute("data-category") === activeCategory;
+        button.classList.toggle("is-active", isActive);
+        button.setAttribute("aria-pressed", String(isActive));
+      });
+
+      if (updateUrl) {
+        var url = new URL(window.location.href);
+        if (activeCategory === "Všetko") {
+          url.searchParams.delete("category");
+        } else {
+          url.searchParams.set("category", activeCategory);
+        }
+        window.history.pushState({ category: activeCategory }, "", url);
+      }
+
+      paint();
+    }
+
     buttons.forEach(function (button) {
       button.addEventListener("click", function () {
-        activeCategory = button.getAttribute("data-category") || "Všetko";
-        buttons.forEach(function (candidate) {
-          var isActive = candidate === button;
-          candidate.classList.toggle("is-active", isActive);
-          candidate.setAttribute("aria-pressed", String(isActive));
-        });
-        paint();
+        setActiveCategory(button.getAttribute("data-category") || "Všetko", true);
       });
     });
 
-    paint();
+    window.addEventListener("popstate", function () {
+      var category = new URLSearchParams(window.location.search).get("category");
+      setActiveCategory(category || "Všetko", false);
+    });
+
+    setActiveCategory(activeCategory, false);
   }
 
   function setMeta(name, value, attribute) {
@@ -124,7 +159,7 @@
     setMeta("article:published_time", article.isoDate, "property");
 
     var header = element("header", "article-header");
-    header.appendChild(element("span", "category-badge", article.category));
+    header.appendChild(createCategoryLink(article.category));
     header.appendChild(element("h1", "", article.title));
     header.appendChild(createMeta(article));
 
