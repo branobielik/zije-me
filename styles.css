@@ -3371,3 +3371,21 @@ body.dialog-open {
     padding: 75px 24px;
   }
 }
+
+/* Desktop homepage rhythm: one complete section per viewport, never clipped. */
+@media (min-width: 901px) {
+  #top > section {
+    min-height: max(680px, calc(100svh - 124px));
+  }
+
+  #top > .hero,
+  #top > .audience-paths,
+  #top > .intimacy-pillars,
+  #top > .rituals,
+  #top > .app-section,
+  #top > .journal,
+  #top > .manifesto {
+    height: auto;
+    max-height: none;
+  }
+}
