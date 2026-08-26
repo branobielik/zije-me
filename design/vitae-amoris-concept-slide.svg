@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="wine" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#56101f"/>
+      <stop offset=".56" stop-color="#a3133b"/>
+      <stop offset="1" stop-color="#cc174f"/>
+    </linearGradient>
+  </defs>
+
+  <image href="file:///C:/Users/Uzivatel/.cursor/projects/c-alarm-clock-test-APK/assets/vitae-amoris-slide-background.png"
+         x="0" y="0" width="1600" height="900" preserveAspectRatio="xMidYMid slice"/>
+  <rect x="0" y="0" width="1010" height="900" fill="#e6ded7" opacity=".18"/>
+
+  <path d="M81 102c-22-15-22-47 0-56 17-7 31 8 44 26 13-18 27-33 44-26 22 9 22 41 0 56-17 12-31-2-44-19-13 17-27 31-44 19Z"
+        fill="none" stroke="#a3133b" stroke-width="5"/>
+  <text x="189" y="102" fill="#241a18" font-family="'Cormorant Garamond', Georgia, serif"
+        font-size="39" font-weight="600" letter-spacing="-1.8">zije.me</text>
+  <text x="825" y="92" fill="#7c625c" font-family="Manrope, Arial, sans-serif"
+        font-size="13" font-weight="700" letter-spacing="3.1" text-anchor="end">KONCEPT APLIK&#193;CIE</text>
+  <line x1="74" y1="145" x2="825" y2="145" stroke="#8b625c" stroke-opacity=".28"/>
+
+  <text x="74" y="203" fill="#a3133b" font-family="Manrope, Arial, sans-serif"
+        font-size="14" font-weight="700" letter-spacing="3.4">S&#218;KROMN&#221; SPRIEVODCA INT&#205;MNOU DLHOVEKOS&#356;OU</text>
+  <text x="70" y="292" fill="#241a18" font-family="'Cormorant Garamond', Georgia, serif"
+        font-size="94" font-weight="600" letter-spacing="-3.8">Vitae Amoris</text>
+  <text x="76" y="341" fill="#56101f" font-family="'Cormorant Garamond', Georgia, serif"
+        font-size="31" font-style="italic">Tvoj rytmus. Tvoje hranice. Bl&#237;zkos&#357;, ktor&#225; rastie s tebou.</text>
+
+  <text x="76" y="402" fill="#4d403c" font-family="Manrope, Arial, sans-serif"
+        font-size="19" font-weight="500">
+    <tspan x="76" dy="0">Aplik&#225;cia premie&#328;a sebapoznanie na osobn&#253; int&#237;mny rytmus</tspan>
+    <tspan x="76" dy="31">a mal&#233; vedom&#233; ritu&#225;ly &#8212; s&#243;lo aj vo dvojici.</tspan>
+  </text>
+
+  <g>
+    <rect x="74" y="490" width="178" height="148" rx="24" fill="#fffdf9" fill-opacity=".88" stroke="#9e766d" stroke-opacity=".25"/>
+    <rect x="264" y="490" width="178" height="148" rx="24" fill="#fffdf9" fill-opacity=".88" stroke="#9e766d" stroke-opacity=".25"/>
+    <rect x="454" y="490" width="178" height="148" rx="24" fill="#fffdf9" fill-opacity=".88" stroke="#9e766d" stroke-opacity=".25"/>
+    <rect x="644" y="490" width="178" height="148" rx="24" fill="#fffdf9" fill-opacity=".88" stroke="#9e766d" stroke-opacity=".25"/>
+  </g>
+  <g fill="#a3133b" font-family="Manrope, Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="2">
+    <text x="96" y="524">01</text>
+    <text x="286" y="524">02</text>
+    <text x="476" y="524">03</text>
+    <text x="666" y="524">04</text>
+  </g>
+  <g fill="#241a18" font-family="'Cormorant Garamond', Georgia, serif" font-size="27" font-weight="600">
+    <text x="96" y="562">Profil</text>
+    <text x="286" y="562">Kapacita</text>
+    <text x="476" y="562">Rytmus</text>
+    <text x="666" y="562">Ritu&#225;ly</text>
+  </g>
+  <g fill="#6f615c" font-family="Manrope, Arial, sans-serif" font-size="13" font-weight="550">
+    <text x="96" y="590"><tspan x="96">situ&#225;cia</tspan><tspan x="96" dy="19">&amp; osobn&#253; cie&#318;</tspan></text>
+    <text x="286" y="590"><tspan x="286">tempo, hranice</tspan><tspan x="286" dy="19">&amp; bl&#237;zkos&#357;</tspan></text>
+    <text x="476" y="590"><tspan x="476">pl&#225;n, ktor&#253; sa</tspan><tspan x="476" dy="19">prisp&#244;sobuje</tspan></text>
+    <text x="666" y="590"><tspan x="666">mal&#233; kroky</tspan><tspan x="666" dy="19">&amp; progres</tspan></text>
+  </g>
+  <g stroke="#a3133b" stroke-opacity=".46" stroke-width="2" fill="none">
+    <path d="M252 564h12"/>
+    <path d="M442 564h12"/>
+    <path d="M632 564h12"/>
+  </g>
+
+  <rect x="74" y="684" width="748" height="70" rx="18" fill="url(#wine)"/>
+  <text x="100" y="713" fill="#f8ede7" font-family="Manrope, Arial, sans-serif"
+        font-size="12" font-weight="800" letter-spacing="2.1">NIE V&#221;KON. NIE POVINNOS&#356;.</text>
+  <text x="100" y="739" fill="#fffdf9" font-family="'Cormorant Garamond', Georgia, serif"
+        font-size="21" font-weight="600">Cesta k sexu&#225;lnej integrite a int&#237;mnej dlhovekosti.</text>
+
+  <g fill="#56101f" font-family="Manrope, Arial, sans-serif" font-size="11" font-weight="800" letter-spacing="1.5">
+    <text x="76" y="812">S&#218;KROMIE OD N&#193;VRHU</text>
+    <text x="330" y="812">VEDOM&#201; QR ZDIE&#317;ANIE</text>
+    <text x="606" y="812">PRE JEDNOTLIVCA AJ P&#193;R</text>
+  </g>
+  <g fill="#a3133b">
+    <circle cx="76" cy="783" r="5"/>
+    <circle cx="330" cy="783" r="5"/>
+    <circle cx="606" cy="783" r="5"/>
+  </g>
+  <text x="1520" y="850" text-anchor="end" fill="#fff5ef" fill-opacity=".75"
+        font-family="Manrope, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="2">VITAE AMORIS &#215; ZIJE.ME</text>
+</svg>

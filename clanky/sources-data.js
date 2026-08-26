@@ -593,5 +593,53 @@ window.ZIJE_ARTICLE_SOURCES = {
       publisher: "Centers for Disease Control and Prevention",
       url: "https://www.cdc.gov/sti/prevention/index.html"
     }
+  ],
+  "mene-rozhodovani-viac-priestoru": [
+    { title: "The Challenge of Staying Focused in a Noisy World", publisher: "American Psychological Association", url: "https://www.apa.org/topics/attention" }
+  ],
+  "male-ritualy-pre-zmysluplny-den": [
+    { title: "Finding Meaning and Purpose", publisher: "American Psychological Association", url: "https://www.apa.org/topics/healthy-aging/meaning-purpose" }
+  ],
+  "pohyblivost-a-regeneracia-bez-tlaku": [
+    { title: "Physical activity", publisher: "World Health Organization", url: "https://www.who.int/news-room/fact-sheets/detail/physical-activity" }
+  ],
+  "mentalny-oddych-nie-je-prazdno": [
+    { title: "Stress", publisher: "World Health Organization", url: "https://www.who.int/news-room/questions-and-answers/item/stress" }
+  ],
+  "blizkost-aj-ked-sa-citime-osamelo": [
+    { title: "Social connection", publisher: "World Health Organization", url: "https://www.who.int/news-room/questions-and-answers/item/social-connection" }
+  ],
+  "energia-pocas-dna-vlastny-rytmus": [
+    { title: "Circadian Rhythms", publisher: "National Institute of General Medical Sciences", url: "https://www.nigms.nih.gov/education/fact-sheets/Pages/circadian-rhythms.aspx" }
+  ],
+  "navyky-ktore-sa-zmestia-do-zivota": [
+    { title: "Making health habitual: the psychology of habit-formation and general practice", publisher: "British Journal of General Practice – PubMed Central", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC3505409/" }
+  ],
+  "vdacnost-bez-natlaku-na-pozitivitu": [
+    { title: "Gratitude and well-being: A review and theoretical integration", publisher: "Clinical Psychology Review – PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/26162472/" }
+  ],
+  "hydratacia-podla-potrieb-tela": [
+    { title: "Water, drinks and hydration", publisher: "NHS", url: "https://www.nhs.uk/live-well/eat-well/food-guidelines-and-food-labels/water-drinks-nutrition/" }
+  ],
+  "ked-myslienky-chodia-dokola": [
+    { title: "Generalised anxiety disorder in adults", publisher: "NHS", url: "https://www.nhs.uk/mental-health/conditions/generalised-anxiety-disorder/overview/" }
+  ],
+  "hranice-ktore-chrania-vztahy": [
+    { title: "Building and maintaining healthy relationships", publisher: "Mental Health Foundation", url: "https://www.mentalhealth.org.uk/explore-mental-health/publications/guide-investing-your-relationships" }
+  ],
+  "chodza-ako-dostupny-pohyb": [
+    { title: "Walking for health", publisher: "NHS", url: "https://www.nhs.uk/live-well/exercise/walking-for-health/" }
+  ],
+  "pozornost-v-svete-vyruseni": [
+    { title: "Media multitasking and memory: Differences in working memory and long-term memory", publisher: "Psychonomic Bulletin & Review – PubMed Central", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC7075496/" }
+  ],
+  "vnutorny-pokoj-v-rusnom-dni": [
+    { title: "Doing What Matters in Times of Stress", publisher: "World Health Organization", url: "https://www.who.int/publications/i/item/9789240003927" }
+  ],
+  "spanok-bez-boja-o-dokonalu-noc": [
+    { title: "Insomnia", publisher: "NHS", url: "https://www.nhs.uk/conditions/insomnia/" }
+  ],
+  "vo-vztahu-a-predsa-osamelo": [
+    { title: "Our Epidemic of Loneliness and Isolation", publisher: "U.S. Surgeon General", url: "https://www.hhs.gov/sites/default/files/surgeon-general-social-connection-advisory.pdf" }
   ]
 };

@@ -2847,3 +2847,527 @@ footer > div:not(.footer-brand):not(.footer-bottom) > a {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* Magazine repositioning */
+:focus-visible {
+  outline: 3px solid #e06b8d;
+  outline-offset: 4px;
+}
+
+body.dialog-open {
+  overflow: hidden;
+}
+
+.category-nav a,
+.category-nav a.nav-self,
+.category-nav a.nav-together {
+  justify-content: center;
+  min-width: 92px;
+  padding: 11px 18px;
+  color: var(--wine-dark);
+  border-color: rgba(86, 16, 31, 0.18);
+  background: rgba(255, 253, 249, 0.52);
+  box-shadow: none;
+}
+
+.category-nav a:hover {
+  color: #fffaf6;
+  background: var(--wine);
+  box-shadow: 0 10px 22px rgba(86, 16, 31, 0.18);
+  transform: translateY(-1px);
+}
+
+.magazine-hero .hero-copy {
+  padding-top: clamp(70px, 8vw, 125px);
+  padding-bottom: clamp(70px, 8vw, 125px);
+}
+
+.magazine-hero h1 {
+  max-width: 720px;
+  line-height: 0.9;
+}
+
+.magazine-hero h1 em {
+  display: block;
+  margin-top: 0.12em;
+}
+
+.magazine-hero .hero-actions {
+  width: auto;
+}
+
+.journal-promoted {
+  background: #f8f3ed;
+}
+
+.journal-promoted + .audience-paths {
+  padding-top: clamp(65px, 7vw, 110px);
+}
+
+#co-je-intimita .section-heading {
+  max-width: 970px;
+}
+
+#co-je-intimita .section-heading > p:not(.eyebrow) {
+  max-width: 900px;
+  font-size: clamp(16px, 1.5vw, 21px);
+  line-height: 1.7;
+}
+
+.ritual-library {
+  grid-template-columns: minmax(260px, 0.82fr) minmax(0, 2.3fr);
+}
+
+.ritual-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  background: #fffdf9;
+}
+
+.ritual-card {
+  min-width: 0;
+  padding: clamp(34px, 4vw, 58px) clamp(18px, 2vw, 30px);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-right: 1px solid var(--line);
+}
+
+.ritual-card:last-child {
+  border-right: 0;
+}
+
+.ritual-card > p {
+  min-height: 32px;
+  margin: 0 0 32px;
+  color: var(--wine);
+  font-size: 8px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.ritual-card h3 {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: clamp(25px, 2.2vw, 34px);
+  font-weight: 500;
+  line-height: 1;
+}
+
+.ritual-card > span {
+  flex: 1;
+  margin: 16px 0 30px;
+  color: var(--ink-soft);
+  font-size: 11px;
+}
+
+.ritual-card button {
+  min-height: 42px;
+  padding: 10px 13px;
+  color: var(--wine);
+  border: 1px solid rgba(163, 19, 59, 0.28);
+  background: transparent;
+  font-size: 8px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.ritual-card button:hover {
+  color: white;
+  background: var(--wine);
+}
+
+.ritual-modal[hidden] {
+  display: none;
+}
+
+.ritual-modal {
+  position: fixed;
+  z-index: 1001;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: 20px;
+}
+
+.ritual-modal-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(26, 6, 12, 0.76);
+  backdrop-filter: blur(8px);
+}
+
+.ritual-dialog {
+  position: relative;
+  z-index: 1;
+  width: min(650px, 100%);
+  max-height: min(780px, calc(100vh - 40px));
+  padding: clamp(34px, 6vw, 70px);
+  overflow-y: auto;
+  background:
+    radial-gradient(circle at 100% 0, rgba(192, 160, 144, 0.22), transparent 35%),
+    #fffaf5;
+  box-shadow: 0 35px 100px rgba(20, 5, 9, 0.45);
+}
+
+.ritual-dialog-close {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  width: 44px;
+  height: 44px;
+  color: var(--wine-dark);
+  border: 1px solid rgba(86, 16, 31, 0.2);
+  border-radius: 50%;
+  background: transparent;
+  font-size: 26px;
+  cursor: pointer;
+}
+
+.ritual-dialog h2 {
+  margin: 0 0 24px;
+  font-family: var(--serif);
+  font-size: clamp(44px, 7vw, 68px);
+  font-weight: 500;
+  line-height: 0.95;
+}
+
+.ritual-dialog h3 {
+  margin: 24px 0 6px;
+  color: var(--wine);
+  font-size: 10px;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+.ritual-dialog p {
+  margin: 0;
+  color: var(--ink-soft);
+}
+
+.coming-soon {
+  min-height: 650px;
+}
+
+.coming-soon-visual {
+  min-height: 650px;
+  padding: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background:
+    radial-gradient(circle, rgba(219, 81, 126, 0.23), transparent 30%),
+    repeating-radial-gradient(circle, transparent 0 92px, rgba(229, 175, 165, 0.12) 94px 95px);
+}
+
+.coming-soon-visual span,
+.vitae-orbit span {
+  color: #d9a79d;
+  font-size: 9px;
+  letter-spacing: 0.28em;
+}
+
+.coming-soon-visual strong,
+.vitae-orbit strong {
+  margin: 12px 0;
+  font-family: var(--serif);
+  font-size: clamp(55px, 7vw, 105px);
+  font-weight: 500;
+  line-height: 0.9;
+}
+
+.coming-soon-visual p {
+  color: rgba(255, 248, 240, 0.58);
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.footer-note p {
+  max-width: 310px;
+  font-size: 12px;
+}
+
+.footer-note .text-link {
+  color: #e6b1a7;
+}
+
+/* Philosophy */
+.connected-model {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: clamp(85px, 9vw, 145px) clamp(24px, 5vw, 80px);
+}
+
+.connected-model .section-heading {
+  max-width: 900px;
+}
+
+.connection-diagram {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+.connection-diagram article {
+  min-height: 270px;
+  padding: 40px;
+  border: 1px solid rgba(86, 16, 31, 0.15);
+  background: rgba(255, 253, 249, 0.58);
+}
+
+.connection-diagram article:last-child {
+  grid-column: 2;
+}
+
+.connection-diagram article > span {
+  color: var(--wine);
+  font-family: var(--serif);
+  font-size: 25px;
+}
+
+.connection-diagram h3 {
+  margin: 35px 0 8px;
+  font-family: var(--serif);
+  font-size: 42px;
+  font-weight: 500;
+}
+
+.connection-diagram p {
+  color: var(--ink-soft);
+}
+
+.connection-center {
+  min-height: 270px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 30%, #ca426b, #71152e 65%, #3d0b18);
+  box-shadow: var(--shadow);
+}
+
+.connection-center strong {
+  font-family: var(--serif);
+  font-size: 48px;
+  font-weight: 500;
+}
+
+.connection-center small {
+  color: rgba(255, 255, 255, 0.68);
+  font-size: 8px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.connected-layers article {
+  position: relative;
+  min-height: 290px;
+}
+
+.connected-layers article > span {
+  font-size: 12px;
+}
+
+.connected-layers h3 {
+  margin-top: 60px;
+}
+
+.philosophy-rituals {
+  border-top: 0;
+}
+
+.values-grid article {
+  min-height: 225px;
+}
+
+/* Vitae Amoris */
+.vitae-hero {
+  min-height: 760px;
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  color: #fff8f0;
+  background:
+    radial-gradient(circle at 80% 15%, rgba(204, 23, 79, 0.33), transparent 29%),
+    linear-gradient(125deg, #250911 0%, #5f0d27 53%, #2d0914 100%);
+}
+
+.vitae-copy {
+  padding: clamp(75px, 9vw, 145px) clamp(30px, 8vw, 130px);
+  align-self: center;
+}
+
+.vitae-copy .eyebrow {
+  color: #e0aca1;
+}
+
+.vitae-copy h1,
+.vitae-note h2 {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: clamp(58px, 7vw, 108px);
+  font-weight: 500;
+  line-height: 0.86;
+  letter-spacing: -0.05em;
+}
+
+.vitae-copy h1 em {
+  color: #e6b4a8;
+  font-weight: 500;
+}
+
+.vitae-lead {
+  max-width: 620px;
+  margin: 34px 0;
+  color: rgba(255, 248, 240, 0.7);
+  font-size: 16px;
+}
+
+.button-outline-light {
+  color: #fff8f0;
+  border-color: rgba(255, 255, 255, 0.38);
+}
+
+.vitae-orbit {
+  min-height: 650px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: repeating-radial-gradient(circle, transparent 0 88px, rgba(229, 175, 165, 0.14) 90px 91px);
+}
+
+.vitae-orbit small {
+  color: rgba(255, 248, 240, 0.55);
+  font-size: 9px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.vitae-concept {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: clamp(85px, 9vw, 145px) clamp(24px, 5vw, 80px);
+}
+
+.concept-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border-top: 1px solid var(--line);
+  border-left: 1px solid var(--line);
+}
+
+.concept-grid article {
+  min-height: 270px;
+  padding: clamp(28px, 4vw, 52px);
+  border-right: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  background: rgba(255, 253, 249, 0.35);
+}
+
+.concept-grid span {
+  color: var(--wine);
+  font-family: var(--serif);
+  font-size: 25px;
+}
+
+.concept-grid h3 {
+  margin: 35px 0 10px;
+  font-family: var(--serif);
+  font-size: 34px;
+  font-weight: 500;
+}
+
+.concept-grid p {
+  max-width: 530px;
+  color: var(--ink-soft);
+}
+
+.vitae-note {
+  padding: clamp(90px, 11vw, 170px) clamp(24px, 10vw, 170px);
+  color: #fff8f2;
+  background: #2d0913;
+}
+
+.vitae-note h2 {
+  max-width: 1000px;
+  font-size: clamp(52px, 6vw, 90px);
+}
+
+.vitae-note > p:last-child {
+  max-width: 720px;
+  margin-top: 35px;
+  color: rgba(255, 248, 242, 0.65);
+}
+
+@media (max-width: 1180px) {
+  .ritual-library {
+    grid-template-columns: 1fr;
+  }
+
+  .ritual-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .ritual-card {
+    border-bottom: 1px solid var(--line);
+  }
+}
+
+@media (max-width: 900px) {
+  .category-nav a {
+    color: var(--wine-dark);
+  }
+
+  .connection-diagram {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .connection-diagram article:last-child {
+    grid-column: auto;
+  }
+
+  .vitae-hero {
+    grid-template-columns: 1fr;
+  }
+
+  .vitae-orbit {
+    min-height: 500px;
+  }
+}
+
+@media (max-width: 700px) {
+  .ritual-grid,
+  .connection-diagram,
+  .concept-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .ritual-card {
+    min-height: 260px;
+    border-right: 0;
+  }
+
+  .connection-center {
+    min-height: 280px;
+  }
+
+  .coming-soon-visual {
+    min-height: 500px;
+  }
+
+  .vitae-copy {
+    padding: 75px 24px;
+  }
+}

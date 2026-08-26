@@ -1,29 +1,41 @@
 # zije.me
 
-Premium Slovak intimacy and wellness platform **zije.me** for individuals and couples.
+Premium Slovak online magazine about intimacy, sexuality, the body, mind, soul, and relationships.
 
 ## Positioning
 
-> Intimita začína vzťahom k sebe.
+> zije.me je moderný magazín o intimite, sexualite a vzťahu k sebe.
 
-The public homepage introduces the intimacy-first brand philosophy, daily rituals, expert magazine, and the Vitae Amoris private ritual planner. Product listings live exclusively in the Shopify store at `shop.zije.me`; the homepage presents the store only as a primary journey.
+The public website is editorial-first. It helps adults understand intimacy through evidence-aware articles, practical reflections, and a clear connection between the body, mind, and soul. It serves individuals and couples without prescribing a universal sexual norm.
 
-The dedicated `/filozofia/` page defines the zije.me IP framework: Intímna vitalita, Telo–Myseľ–Duša, everyday rituals, the orientational Index intímnej vitality, Modrá zóna intimity, seven content pillars, and the controlled terminology glossary.
+Vitae Amoris remains a work-in-progress concept at `/vitae-amoris/`. It is not currently available for download. The former shop-led website concept is stored offline outside the published website and is not part of the current navigation or content strategy.
 
-The signed Android build linked from the homepage is stored at `downloads/VitaeAmoris.v40.apk`.
+## Brand governance
 
-## Shopify integration
+The documents in `docs/` are the source of truth for brand and editorial decisions:
 
-The primary hero CTA links to `https://shop.zije.me`. Customer accounts and all product merchandising stay inside Shopify. The matching Shopify theme lives in `../zije-shopify-theme`.
+- `docs/brand-foundation.md` — definition, promise, audience, values, pillars, boundaries, and decision filter
+- `docs/controlled-terminology.md` — approved definitions, evidence anchors, usage rules, and migration registry
+- `docs/channel-message-matrix.md` — messaging for the magazine, Instagram, and Vitae Amoris
+- `docs/content-architecture.md` — taxonomy, launch series, editorial standards, and content migration
+
+The controlled concept path is:
+
+> Intímna gramotnosť → Intímny rytmus → Vedomá intimita → Sexuálna integrita → Intímna dlhovekosť
+
+The earlier Intímna vitalita / Modrá zóna intimity framework has been removed from the public site. `Modrá zóna intimity` is not approved as a product, goal, or methodology name.
 
 ## Development
 
-The production site uses the custom intimacy-first concept:
+The production site uses the magazine-first concept:
 
 - `index.html`
 - `styles.css`
 - `script.js`
-- `assets/` — optimized brand photography and product icons
+- `filozofia/` — public definition, framework, rituals, and values
+- `vitae-amoris/` — coming-soon product concept
+- `clanky/` — article data, taxonomy, sources, generator, and generated pages
+- `assets/` — optimized brand and editorial media
 
 Serve the folder through an HTTP server to test production paths and magazine links.
 

@@ -5,254 +5,158 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="robots" content="index,follow" />
     <meta name="theme-color" content="#e6ded7" />
-    <title>zije.me — U nás nájdete všetko k dosiahnutiu intímneho šťastia</title>
-    <meta
-      name="description"
-      content="U nás nájdete všetko, čo potrebujete k dosiahnutiu intímneho šťastia: prvý slovenský intimshop, kurátorovaný odborný obsah a vedomé rituály."
-    />
+    <title>zije.me — Moderný magazín o intimite</title>
+    <meta name="description" content="Moderný, evidence-based magazín o intimite, sexualite a vzťahu k sebe. Odborne, ľudsky a bez hanby." />
+    <link rel="canonical" href="https://zije.me/" />
     <link rel="icon" href="./favicon.png" type="image/png" />
     <link rel="preload" href="./assets/zije-logo-web.webp" as="image" type="image/webp" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Manrope:wght@400;500;600&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <div class="announcement">
-      <p>Diskrétne doručenie · Starostlivý výber · Bez predsudkov</p>
-    </div>
-
+    <div class="announcement"><p>Moderný magazín pre moderných ľudí</p></div>
     <header class="site-header">
-      <a class="brand" href="#top" aria-label="zije.me domov">
+      <a class="brand" href="/" aria-label="zije.me — domov">
         <img src="./assets/zije-logo-web.webp" width="800" height="672" decoding="sync" fetchpriority="high" alt="" />
         <span>zije.me</span>
       </a>
-
       <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">
-        <span></span><span></span>
-        <span class="sr-only">Otvoriť menu</span>
+        <span></span><span></span><span class="sr-only">Otvoriť menu</span>
       </button>
-
-      <nav id="main-nav" class="main-nav" aria-label="Hlavná navigácia">
-        <span class="nav-option nav-self">Pre seba</span>
-        <span class="nav-option nav-together">Pre viacerých</span>
-        <span class="nav-option nav-equal">Pre rovnakých</span>
+      <nav id="main-nav" class="main-nav category-nav" aria-label="Kategórie magazínu">
+        <a href="/clanky/?category=Intimita">Intimita</a>
+        <a href="/clanky/?category=Telo">Telo</a>
+        <a href="/clanky/?category=Myseľ">Myseľ</a>
+        <a href="/clanky/?category=Duša">Duša</a>
       </nav>
     </header>
 
     <main id="top">
-      <section class="hero">
+      <section class="hero magazine-hero">
         <div class="hero-art" aria-hidden="true"></div>
         <div class="hero-copy">
-          <p class="eyebrow">Intimita ako základ šťastného života</p>
-          <h1>U nás nájdete všetko,<br />čo potrebujete<br />k dosiahnutiu<br /><em>intímneho šťastia.</em></h1>
-          <p class="hero-lead">
-            Prvý slovenský intimshop, kurátorovaný odborný obsah a vedomé rituály, ktoré ti pomôžu
-            lepšie rozumieť svojmu telu, túžbam a blízkosti — sólo aj vo dvojici.
-          </p>
-          <div class="hero-actions hero-actions-stack" aria-label="Hlavné cesty zije.me">
-            <a class="hero-cta hero-cta-shop" href="https://shop.zije.me">
-              <span>Objaviť <strong>obchod</strong></span><b aria-hidden="true">→</b>
-            </a>
-            <a class="hero-cta hero-cta-app" href="/downloads/VitaeAmoris.v40.apk" download="VitaeAmoris.apk">
-              <span>Stiahnuť aplikáciu Vitae Amoris</span><b aria-hidden="true">→</b>
-            </a>
-            <a class="hero-cta hero-cta-discover" href="/filozofia/">
-              <span>Objaviť filozofiu zije.me</span><b aria-hidden="true">→</b>
-            </a>
+          <p class="eyebrow">Magazín o intimite, sexualite a vzťahu k sebe</p>
+          <h1>Telo. Myseľ. Duša. <em>V intimite sa prepájajú.</em></h1>
+          <p class="hero-lead">Odborné poznatky prekladáme do zrozumiteľného jazyka a praktických podnetov pre vzťah k sebe aj k druhým — bez tlaku, hanby a univerzálnych návodov.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="/clanky/">Čítať magazín <span aria-hidden="true">→</span></a>
+            <a class="button button-ghost" href="#co-je-intimita">Čo je intimita?</a>
           </div>
+          <div class="hero-proof"><span class="proof-mark" aria-hidden="true">✓</span><p><strong>Odborne · Ľudsky · Bez predsudkov</strong><br />Informácie nenahrádzajú individuálnu zdravotnú starostlivosť.</p></div>
         </div>
-
-        <div class="hero-image" role="img" aria-label="Pokojná chvíľa vedomého spojenia so sebou">
+        <div class="hero-image" role="img" aria-label="Pokojná chvíľa spojenia so sebou">
           <div class="hero-image-shade"></div>
-          <aside class="floating-note">
-            <span>Naša filozofia</span>
-            <p>„Tvoje telo. Tvoje tempo. Tvoje objavovanie.“</p>
-          </aside>
+          <aside class="floating-note"><span>zije.me magazín</span><p>„Poznať seba znamená vedieť si vybrať vlastné tempo.“</p></aside>
         </div>
-
-        <div class="scroll-cue" aria-hidden="true"><span></span>Objavovať</div>
       </section>
 
-      <section id="objavit" class="audience-paths" aria-labelledby="paths-title">
+      <section class="journal journal-promoted" aria-labelledby="journal-title">
         <div class="section-heading section-heading-inline">
-          <div>
-            <p class="eyebrow">Dve rovnocenné cesty</p>
-            <h2 id="paths-title">Začni tam, kde si.</h2>
-          </div>
-          <p>Intímne šťastie nie je podmienené vzťahom. A blízkosť vo vzťahu nevzniká automaticky.</p>
-        </div>
-
-        <div class="path-grid">
-          <article id="pre-seba" class="path-card path-self">
-            <img src="./assets/pre-seba-vitalita.webp" alt="Žena prežívajúca pokojný moment spojenia so sebou" />
-            <div class="path-shade"></div>
-            <div class="path-copy">
-              <p class="eyebrow">Pre seba</p>
-              <h3>Tvoje telo. Tvoje tempo.</h3>
-              <p>Objavuj svoje potreby bez hanby, porovnávania a tlaku na výkon.</p>
-              <a class="button button-light" href="/filozofia/#ritualy">Nájsť svoj začiatok</a>
-            </div>
-          </article>
-          <article id="pre-dvoch" class="path-card path-together">
-            <img src="./assets/together.jpg" alt="Dve ruky vytvárajúce symbol blízkosti" />
-            <div class="path-shade"></div>
-            <div class="path-copy">
-              <p class="eyebrow">Pre dvoch</p>
-              <h3>Blízkosť sa tvorí.</h3>
-              <p>Dotyk, komunikácia a spoločné objavovanie bez očakávania povinného výsledku.</p>
-              <a class="button button-light" href="/filozofia/#ritualy">Objavovať spolu</a>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section id="chronos" class="app-section">
-        <div class="app-copy">
-          <img
-            class="app-mark"
-            src="./assets/vitae-amoris-icon.webp"
-            width="447"
-            height="720"
-            loading="lazy"
-            alt="Ikona Vitae Amoris"
-          />
-          <p class="eyebrow">Vitae Amoris · Operačný systém intímneho šťastia</p>
-          <h2>Revolučná aplikácia.<br />Sprievodca intímnym šťastím.</h2>
-          <p>
-            Vitae Amoris prepája denné rituály, pripomienky a vedomú pozornosť
-            do osobného sprievodcu k intímnemu šťastiu.
-          </p>
-          <ul>
-            <li><span>✓</span> Intímne dáta uložené lokálne</li>
-            <li><span>✓</span> Neutrálne a diskrétne pripomienky</li>
-            <li><span>✓</span> Žiadne hodnotenie frekvencie ani výkonu</li>
-          </ul>
-          <a class="button button-primary" href="/downloads/VitaeAmoris.v40.apk" download="VitaeAmoris.apk">Stiahnuť aplikáciu Vitae Amoris</a>
-        </div>
-
-        <div class="phone-stage" aria-label="Ukážka aplikácie Vitae Amoris">
-          <div class="halo halo-one"></div>
-          <div class="halo halo-two"></div>
-          <div class="phone">
-            <div class="phone-speaker"></div>
-            <div class="phone-screen">
-              <div class="phone-top"><span>9:41</span><span>● ᯤ</span></div>
-              <p class="phone-label">Súkromný rytmus</p>
-              <h3>Priestor pre seba</h3>
-              <div class="phone-score"><strong>20</strong><span>minút pre seba</span></div>
-              <div class="phone-task">
-                <span>01</span><p><small>Dnešný rituál</small>Vedomý dotyk</p><b>20:30</b>
-              </div>
-              <div class="phone-task">
-                <span>02</span><p><small>Voliteľné</small>Krátky check-in</p>
-              </div>
-              <button type="button">Otvoriť rituál</button>
-              <div class="phone-nav"><span>⌂</span><span>◌</span><span>□</span><span>♙</span></div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="journal">
-        <div class="section-heading section-heading-inline">
-          <div>
-            <p class="eyebrow">Odborný magazín zije.me</p>
-            <h2>Najprv porozumenie. Potom rozhodnutie.</h2>
-          </div>
+          <div><p class="eyebrow">Vyberáme z magazínu</p><h2 id="journal-title">Porozumenie mení spôsob, akým žijeme.</h2></div>
           <a class="text-link" href="/clanky/">Všetky články <span>→</span></a>
         </div>
         <div class="journal-grid">
           <a class="journal-feature" href="/clanky/zakazana-laska-milujeme-cloveka-alebo-prekazku/">
-            <img src="./assets/magazin-feature.png" alt="Dvojica v blízkom objatí pri západe slnka" />
-            <div>
-              <p class="eyebrow">Intimita · Nový článok · 7 min</p>
-              <h3>Zakázaná láska</h3>
-              <span>Čítať článok →</span>
-            </div>
+            <img src="./assets/clanky/zakazana-laska-milujeme-cloveka-alebo-prekazku.webp" alt="Dva kruhy oddelené vínovou líniou pod spoločným oblúkom" />
+            <div><p class="eyebrow">Intimita · 7 min</p><h3>Zakázaná láska: milujeme človeka, alebo prekážku medzi nami?</h3><span>Čítať článok →</span></div>
           </a>
           <div class="journal-list">
-            <a href="/clanky/co-je-sexualita-a-ako-sa-s-nou-stotoznit/">
-              <span>01</span><div><small>Sebaspoznanie</small><h3>Čo je sexualita a ako sa s ňou stotožniť?</h3></div><b>→</b>
-            </a>
-            <a href="/clanky/komunikacia-ako-zaklad-zdraveho-sexualneho-zivota/">
-              <span>02</span><div><small>Komunikácia</small><h3>Komunikácia ako základ zdravého sexuálneho života</h3></div><b>→</b>
-            </a>
-            <a href="/clanky/masturbacia-prirodzena-tema-o-ktorej-sa-stale-mlci/">
-              <span>03</span><div><small>Telo a myseľ</small><h3>Masturbácia: prirodzená téma, o ktorej sa stále mlčí</h3></div><b>→</b>
-            </a>
+            <a href="/clanky/co-je-sexualita-a-ako-sa-s-nou-stotoznit/"><span aria-hidden="true">•</span><div><small>Sebaspoznanie</small><h3>Čo je sexualita a ako sa s ňou stotožniť?</h3></div><b aria-hidden="true">→</b></a>
+            <a href="/clanky/komunikacia-ako-zaklad-zdraveho-sexualneho-zivota/"><span aria-hidden="true">•</span><div><small>Komunikácia</small><h3>Komunikácia ako základ zdravého sexuálneho života</h3></div><b aria-hidden="true">→</b></a>
+            <a href="/clanky/masturbacia-prirodzena-tema-o-ktorej-sa-stale-mlci/"><span aria-hidden="true">•</span><div><small>Telo a myseľ</small><h3>Masturbácia: prirodzená téma, o ktorej sa stále mlčí</h3></div><b aria-hidden="true">→</b></a>
           </div>
         </div>
       </section>
 
-      <section class="vitality-model" aria-labelledby="vitality-title">
-        <div class="vitality-copy">
-          <p class="eyebrow">Naša filozofia zije.me</p>
-          <h2 id="vitality-title">Intímna vitalita vzniká v rovnováhe.</h2>
-          <p>
-            Keď sa telo, myseľ a duša nestavajú proti sebe, vzniká priestor pre
-            spojenie, radosť a naplnenie v intímnom živote. Tento stav nazývame
-            <strong>Intímna vitalita</strong>.
-          </p>
-          <div class="vitality-terms" aria-label="Základné pojmy filozofie zije.me">
-            <span>Intímna vitalita</span>
-            <span>Rituál blízkosti</span>
-            <span>Intímny kompas</span>
-            <span>Modrá zóna intimity</span>
-          </div>
-          <a class="button button-primary" href="/filozofia/">Objaviť filozofiu zije.me <span>→</span></a>
+      <section class="audience-paths" aria-labelledby="paths-title">
+        <div class="section-heading section-heading-inline">
+          <div><p class="eyebrow">Dve rovnocenné perspektívy</p><h2 id="paths-title">Čítaj tam, kde práve si.</h2></div>
+          <p>Blízkosť k sebe aj vo dvojici sa mení. Vyber si obsah podľa svojej aktuálnej situácie, nie podľa očakávaní okolia.</p>
         </div>
-        <div class="vitality-visual">
-          <img
-            src="./assets/intimna-vitalita-model.webp"
-            width="1024"
-            height="1024"
-            loading="lazy"
-            alt="Model intímnej vitality prepájajúci telo, myseľ a dušu"
-          />
+        <div class="path-grid">
+          <article class="path-card path-self">
+            <img src="./assets/pre-seba-vitalita.webp" alt="Žena v pokojnom momente pre seba" />
+            <div class="path-shade"></div>
+            <div class="path-copy"><p class="eyebrow">Pre seba</p><h3>Tvoje telo. Tvoje tempo.</h3><p>Sebapoznanie, zdravie, túžby a hranice bez porovnávania.</p><a class="button button-light" href="/clanky/?audience=solo">Články pre seba</a></div>
+          </article>
+          <article class="path-card path-together">
+            <img src="./assets/together.jpg" alt="Dve ruky ako symbol vzájomnej blízkosti" />
+            <div class="path-shade"></div>
+            <div class="path-copy"><p class="eyebrow">Pre dvoch</p><h3>Blízkosť sa tvorí.</h3><p>Komunikácia, dotyk a spoločné objavovanie so súhlasom.</p><a class="button button-light" href="/clanky/?audience=couple">Články pre dvojice</a></div>
+          </article>
         </div>
+      </section>
+
+      <section id="co-je-intimita" class="intimacy-pillars" aria-labelledby="intimacy-title">
+        <div class="section-heading">
+          <p class="eyebrow">Čo je intimita?</p>
+          <h2 id="intimacy-title">Blízkosť, v ktorej môžeme byť prítomní.</h2>
+          <p>Intimita je kvalita blízkosti k sebe alebo k druhému, v ktorej môžeme byť telesne, emocionálne, mentálne a osobne prítomní s dôverou, bezpečím a prijatím. Nie je synonymom sexu – sexualita môže byť jej súčasťou, no intimita vzniká tam, kde sa stretáva telo, myseľ a duša.</p>
+        </div>
+        <div class="intimacy-pillar-grid">
+          <article><span aria-hidden="true">○</span><h3>Telo</h3><p>Vnímanie signálov, komfortu, zdravia, hraníc, potešenia a potreby oddychu.</p></article>
+          <article><span aria-hidden="true">◇</span><h3>Myseľ</h3><p>Pozornosť, sebapoznanie, predstavivosť a schopnosť pomenovať potreby.</p></article>
+          <article><span aria-hidden="true">♡</span><h3>Duša</h3><p>Dôvera, prijatie, zraniteľnosť a pocit bezpečného spojenia.</p></article>
+        </div>
+      </section>
+
+      <section id="ritualy" class="rituals ritual-library" aria-labelledby="rituals-title">
+        <div class="ritual-intro">
+          <p class="eyebrow">Praktické podnety</p>
+          <h2 id="rituals-title">Päť možností. <em>Žiadne poradie.</em></h2>
+          <p>Rituál nie je povinnosť ani recept na výsledok. Je to pozvanie zastaviť sa, vnímať svoje hranice a zvoliť si to, čo je bezpečné.</p>
+        </div>
+        <div class="ritual-grid">
+          <article class="ritual-card"><p>Sólo · alternatíva vo dvojici</p><h3>Čas pre seba</h3><span>Pokojné stretnutie s vlastnou kapacitou.</span><button type="button" data-ritual="cas-pre-seba">Prečítať význam</button></article>
+          <article class="ritual-card"><p>Sólo alebo dvojica</p><h3>Vedomý dotyk</h3><span>Dotyk s priebežným súhlasom a bez cieľa.</span><button type="button" data-ritual="vedomy-dotyk">Prečítať význam</button></article>
+          <article class="ritual-card"><p>Dvojica · sólo alternatíva</p><h3>Rozhovor bez riešenia</h3><span>Priestor počúvať bez okamžitej rady.</span><button type="button" data-ritual="rozhovor">Prečítať význam</button></article>
+          <article class="ritual-card"><p>Sólo alebo dvojica</p><h3>Zmyslové spomalenie</h3><span>Všímavosť cez dych, zvuk, vôňu a dotyk.</span><button type="button" data-ritual="spomalenie">Prečítať význam</button></article>
+          <article class="ritual-card"><p>Sólo alebo dvojica</p><h3>Mapa prianí a hraníc</h3><span>Zvedavé pomenovanie áno, nie a možno.</span><button type="button" data-ritual="mapa">Prečítať význam</button></article>
+        </div>
+      </section>
+
+      <section class="app-section coming-soon" aria-labelledby="app-title">
+        <div class="app-copy">
+          <img class="app-mark" src="./assets/vitae-amoris-icon.webp" width="447" height="720" loading="lazy" alt="" />
+          <p class="eyebrow">Vitae Amoris · Pripravujeme</p>
+          <h2 id="app-title">Súkromný sprievodca vlastným rytmom.</h2>
+          <p>Koncept nástroja pre reflexiu kapacity, blízkosti a osobných rituálov — sólo aj vo dvojici. Funkcie a spôsob ochrany dát ešte vyvíjame; aplikácia zatiaľ nie je dostupná.</p>
+          <a class="button button-light" href="/vitae-amoris/">Spoznať koncept <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="coming-soon-visual" aria-hidden="true"><span>VITAE AMORIS</span><strong>Pripravujeme</strong><p>Vlastný profil · kapacita · rytmus · blízkosť</p></div>
+      </section>
+
+      <section class="manifesto">
+        <img src="./assets/zije-logo-web.webp" width="800" height="672" loading="lazy" alt="" />
+        <p class="eyebrow">Filozofia zije.me</p>
+        <blockquote>Intimita nie je výkon.<br /><em>Je to spôsob prítomnosti.</em></blockquote>
+        <p>Čítaj o tom, prečo prepájame telo, myseľ a dušu a na akých hodnotách staviame odborný obsah.</p>
+        <a class="button button-primary" href="/filozofia/">Spoznať našu filozofiu</a>
       </section>
     </main>
 
     <footer>
       <div class="footer-brand">
-        <a class="brand brand-light" href="#top">
-          <img src="./assets/zije-logo-web.webp" width="800" height="672" decoding="async" alt="" />
-          <span>zije.me</span>
-        </a>
-        <p>U nás nájdete všetko, čo potrebujete k dosiahnutiu intímneho šťastia.</p>
+        <a class="brand brand-light" href="/"><img src="./assets/zije-logo-web.webp" width="800" height="672" loading="lazy" alt="" /><span>zije.me</span></a>
+        <p>Moderný magazín o intimite, sexualite a vzťahu k sebe.</p>
       </div>
-      <div>
-        <h2>Objavuj</h2>
-        <a href="https://shop.zije.me">Objaviť obchod</a>
-        <a href="https://shop.zije.me">Pre seba</a>
-        <a href="https://shop.zije.me">Pre viacerých</a>
-        <a href="https://shop.zije.me">Pre rovnakých</a>
-      </div>
-      <div>
-        <h2>Dôvera</h2>
-        <a href="#chronos">Vitae Amoris</a>
-        <a href="/clanky/">Magazín</a>
-        <a href="/filozofia/">Naša filozofia zije.me</a>
-      </div>
-      <div class="newsletter">
-        <h2>Bez predsudkov. Bez spamu.</h2>
-        <p>Občas odborný článok alebo rituál, ktorý stojí za pozornosť.</p>
-        <form>
-          <label class="sr-only" for="email">E-mail</label>
-          <input id="email" type="email" placeholder="Tvoj e-mail" />
-          <button type="submit" aria-label="Prihlásiť sa">→</button>
-        </form>
-      </div>
-      <div class="footer-bottom">
-        <span>© 2026 zije.me</span>
-        <span>Intimita · Telo · Duša · Myseľ</span>
-      </div>
+      <div><h2>Magazín</h2><a href="/clanky/?category=Intimita">Intimita</a><a href="/clanky/?category=Telo">Telo</a><a href="/clanky/?category=Myseľ">Myseľ</a><a href="/clanky/?category=Duša">Duša</a></div>
+      <div><h2>zije.me</h2><a href="/filozofia/">Filozofia</a><a href="/vitae-amoris/">Vitae Amoris</a><a href="/#co-je-intimita">O projekte</a></div>
+      <div class="footer-note"><h2>Novinky pripravujeme</h2><p>Newsletter zatiaľ nespúšťame. Nový obsah nájdeš priamo v magazíne.</p><a class="text-link" href="/clanky/">Prejsť na články <span>→</span></a></div>
+      <div class="footer-bottom"><span>© 2026 zije.me</span><span>Intimita · Telo · Myseľ · Duša</span></div>
     </footer>
 
+    <div class="ritual-modal" hidden>
+      <div class="ritual-modal-backdrop" data-dialog-close></div>
+      <div class="ritual-dialog" role="dialog" aria-modal="true" aria-labelledby="ritual-dialog-title" aria-describedby="ritual-dialog-body">
+        <button class="ritual-dialog-close" type="button" data-dialog-close aria-label="Zavrieť dialóg">×</button>
+        <p class="eyebrow" id="ritual-dialog-kicker">Rituál</p>
+        <h2 id="ritual-dialog-title"></h2>
+        <div id="ritual-dialog-body"></div>
+      </div>
+    </div>
     <script src="./script.js"></script>
   </body>
 </html>

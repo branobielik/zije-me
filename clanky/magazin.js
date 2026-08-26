@@ -5,16 +5,13 @@
   var intimacyArticles = Array.isArray(window.ZIJE_INTIMITA_ARTICLES) ? window.ZIJE_INTIMITA_ARTICLES : [];
   var moreIntimacyArticles = Array.isArray(window.ZIJE_INTIMITA_MORE_ARTICLES) ? window.ZIJE_INTIMITA_MORE_ARTICLES : [];
   var articleSources = window.ZIJE_ARTICLE_SOURCES || {};
+  var articleTaxonomy = window.ZIJE_ARTICLE_TAXONOMY || {};
   var articles = moreIntimacyArticles.concat(intimacyArticles, coreArticles).sort(function (a, b) {
     return b.isoDate.localeCompare(a.isoDate);
   });
 
   function articleUrl(article) {
     return "/clanky/" + article.slug + "/";
-  }
-
-  function categoryUrl(category) {
-    return "/clanky/?category=" + encodeURIComponent(category);
   }
 
   function element(tag, className, text) {
@@ -31,11 +28,27 @@
     return meta;
   }
 
-  function createCategoryLink(category) {
-    var link = element("a", "category-badge", category);
-    link.href = categoryUrl(category);
-    link.setAttribute("aria-label", "Zobraziť všetky články v kategórii " + category);
-    return link;
+  var audienceLabels = {
+    solo: "pre seba",
+    couple: "pre dvojicu",
+    both: "pre seba aj dvojicu"
+  };
+
+  function taxonomyFor(article) {
+    return articleTaxonomy[article.slug] || { domains: [], audience: "both", topics: [], contentType: "" };
+  }
+
+  function createTaxonomyMeta(article, detailed) {
+    var taxonomy = taxonomyFor(article);
+    var wrap = element("div", detailed ? "taxonomy-meta taxonomy-meta-detail" : "taxonomy-meta");
+    wrap.appendChild(element("span", "audience-label", audienceLabels[taxonomy.audience] || taxonomy.audience));
+    taxonomy.topics.slice(0, detailed ? 5 : 2).forEach(function (topic) {
+      wrap.appendChild(element("span", "topic-label", topic[1]));
+    });
+    if (detailed && taxonomy.contentType) {
+      wrap.appendChild(element("span", "content-type", taxonomy.contentType));
+    }
+    return wrap;
   }
 
   function createCard(article, eager) {
@@ -58,6 +71,7 @@
     body.appendChild(createMeta(article));
     body.appendChild(element("h2", "", article.title));
     body.appendChild(element("p", "excerpt", article.excerpt));
+    body.appendChild(createTaxonomyMeta(article, false));
     body.appendChild(element("span", "read-link", "Čítať článok →"));
 
     link.appendChild(imageWrap);
@@ -69,21 +83,51 @@
     var grid = document.getElementById("articleGrid");
     if (!grid) return;
 
-    var buttons = Array.prototype.slice.call(document.querySelectorAll("[data-category]"));
-    var categories = buttons.map(function (button) {
-      return button.getAttribute("data-category");
-    });
-    var requestedCategory = new URLSearchParams(window.location.search).get("category");
-    var activeCategory = categories.indexOf(requestedCategory) >= 0 ? requestedCategory : "Všetko";
+    var categoryValues = ["Intimita", "Telo", "Myseľ", "Duša"];
+    var audienceValues = ["solo", "couple", "both"];
+    var categoryButtons = Array.prototype.slice.call(document.querySelectorAll("[data-category]"));
+    var audienceButtons = Array.prototype.slice.call(document.querySelectorAll("[data-audience]"));
+    var params = new URLSearchParams(window.location.search);
+    var activeCategory = categoryValues.indexOf(params.get("category")) !== -1 ? params.get("category") : "Všetko";
+    var activeAudience = audienceValues.indexOf(params.get("audience")) !== -1 ? params.get("audience") : "all";
+
+    function updatePressedStates() {
+      categoryButtons.forEach(function (button) {
+        var isActive = button.getAttribute("data-category") === activeCategory;
+        button.classList.toggle("is-active", isActive);
+        if (button.tagName === "A") {
+          if (isActive) button.setAttribute("aria-current", "page");
+          else button.removeAttribute("aria-current");
+        } else {
+          button.setAttribute("aria-pressed", String(isActive));
+        }
+      });
+      audienceButtons.forEach(function (button) {
+        var isActive = button.getAttribute("data-audience") === activeAudience;
+        button.classList.toggle("is-active", isActive);
+        button.setAttribute("aria-pressed", String(isActive));
+      });
+    }
+
+    function updateUrl(push) {
+      var next = new URL(window.location.href);
+      if (activeCategory === "Všetko") next.searchParams.delete("category");
+      else next.searchParams.set("category", activeCategory);
+      if (activeAudience === "all") next.searchParams.delete("audience");
+      else next.searchParams.set("audience", activeAudience);
+      window.history[push ? "pushState" : "replaceState"]({}, "", next.pathname + next.search + next.hash);
+    }
 
     function paint() {
       grid.textContent = "";
-      var visible = activeCategory === "Všetko"
-        ? articles
-        : articles.filter(function (article) { return article.category === activeCategory; });
+      var visible = articles.filter(function (article) {
+        var categoryMatches = activeCategory === "Všetko" || article.category === activeCategory;
+        var audienceMatches = activeAudience === "all" || taxonomyFor(article).audience === activeAudience;
+        return categoryMatches && audienceMatches;
+      });
 
       if (!visible.length) {
-        grid.appendChild(element("p", "empty-state", "V tejto kategórii zatiaľ nie sú žiadne články."));
+        grid.appendChild(element("p", "empty-state", "Pre túto kombináciu filtrov zatiaľ nie sú žiadne články."));
         return;
       }
       visible.forEach(function (article, index) {
@@ -91,39 +135,36 @@
       });
     }
 
-    function setActiveCategory(category, updateUrl) {
-      activeCategory = categories.indexOf(category) >= 0 ? category : "Všetko";
-      buttons.forEach(function (button) {
-        var isActive = button.getAttribute("data-category") === activeCategory;
-        button.classList.toggle("is-active", isActive);
-        button.setAttribute("aria-pressed", String(isActive));
+    categoryButtons.forEach(function (button) {
+      button.addEventListener("click", function (event) {
+        if (button.tagName === "A") event.preventDefault();
+        activeCategory = button.getAttribute("data-category") || "Všetko";
+        updatePressedStates();
+        updateUrl(true);
+        paint();
       });
+    });
 
-      if (updateUrl) {
-        var url = new URL(window.location.href);
-        if (activeCategory === "Všetko") {
-          url.searchParams.delete("category");
-        } else {
-          url.searchParams.set("category", activeCategory);
-        }
-        window.history.pushState({ category: activeCategory }, "", url);
-      }
-
-      paint();
-    }
-
-    buttons.forEach(function (button) {
+    audienceButtons.forEach(function (button) {
       button.addEventListener("click", function () {
-        setActiveCategory(button.getAttribute("data-category") || "Všetko", true);
+        activeAudience = button.getAttribute("data-audience") || "all";
+        updatePressedStates();
+        updateUrl(true);
+        paint();
       });
     });
 
     window.addEventListener("popstate", function () {
-      var category = new URLSearchParams(window.location.search).get("category");
-      setActiveCategory(category || "Všetko", false);
+      var current = new URLSearchParams(window.location.search);
+      activeCategory = categoryValues.indexOf(current.get("category")) !== -1 ? current.get("category") : "Všetko";
+      activeAudience = audienceValues.indexOf(current.get("audience")) !== -1 ? current.get("audience") : "all";
+      updatePressedStates();
+      paint();
     });
 
-    setActiveCategory(activeCategory, false);
+    updatePressedStates();
+    updateUrl(false);
+    paint();
   }
 
   function setMeta(name, value, attribute) {
@@ -150,18 +191,21 @@
       return;
     }
 
-    document.title = article.title + " | zije.me";
-    setMeta("description", article.excerpt);
-    setMeta("og:title", article.title, "property");
-    setMeta("og:description", article.excerpt, "property");
+    var seoTitle = article.seoTitle || article.title;
+    var seoDescription = article.seoDescription || article.excerpt;
+    document.title = seoTitle + " | zije.me";
+    setMeta("description", seoDescription);
+    setMeta("og:title", seoTitle, "property");
+    setMeta("og:description", seoDescription, "property");
     setMeta("og:image", "https://zije.me" + article.image, "property");
     setMeta("og:type", "article", "property");
     setMeta("article:published_time", article.isoDate, "property");
 
     var header = element("header", "article-header");
-    header.appendChild(createCategoryLink(article.category));
+    header.appendChild(element("span", "category-badge", article.category));
     header.appendChild(element("h1", "", article.title));
     header.appendChild(createMeta(article));
+    header.appendChild(createTaxonomyMeta(article, true));
 
     var hero = element("div", "article-hero-image");
     var heroImage = document.createElement("img");
@@ -220,12 +264,27 @@
 
     var relatedGrid = document.getElementById("relatedGrid");
     if (relatedGrid) {
+      var taxonomy = taxonomyFor(article);
       articles
-        .filter(function (candidate) {
-          return candidate.category === article.category && candidate.slug !== article.slug;
+        .filter(function (candidate) { return candidate.slug !== article.slug; })
+        .map(function (candidate) {
+          var candidateTaxonomy = taxonomyFor(candidate);
+          var sharedTopics = candidateTaxonomy.topics.filter(function (topic) {
+            return taxonomy.topics.some(function (ownTopic) { return ownTopic[0] === topic[0]; });
+          }).length;
+          var sharedDomains = candidateTaxonomy.domains.filter(function (domain) {
+            return taxonomy.domains.indexOf(domain) !== -1;
+          }).length;
+          return {
+            article: candidate,
+            score: sharedTopics * 4 + sharedDomains * 2 + (candidate.category === article.category ? 1 : 0)
+          };
+        })
+        .sort(function (a, b) {
+          return b.score - a.score || b.article.isoDate.localeCompare(a.article.isoDate);
         })
         .slice(0, 3)
-        .forEach(function (candidate) { relatedGrid.appendChild(createCard(candidate, false)); });
+        .forEach(function (candidate) { relatedGrid.appendChild(createCard(candidate.article, false)); });
     }
   }
 
