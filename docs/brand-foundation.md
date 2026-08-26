@@ -1,7 +1,7 @@
 # Brand foundation zije.me
 
-Stav: záväzný interný dokument  
-Verzia: 1.1 — magazínový pivot 2026-08  
+Stav: záväzný interný dokument
+Verzia: 1.1 — magazínový pivot 2026-08
 Rozsah: zije.me, Magazín, Instagram a Vitae Amoris
 
 ## 1. Definícia značky

@@ -1,7 +1,7 @@
 # Obsahová architektúra zije.me
 
-Stav: záväzný interný dokument  
-Verzia: 1.1 — magazínový pivot 2026-08  
+Stav: záväzný interný dokument
+Verzia: 1.1 — magazínový pivot 2026-08
 Rozsah: Magazín, web, Instagram a obsah vo Vitae Amoris
 
 > **Aktívne pravidlo:** zije.me je magazín, nie vstup do e-shopu. Staršie produktové a shopové návrhy ponechané v tomto dokumente sú neaktívny archív pre prípad budúceho návratu komerčnej vrstvy. Nesmú sa objaviť vo verejnej navigácii, CTA ani redakčnom pláne bez nového strategického rozhodnutia.

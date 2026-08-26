@@ -1,7 +1,7 @@
 # Message matrix zije.me
 
-Stav: záväzný interný dokument  
-Verzia: 1.1 — magazínový pivot 2026-08  
+Stav: záväzný interný dokument
+Verzia: 1.1 — magazínový pivot 2026-08
 Kanály: web a Magazín, Instagram, Vitae Amoris
 
 ## 1. Jednotný základ

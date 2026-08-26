@@ -1,8 +1,8 @@
 # Kontrolovaný slovník zije.me
 
-Stav: záväzný interný dokument  
-Verzia: 1.1 — magazínový pivot 2026-08  
-Vlastník: zije.me  
+Stav: záväzný interný dokument
+Verzia: 1.1 — magazínový pivot 2026-08
+Vlastník: zije.me
 Použitie: web, Magazín, Instagram a Vitae Amoris
 
 Produktové formulácie v tomto dokumente ostávajú iba ako rezervované pravidlá pre prípad budúcej komerčnej vrstvy. E-shop nie je súčasťou aktívnej architektúry zije.me.
@@ -37,8 +37,8 @@ Nejde o úrovne, ktoré treba absolvovať, ani o rebríček „lepších“ ľud
 
 ## 3. Sexuálna integrita
 
-Status: hlavný filozofický pojem  
-Verejná priorita: najvyššia  
+Status: hlavný filozofický pojem
+Verejná priorita: najvyššia
 Právny status: pracovný brandový rámec; nevydávať za výlučne vlastnený výraz bez právneho preverenia
 
 ### Krátka definícia
@@ -95,8 +95,8 @@ Zdroje:
 
 ## 4. Intímna dlhovekosť
 
-Status: hlavný vizionársky pojem  
-Verejná formulácia: **Intimita na celý život.**  
+Status: hlavný vizionársky pojem
+Verejná formulácia: **Intimita na celý život.**
 Právny status: pred komerčnou registráciou preveriť ochranné známky a relevantné domény
 
 ### Krátka definícia
@@ -148,7 +148,7 @@ Zdroje:
 
 ## 5. Intímna gramotnosť
 
-Status: hlavný edukačný pojem  
+Status: hlavný edukačný pojem
 Verejná priorita: vysoká
 
 ### Krátka definícia
@@ -203,7 +203,7 @@ Zdroje:
 
 ## 6. Intímny rytmus
 
-Status: hlavný personalizačný pojem  
+Status: hlavný personalizačný pojem
 Verejná priorita: stredná; kľúčový pre Vitae Amoris
 
 ### Krátka definícia
@@ -255,7 +255,7 @@ Zdroje:
 
 ## 7. Vedomá intimita
 
-Status: hlavný praktický pojem  
+Status: hlavný praktický pojem
 Verejná priorita: vysoká pri rituáloch a produktoch
 
 ### Krátka definícia
