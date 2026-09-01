@@ -8,7 +8,7 @@ window.ZIJE_INTIMITA_ARTICLES = [
     date: "19. júla 2026",
     isoDate: "2026-07-19",
     image: "/assets/clanky/co-je-sexualita-a-ako-sa-s-nou-stotoznit.webp",
-    imageAlt: "Dve abstraktné siluety v pokojnej kompozícii vyjadrujúcej sebapoznanie",
+    imageAlt: "Detailný portrét ženy s priamym a pokojným pohľadom",
     intro: "Sexualita patrí k človeku, no každý ju prežíva vlastným spôsobom. Nie je to skúška, ktorú treba zvládnuť, ani jedna nálepka, ktorú musíme nájsť čo najskôr. Je to široká oblasť zahŕňajúca telo, príťažlivosť, identitu, blízkosť, hodnoty, fantáziu, hranice aj spôsob, akým vstupujeme do vzťahov. Stotožniť sa s ňou preto často znamená skôr učiť sa rozumieť sebe než dospieť k jednej definitívnej odpovedi.",
     sections: [
       {
@@ -65,7 +65,7 @@ window.ZIJE_INTIMITA_ARTICLES = [
     date: "18. júla 2026",
     isoDate: "2026-07-18",
     image: "/assets/clanky/je-fyzicka-intimita-cesta-k-dusevnej-alebo-naopak.webp",
-    imageAlt: "Dve prepojené abstraktné línie symbolizujúce telesnú a duševnú blízkosť",
+    imageAlt: "Dvojica zdieľa citlivý a nežný moment blízkosti",
     intro: "Niekto potrebuje najprv hlbokú dôveru a až potom dokáže prijať dotyk. Iný sa citovo otvára práve cez bezpečnú fyzickú blízkosť. Mnohí ľudia sa pohybujú medzi oboma smermi podľa situácie, vzťahu a životného obdobia. Otázka preto neznie, ktoré poradie je správne, ale aká cesta umožňuje obom partnerom cítiť sa slobodne, rešpektovane a v bezpečí.",
     sections: [
       {
@@ -122,7 +122,7 @@ window.ZIJE_INTIMITA_ARTICLES = [
     date: "17. júla 2026",
     isoDate: "2026-07-17",
     image: "/assets/clanky/co-je-zavislost-od-pornografie-a-kedy-sa-da-o-nej-hovorit.webp",
-    imageAlt: "Abstraktný svietiaci displej obklopený opakujúcimi sa kruhmi",
+    imageAlt: "Postava sedí osamote v izbe pri otvorenom okne",
     intro: "Výraz „závislosť od pornografie“ sa používa pre veľmi rozdielne skúsenosti – od občasného pocitu viny až po správanie, ktoré človek nedokáže regulovať a ktoré mu narúša vzťahy, prácu alebo spánok. Samotná frekvencia ani morálny nesúhlas však diagnózu neurčujú. Podstatnejší je dlhodobý vzorec, miera kontroly, následky a to, ako správanie zasahuje do každodenného života.",
     sections: [
       {
@@ -179,7 +179,7 @@ window.ZIJE_INTIMITA_ARTICLES = [
     date: "15. júla 2026",
     isoDate: "2026-07-15",
     image: "/assets/clanky/pornografia-ako-stimulacny-nastroj.webp",
-    imageAlt: "Abstraktné svetlo vychádzajúce z obrazovky v tmavom priestore",
+    imageAlt: "Dvojica v intenzívnej nálade farebného nočného svetla",
     intro: "Dospelí používajú pornografiu z rôznych dôvodov: pre vzrušenie, uvoľnenie, zvedavosť, skúmanie fantázií alebo ako súčasť partnerskej aktivity. Ako každý stimulačný nástroj môže mať odlišný účinok podľa človeka, situácie a spôsobu používania. Nie je nevyhnutnou súčasťou zdravého sexuálneho života a jej prínos nemožno posúdiť bez otázok o slobodnej voľbe, realistických očakávaniach, súhlase a pôvode obsahu.",
     sections: [
       {
@@ -236,7 +236,7 @@ window.ZIJE_INTIMITA_ARTICLES = [
     date: "13. júla 2026",
     isoDate: "2026-07-13",
     image: "/assets/clanky/existuje-moralne-cista-pornografia-a-co-to-je.webp",
-    imageAlt: "Vyvážené abstraktné váhy zo svetla symbolizujúce etické rozhodovanie",
+    imageAlt: "Pokojný čiernobiely portrét zrelej ženy",
     intro: "Otázka morálne čistej pornografie nemá odpoveď, s ktorou by súhlasili všetci. Pre niekoho je každý takýto obsah nezlučiteľný s vierou alebo predstavou vernosti. Iný ho považuje za prijateľný, ak ho vytvárajú dospelí ľudia dobrovoľne a bez vykorisťovania. Namiesto neurčitej nálepky „čistá“ preto dáva väčší zmysel skúmať konkrétne kritériá: zákonnosť, súhlas, dôstojné pracovné podmienky, súkromie, transparentnosť a zodpovednosť publika.",
     sections: [
       {
@@ -293,7 +293,7 @@ window.ZIJE_INTIMITA_ARTICLES = [
     date: "12. júla 2026",
     isoDate: "2026-07-12",
     image: "/assets/clanky/komunikacia-ako-zaklad-zdraveho-sexualneho-zivota.webp",
-    imageAlt: "Dve prekrývajúce sa bubliny rozhovoru v teplých farbách",
+    imageAlt: "Dvojica sa na seba sústredene pozerá z bezprostrednej blízkosti",
     intro: "Mnohí ľudia vstupujú do vzťahov s predstavou, že partner by mal ich túžby vycítiť. Schopnosť hovoriť o intimite však nie je vrodený talent ani dôkaz dokonalej kompatibility. Je to zručnosť, ktorú si osvojujeme postupne – často napriek hanbe, tabu alebo nepríjemným skúsenostiam. Otvorený rozhovor neznamená, že sa dvojica vždy zhodne. Znamená, že obaja môžu pomenovať potreby a hranice bez zosmiešnenia, nátlaku či trestu.",
     sections: [
       {
@@ -350,7 +350,7 @@ window.ZIJE_INTIMITA_ARTICLES = [
     date: "11. júla 2026",
     isoDate: "2026-07-11",
     image: "/assets/clanky/manzelske-povinnosti-na-hranici-legality.webp",
-    imageAlt: "Dva prepojené kruhy s jasnou hranicou symbolizujúce manželstvo a autonómiu",
+    imageAlt: "Žena dlaňou zrozumiteľne vyjadruje osobnú hranicu",
     intro: "Výraz „manželská povinnosť“ môže niesť predstavu, že sexuálna dostupnosť je protihodnotou za vernosť, starostlivosť alebo samotný manželský sľub. Manželstvo však nevytvára trvalý súhlas ani automatický nárok na telo druhého človeka. O nenaplnených potrebách možno hovoriť a hľadať spoločné riešenie, no intimita zostáva zdravá iba vtedy, keď sa na nej všetci zúčastňujú slobodne. Tento článok poskytuje všeobecné vzdelávacie informácie, nie individuálne právne poradenstvo.",
     sections: [
       {
@@ -407,7 +407,7 @@ window.ZIJE_INTIMITA_ARTICLES = [
     date: "9. júla 2026",
     isoDate: "2026-07-09",
     image: "/assets/clanky/planovany-sex-ano-nie-a-za-akych-okolnosti.webp",
-    imageAlt: "Minimalistický kalendár s jemným symbolom blízkosti a večerným svetlom",
+    imageAlt: "Dvojica spolu oddychuje v uvoľnenej večernej atmosfére",
     intro: "Romantické príbehy často zobrazujú túžbu ako náhly impulz, ktorý prichádza v správnom čase pre oboch. Bežný život však obsahuje pracovné termíny, domácnosť, deti, únavu a rozdielne rytmy. Plánovanie preto nemusí znamenať zlyhanie spontánnosti. Môže vedome chrániť partnerský čas – pokiaľ sa z termínu nestane povinný výkon a obaja si zachovajú slobodu povedať áno, nie alebo dnes potrebujem niečo iné.",
     sections: [
       {
@@ -464,7 +464,7 @@ window.ZIJE_INTIMITA_ARTICLES = [
     date: "8. júla 2026",
     isoDate: "2026-07-08",
     image: "/assets/clanky/deti-pricina-ci-vyhovorka.webp",
-    imageAlt: "Dospelý pár v pokojnom interiéri so symbolickými detskými hračkami v pozadí",
+    imageAlt: "Dvojica sedí vedľa seba vonku v chladnom dni a zamyslenej atmosfére",
     intro: "Keď sa po narodení detí zmení partnerský život, ľahko zaznie otázka: sú deti skutočnou príčinou alebo iba výhovorkou? Takto postavená dilema však predpokladá, že niekto musí byť vinný alebo neúprimný. Rodičovstvo mení čas, spánok, telo, súkromie, financie aj rozdelenie zodpovednosti. Užitočnejšie než hľadať vinníka je skúmať, čo blízkosť v súčasnosti sťažuje a čo môže dvojica realisticky ovplyvniť.",
     sections: [
       {
@@ -521,7 +521,7 @@ window.ZIJE_INTIMITA_ARTICLES = [
     date: "6. júla 2026",
     isoDate: "2026-07-06",
     image: "/assets/clanky/libido-magicke-slovo-ktore-vytvara-predsudky.webp",
-    imageAlt: "Abstraktná vlna meniacej sa intenzity symbolizujúca premenlivé libido",
+    imageAlt: "Dvojica v tlmenom interiéri tesne pred nežným dotykom",
     intro: "Pojem libido sa používa ako synonymum sexuálnej túžby, no v praxi môže označovať frekvenciu myšlienok, záujem o partnerskú blízkosť, mieru vzrušenia alebo ochotu iniciovať kontakt. Tieto veci spolu súvisia, ale nie sú totožné. Libido nie je pevne nastavené číslo ani spoľahlivé meradlo lásky, zdravia či kvality vzťahu. Je premenlivou súčasťou prežívania, ktorú formujú telo, psychika, vzťahy a životné okolnosti.",
     sections: [
       {
@@ -578,7 +578,7 @@ window.ZIJE_INTIMITA_ARTICLES = [
     date: "29. júla 2026",
     isoDate: "2026-07-29",
     image: "/assets/clanky/pms-cyklicky-vzorec.webp",
-    imageAlt: "Pokojné vnímanie telesných a emočných zmien počas menštruačného cyklu",
+    imageAlt: "Žena premýšľa nad papiermi v pokojnej spálni",
     intro: "Predmenštruačný syndróm, skrátene PMS, nie je iba podráždenosť pred menštruáciou. Môže zahŕňať telesné, emočné aj behaviorálne ťažkosti, ktoré sa objavujú v určitej fáze cyklu a po začiatku menštruácie ustúpia. Jednotlivé zmeny sú bežné a nemusia znamenať poruchu. Dôležité je, či sa opakujú, narúšajú váš bežný život a vytvárajú rozpoznateľný cyklický vzorec.",
     sections: [
       {
@@ -622,7 +622,7 @@ window.ZIJE_INTIMITA_ARTICLES = [
     date: "28. júla 2026",
     isoDate: "2026-07-28",
     image: "/assets/clanky/muzska-perimenopauza-existuje.webp",
-    imageAlt: "Muž pokojne premýšľajúci o zmenách svojho tela",
+    imageAlt: "Dvojica prežíva blízky moment v nočnom meste",
     intro: "Únava, menšia chuť na sex alebo zmeny nálady sa niekedy pripisujú „mužskej perimenopauze“. Takéto pomenovanie však môže vytvoriť dojem, že každý muž prechádza v strednom veku jasne ohraničenou hormonálnou etapou. V skutočnosti ide o oveľa pestrejší obraz, v ktorom sa stretáva prirodzené starnutie, životná situácia, celkové zdravie aj individuálne hormonálne zmeny.",
     sections: [
       {
@@ -666,7 +666,7 @@ window.ZIJE_INTIMITA_ARTICLES = [
     date: "27. júla 2026",
     isoDate: "2026-07-27",
     image: "/assets/clanky/andropauza-nedostatok-testosteronu.webp",
-    imageAlt: "Muž konzultujúci svoje zdravie v pokojnom prostredí",
+    imageAlt: "Dvojica v nežnom kontakte medzi svetlami mesta",
     intro: "Slovo andropauza sa často používa ako jednoduché vysvetlenie únavy, slabšej erekcie či menšej sexuálnej túžby v strednom veku. Je však nepresné: muži neprechádzajú univerzálnym náhlym zastavením hormonálnej funkcie. U malej časti z nich môže vzniknúť neskoro nastupujúci hypogonadizmus, ktorý treba odlíšiť od prirodzeného starnutia aj od iných zdravotných alebo životných príčin.",
     sections: [
       {
@@ -710,7 +710,7 @@ window.ZIJE_INTIMITA_ARTICLES = [
     date: "26. júla 2026",
     isoDate: "2026-07-26",
     image: "/assets/clanky/intimna-hygiena-vulva-vagina.webp",
-    imageAlt: "Jemná a rešpektujúca starostlivosť o intímne zdravie",
+    imageAlt: "Žena v bielom oblečení sedí v presvetlenom interiéri",
     intro: "Starostlivosť o intímne partie býva obklopená množstvom rád, produktov a predstáv o tom, ako by malo telo vyzerať alebo voňať. V skutočnosti zvyčajne postačuje jednoduchá a šetrná rutina. Príliš intenzívne umývanie môže pokožku podráždiť a narušiť prirodzené prostredie. Tieto odporúčania sa týkajú ľudí s vulvou a vagínou bez ohľadu na ich rodovú identitu. Nejde o dosiahnutie sterilnej čistoty, ale o pohodlie, ochranu citlivej pokožky a včasné rozpoznanie nezvyčajných zmien.",
     sections: [
       {
@@ -754,7 +754,7 @@ window.ZIJE_INTIMITA_ARTICLES = [
     date: "25. júla 2026",
     isoDate: "2026-07-25",
     image: "/assets/clanky/intimna-hygiena-muza.webp",
-    imageAlt: "Jednoduchá a šetrná starostlivosť o mužské intímne zdravie",
+    imageAlt: "Detail nežného dotyku a blízkosti dvojice",
     intro: "Intímna hygiena nemusí zahŕňať špeciálne produkty ani opakované umývanie počas dňa. Pre väčšinu ľudí s penisom postačuje pravidelná jemná starostlivosť vlažnou vodou. Jej cieľom je odstrániť pot a bežné nahromadené nečistoty bez podráždenia pokožky. Vzhľad penisu, predkožky aj kože mieška sa medzi ľuďmi prirodzene líši. Hygiena neslúži na dosiahnutie určitej vône alebo vzhľadu a sama osebe nechráni pred sexuálne prenosnými infekciami.",
     sections: [
       {
@@ -798,7 +798,7 @@ window.ZIJE_INTIMITA_ARTICLES = [
     date: "24. júla 2026",
     isoDate: "2026-07-24",
     image: "/assets/clanky/perimenopauza-zmeny-cyklu.webp",
-    imageAlt: "Žena pokojne vnímajúca zmeny tela počas perimenopauzy",
+    imageAlt: "Pokojný čiernobiely portrét zrelej ženy",
     intro: "Perimenopauza je obdobie od prvých známok menopauzálneho prechodu do jedného roka po poslednej menštruácii. Najčastejšie sa začína zmenami cyklu, no jej trvanie aj priebeh sú individuálne. Nie je to choroba ani náhla strata zdravia. Ak však príznaky zasahujú do vášho života alebo sa objaví nezvyčajné krvácanie, má zmysel poradiť sa so zdravotníkom.",
     sections: [
       {
@@ -842,7 +842,7 @@ window.ZIJE_INTIMITA_ARTICLES = [
     date: "23. júla 2026",
     isoDate: "2026-07-23",
     image: "/assets/clanky/menopauza-bez-mytov.webp",
-    imageAlt: "Pokojný a vecný pohľad na telesné zmeny po menopauze",
+    imageAlt: "Žena sedí vonku v pokojnom mestskom prostredí",
     intro: "Menopauza je prirodzená súčasť života, nie diagnóza ani skúška, ktorú treba vydržať bez pomoci. O jej dosiahnutí sa hovorí spätne po 12 po sebe nasledujúcich mesiacoch bez menštruácie, ak krvácanie nezastavila iná príčina alebo liečba. Obdobie po tomto bode sa nazýva postmenopauza. Skúsenosť môže byť veľmi mierna, ale aj natoľko výrazná, že ovplyvní spánok, prácu, vzťahy či sexualitu.",
     sections: [
       {
@@ -886,7 +886,7 @@ window.ZIJE_INTIMITA_ARTICLES = [
     date: "30. júla 2026",
     isoDate: "2026-07-30",
     image: "/assets/clanky/ked-ma-partner-prestava-pritahovat.webp",
-    imageAlt: "Dvojica pokojne premýšľajúca o zmene vzájomnej príťažlivosti",
+    imageAlt: "Dvojica sedí chrbtami k sebe pri vode",
     intro: "Všimnúť si, že vás partner priťahuje menej než kedysi, môže vyvolať vinu, strach aj potrebu nájsť okamžité vysvetlenie. Príťažlivosť však nie je nemenný ukazovateľ kvality vzťahu. Vzniká v súhre tela, psychického stavu, životných podmienok a toho, čo sa medzi dvoma ľuďmi deje v danom čase. Namiesto rýchleho rozsudku môže pomôcť presnejšie pomenovať, aký druh blízkosti sa zmenil, kedy sa to stalo a čo zmenu sprevádzalo.",
     sections: [
       {
@@ -929,7 +929,7 @@ window.ZIJE_INTIMITA_ARTICLES = [
     date: "31. júla 2026",
     isoDate: "2026-07-31",
     image: "/assets/clanky/je-normalne-nemat-chut-na-sex.webp",
-    imageAlt: "Človek pokojne uvažujúci o vlastnej sexuálnej túžbe bez tlaku",
+    imageAlt: "Silueta ženy stojacej vo dverách tlmenej izby",
     intro: "Otázka, či máte dostatok chuti na sex, často vznikne pri porovnávaní s partnerom, okolím alebo predstavou o správnej frekvencii. Jedno číslo, ktoré by určovalo zdravú mieru túžby, však neexistuje. Ľudia sa líšia a túžba sa môže meniť aj počas života. Užitočnejšie než počítať sexuálne kontakty je rozlíšiť štyri možnosti: prirodzenú variáciu, asexualitu, dočasný vplyv okolností a novú pretrvávajúcu zmenu, ktorá vás osobne znepokojuje.",
     sections: [
       {
@@ -972,7 +972,7 @@ window.ZIJE_INTIMITA_ARTICLES = [
     date: "1. augusta 2026",
     isoDate: "2026-08-01",
     image: "/assets/clanky/nikdy-som-nemala-orgazmus.webp",
-    imageAlt: "Pokojné skúmanie vlastného prežívania a intimity bez tlaku na výkon",
+    imageAlt: "Dvojica odpočíva v nežnom a bezpečnom objatí počas pokojnej spoločnej chvíle",
     intro: "Ak ste orgazmus nikdy nezažili, neznamená to, že ste pokazená, menej sexuálna alebo že váš vzťah zlyháva. Orgazmická odpoveď sa medzi ľuďmi výrazne líši a ovplyvňujú ju telesné vnemy, bezpečie, pozornosť, zdravie, užívané lieky aj životné skúsenosti. Orgazmus zároveň nie je povinným vyvrcholením každého intímneho kontaktu ani meradlom partnerskej kvality. Zmyslom skúmania nemusí byť jeho čo najrýchlejšie dosiahnutie, ale lepšie spoznanie toho, čo je vám príjemné, čo vám vyhovuje a čo vám prekáža.",
     sections: [
       {
@@ -1015,7 +1015,7 @@ window.ZIJE_INTIMITA_ARTICLES = [
     date: "2. augusta 2026",
     isoDate: "2026-08-02",
     image: "/assets/clanky/hanba-vlastneho-tela-v-intimite.webp",
-    imageAlt: "Bezpečný návrat k vlastným pocitom a hraniciam počas intimity",
+    imageAlt: "Profil ženy pri okne v mäkkom bočnom svetle",
     intro: "Hanba za telo môže počas intimity zosilnieť práve vtedy, keď by ste sa chceli cítiť blízko a uvoľnene. Pozornosť sa presunie k bruchu, jazvám, prsníkom či domnienkam o tom, čo si partner myslí alebo vidí. Riešením nemusí byť presvedčiť sa, že svoje telo milujete alebo že vám vyhovuje. Realistickejším cieľom môže byť cítiť sa v ňom o trochu bezpečnejšie, mať možnosť rozhodovať o dotyku a vrátiť pozornosť od hodnotenia k vlastnému prežívaniu.",
     sections: [
       {
@@ -1059,7 +1059,7 @@ window.ZIJE_INTIMITA_ARTICLES = [
     date: "3. augusta 2026",
     isoDate: "2026-08-03",
     image: "/assets/clanky/mam-sexualne-fantazie-o-ktorych-sa-bojim-hovorit.webp",
-    imageAlt: "Pokojný priestor na premýšľanie o súkromných myšlienkach a fantáziách",
+    imageAlt: "Žena odpočíva v tlmenom teplom interiéri a premýšľa v súkromí",
     intro: "Sexuálne fantázie sú bežnou súčasťou ľudskej sexuality. Môžu zahŕňať scenáre, ktoré by sme v skutočnosti nechceli zažiť, osoby, s ktorými nemáme záujem o reálny kontakt, alebo situácie, ktoré nás morálne znepokojujú. Prítomnosť takejto fantázie neznamená, že ju chcete realizovať ani že ste zlý človek. Väčšina ľudí má myšlienky, ktoré by zdieľať nechcela — to je ľudské, nie patologické.",
     sections: [
       {
@@ -1103,7 +1103,7 @@ window.ZIJE_INTIMITA_ARTICLES = [
     date: "4. augusta 2026",
     isoDate: "2026-08-04",
     image: "/assets/clanky/ked-ma-partner-odmietne.webp",
-    imageAlt: "Partneri rešpektujúci hranicu po odmietnutí sexuálnej ponuky",
+    imageAlt: "Dvojica sedí vedľa seba vonku v chladnom dni",
     intro: "Keď partner odmietne sex, telo môže reagovať skôr než rozum: napätím, hanbou, hnevom alebo pocitom, že nie ste žiaduci. Emócia je skutočná, ale jej prvý výklad nemusí byť presný. „Teraz nie“ nehovorí samo osebe, či vás partner miluje, považuje za príťažlivých alebo chce vo vzťahu zostať. Pomôže oddeliť tri veci: pocit zranenia, príbeh, ktorý mu pripíšete, a reakciu, ktorú si napriek nepohode môžete zvoliť.",
     sections: [
       {
@@ -1147,7 +1147,7 @@ window.ZIJE_INTIMITA_ARTICLES = [
     date: "5. augusta 2026",
     isoDate: "2026-08-05",
     image: "/assets/clanky/ako-hovorit-o-sexe-bez-hadky.webp",
-    imageAlt: "Partneri vedúci pokojný a štruktúrovaný rozhovor o intimite",
+    imageAlt: "Dvojica sa na seba sústredene pozerá z bezprostrednej blízkosti",
     intro: "Pri napätí nestačí rada „viac komunikujte“. Rozhovor o sexe sa môže zmeniť na hádku ešte skôr, než sa dostanete k podstate: začne sa po odmietnutí, otvorí naraz päť starých krívd alebo pokračuje v okamihu, keď už nikto nepočúva. Praktickejší je krátky protokol pre jednu tému. Najprv si vyžiadajte súhlas s rozhovorom, potom použite konkrétny začiatok, pri eskalácii urobte dohodnutú pauzu a vráťte sa k jedinému ďalšiemu kroku.",
     sections: [
       {
@@ -1190,7 +1190,7 @@ window.ZIJE_INTIMITA_ARTICLES = [
     date: "6. augusta 2026",
     isoDate: "2026-08-06",
     image: "/assets/clanky/trojica-dovera-integrita-vztahu.webp",
-    imageAlt: "Tri samostatné siluety v pokojnej a rešpektujúcej kompozícii",
+    imageAlt: "Dve ženy v dôvernom a citlivom blízkom kontakte",
     intro: "Predstava trojice môže byť fantáziou, zvedavosťou aj reálnym želaním. Sama osebe nevypovedá o kvalite vzťahu ani o osobnej vyspelosti. Podstatné je, či sa pri rozhodovaní zachová integrita: sú slová a konanie v súlade s tým, čo každý človek naozaj chce, alebo niekto ustupuje zo strachu, že inak stratí vzťah? Nejde pritom iba o dohodu páru. V situácii sú traja autonómni ľudia a potreby ani dôstojnosť jedného z nich nemajú menšiu váhu.",
     sections: [
       {

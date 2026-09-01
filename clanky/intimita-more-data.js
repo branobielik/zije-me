@@ -8,7 +8,7 @@ window.ZIJE_INTIMITA_MORE_ARTICLES = [
     date: "22. júla 2026",
     isoDate: "2026-07-22",
     image: "/assets/clanky/zakazana-laska-milujeme-cloveka-alebo-prekazku.webp",
-    imageAlt: "Dva kruhy oddelené vínovou líniou pod spoločným oblúkom na tmavom pozadí",
+    imageAlt: "Dvojica v dôvernom okamihu v aute počas noci",
     intro: "Niektoré lásky vstúpia do života cez otvorené dvere. Iné prídu potichu, medzi dve povinnosti, cudzie očakávania alebo hranicu, ktorú by sme podľa všetkého nemali prekročiť. Práve slovo zakázané môže citom pridať elektrinu: každé stretnutie je vzácne, každý pohľad nesie tajomstvo a neprítomnosť dostáva väčší priestor než spoločná realita. To však neznamená, že taká láska je nepravá. Znamená to iba, že jej intenzitu spoluvytvára aj prekážka. A kým jej uveríme ako osudu, stojí za to oddeliť človeka, ktorého milujeme, od príbehu, ktorý okolo neho vytvoril zákaz.",
     sections: [
       {
@@ -65,7 +65,7 @@ window.ZIJE_INTIMITA_MORE_ARTICLES = [
     date: "5. júla 2026",
     isoDate: "2026-07-05",
     image: "/assets/clanky/aj-muzi-maju-bod-g-a-neuverite-kde-ho-najdete.webp",
-    imageAlt: "Decentná abstraktná ilustrácia mužskej panvy a citlivej oblasti",
+    imageAlt: "Dvojica sa bozkáva v mäkkom prirodzenom svetle",
     intro: "Predstava mužského bodu G znie ako prísľub ukrytého tlačidla, ktoré stačí nájsť. Ľudské telo však takto jednoducho nefunguje. Populárny názov najčastejšie označuje prostatu a okolité citlivé štruktúry. Niektorým mužom ich stimulácia prináša potešenie, iným je neutrálna alebo nepríjemná. Dôležitejšie než pátranie po univerzálnom návode sú presná anatómia, dobrovoľný súhlas, hygiena a rešpekt k individuálnej reakcii.",
     sections: [
       {
@@ -122,7 +122,7 @@ window.ZIJE_INTIMITA_MORE_ARTICLES = [
     date: "4. júla 2026",
     isoDate: "2026-07-04",
     image: "/assets/clanky/sexualne-stastie-telo-dusa-a-mysel.webp",
-    imageAlt: "Tri žiarivé prepojené kruhy symbolizujúce telo, dušu a myseľ",
+    imageAlt: "Dvojica v teplom svetle zapadajúceho slnka",
     intro: "Čo znamená byť sexuálne šťastný? Častý sex, intenzívne potešenie, spokojný vzťah alebo pokoj vo vlastnom tele? Univerzálna odpoveď neexistuje. Sexuálna spokojnosť môže zahŕňať potešenie, bezpečie, blízkosť, slobodu povedať áno aj nie a možnosť žiť v súlade so svojimi hodnotami. Nie je to trvalý stav, ale premenlivý výsledok toho, ako spolu komunikujú telo, emócie, vzťahy a myseľ.",
     sections: [
       {
@@ -179,7 +179,7 @@ window.ZIJE_INTIMITA_MORE_ARTICLES = [
     date: "2. júla 2026",
     isoDate: "2026-07-02",
     image: "/assets/clanky/zenska-sexualna-energia-verzus-muzska-sexualna-energia.webp",
-    imageAlt: "Dve rôznorodé prelínajúce sa vlny symbolizujúce premenlivú sexuálnu energiu",
+    imageAlt: "Dvojica sa k sebe približuje medzi kvetmi",
     intro: "O ženskej a mužskej sexuálnej energii sa často hovorí, akoby išlo o dve protikladné prírodné sily. Jedna má byť prijímajúca a pomalá, druhá aktívna a priamočiara. Taký obraz môže niekomu pomôcť pomenovať dynamiku vo vzťahu, no ľahko sa zmení na stereotyp. Túžba, iniciatíva, neha ani rozhodnosť nemajú jedno pohlavie. Lepšie je chápať energiu ako metaforu pre aktuálny spôsob prežívania.",
     sections: [
       {
@@ -236,7 +236,7 @@ window.ZIJE_INTIMITA_MORE_ARTICLES = [
     date: "1. júla 2026",
     isoDate: "2026-07-01",
     image: "/assets/clanky/vie-vas-partner-o-vasej-najtajnejsej-sexualnej-tuzbe.webp",
-    imageAlt: "Dve abstraktné postavy vedúce dôverný rozhovor v súkromí",
+    imageAlt: "Dvojica v tlmenom interiéri tesne pred nežným dotykom",
     intro: "Tajná sexuálna túžba môže byť nevinnou predstavou, zdrojom vzrušenia, otázkou identity aj niečím, čo človek nikdy nechce uskutočniť. Rozhodnutie povedať o nej partnerovi môže priniesť blízkosť, ale aj pocit zraniteľnosti. Úprimnosť vo vzťahu neznamená povinnosť odovzdať celý vnútorný svet. Dôležité je rozlíšiť fantáziu od návrhu, zvoliť bezpečný spôsob rozhovoru a rešpektovať, že druhý môže počúvať bez toho, aby súhlasil s realizáciou.",
     sections: [
       {
@@ -293,7 +293,7 @@ window.ZIJE_INTIMITA_MORE_ARTICLES = [
     date: "29. júna 2026",
     isoDate: "2026-06-29",
     image: "/assets/clanky/sexualita-v-partnerstve-a-jej-piliere.webp",
-    imageAlt: "Deväť prepojených pilierov vytvárajúcich stabilný priestor partnerskej blízkosti",
+    imageAlt: "Dvojica sa na seba usmieva pri okne",
     intro: "Sexualita v partnerstve nie je hotová stavba, ktorú raz dokončíme. Mení sa spolu s telom, zdravím, stresom, rodičovstvom, vekom aj kvalitou vzťahu. To, čo dvojici fungovalo pred rokmi, dnes nemusí vyhovovať – a nemusí to znamenať, že sa vytratila láska. Pevné piliere partnerskej sexuality nevytvára dokonalá zhoda, ale schopnosť hovoriť, počúvať, rešpektovať hranice a hľadať blízkosť, ktorú si obaja volia slobodne.",
     sections: [
       {
@@ -350,7 +350,7 @@ window.ZIJE_INTIMITA_MORE_ARTICLES = [
     date: "28. júna 2026",
     isoDate: "2026-06-28",
     image: "/assets/clanky/aj-traumy-sa-daju-riesit-najcitlivejsia-tema.webp",
-    imageAlt: "Prasklina prechádzajúca do jemnej zlatej línie ako symbol citlivého uzdravovania",
+    imageAlt: "Zamyslená žena v citlivom čiernobielom portréte",
     intro: "Následky traumy sa niekedy ozvú tam, kde človek očakával blízkosť: pri dotyku, strate kontroly, konkrétnom zvuku alebo bez zjavného dôvodu. Neznamená to slabosť ani zlyhanie vzťahu. Nervový systém môže reagovať na pripomienku minulého ohrozenia, hoci je prítomnosť objektívne bezpečnejšia. Trauma sa dá odborne spracúvať a jej vplyv sa môže zmierniť, no neexistuje povinnosť hovoriť všetko, jednotné tempo ani záruka konkrétneho výsledku.",
     sections: [
       {
@@ -407,7 +407,7 @@ window.ZIJE_INTIMITA_MORE_ARTICLES = [
     date: "27. júna 2026",
     isoDate: "2026-06-27",
     image: "/assets/clanky/partnerske-potreby-bez-povinnosti.webp",
-    imageAlt: "Dve rovnocenné cesty stretávajúce sa v spoločnom bezpečnom priestore",
+    imageAlt: "Dvojica sa objíma nad večerným mestom",
     intro: "Vzťahy môžu mať rozličné podoby: manželské, nezosobášené, monogamné, otvorené, queer, sexuálne aj asexuálne. V každom z nich sa stretávajú ľudia s vlastnými potrebami, snami a hranicami. Rovnocennosť neznamená, že každý musí dostať všetko, po čom túži. Znamená, že hlas nikoho sa automaticky nepovažuje za menej dôležitý a že dohody vznikajú bez nátlaku, trestu či telesnej povinnosti.",
     sections: [
       {
@@ -464,7 +464,7 @@ window.ZIJE_INTIMITA_MORE_ARTICLES = [
     date: "25. júna 2026",
     isoDate: "2026-06-25",
     image: "/assets/clanky/cyklus-cesta-k-svojej-sexualite.webp",
-    imageAlt: "Sedem plynulo prepojených bodov tvorí otvorený cyklus sebapoznávania",
+    imageAlt: "Žena v ľahkom pohybe v priestrannom svetlom ateliéri",
     intro: "Spoznávanie sexuality nie je cesta k jednej konečnej odpovedi. Mení sa naše telo, zdravie, vzťahy, hodnoty aj to, pri čom sa cítime bezpečne. Namiesto tlaku na definitívne sebapoznanie môže pomôcť opakujúci sa cyklus: všimnúť si, porozumieť, pomenovať, komunikovať, bezpečne skúšať, reflektovať a začať znova. Nie je to výkonový plán. Každý krok možno spomaliť, preskočiť alebo na čas opustiť.",
     sections: [
       {
@@ -521,7 +521,7 @@ window.ZIJE_INTIMITA_MORE_ARTICLES = [
     date: "24. júna 2026",
     isoDate: "2026-06-24",
     image: "/assets/clanky/masturbacia-prirodzena-tema-o-ktorej-sa-stale-mlci.webp",
-    imageAlt: "Pokojná abstraktná silueta vyjadrujúca súkromie, sebapoznanie a zdravé hranice",
+    imageAlt: "Žena sa v prírode jemne dotýka svojho ramena",
     intro: "Masturbácia patrí medzi témy, o ktorých koluje veľa hanby, zákazov aj prehnaných sľubov. Pre mnohých dospelých je bežnou a spravidla neškodnou súčasťou sexuality, iní ju nechcú, nepotrebujú alebo ju z osobných dôvodov nepraktizujú. Ani jedna voľba sama osebe neurčuje zdravie či vyspelosť. Užitočné je oddeliť mýty od dôkazov a namiesto počítania frekvencie sledovať bezpečie, slobodu rozhodovania a vplyv na život.",
     sections: [
       {
